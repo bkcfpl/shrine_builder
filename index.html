@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pl" class="html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shrine Builder</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong" rel="stylesheet">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="stylebkcf.css">
+    </head>
+
+    <body>
+        <a href="index.html" class="back-button">Powrót</a>
+        <section>
+            <form id="select_perk">
+                <h1 class="fajne">Wpisz nazwę umiejętności po polsku, skrótem, lub wybierz nazwę perka po angielsku:<br><br></h1>
+
+                <input type="text" list="perks" id="input_perk" placeholder="deadlock, wybawienie, bt" autocomplete="off">
+                <datalist id="perks">
+                    <option value="Ace in the Hole">
+                    <option value="Adrenaline">
+                    <option value="Aftercare">
+                    <option value="Alert">
+                    <option value="Any Means Necessary">
+                    <option value="Appraisal">
+                    <option value="Autodidact">
+                        
+                    <option value="Background Player">
+                    <option value="Balanced Landing">
+                    <option value="Better than New">
+                    <option value="Bite the Bullet">
+                    <option value="Blast Mine">
+                    <option value="Blood Pact">
+                    <option value="Blood Rush">
+                    <option value="Boil Over">
+                    <option value="Boon: Circle of Healing">
+                    <option value="Boon: Dark Theory">
+                    <option value="Boon: Exponential">
+                    <option value="Boon: Shadow Step">
+                    <option value="Bond">
+                    <option value="Borrowed Time">
+                    <option value="Botany Knowledge">
+                    <option value="Breakdown">
+                    <option value="Breakout">
+                    <option value="Buckle Up">
+                    <option value="Built to Last">
+
+                    <option value="Calm Spirit">
+                    <option value="Corrective Action">
+                    <option value="Counterforce">
+                    <option value="Clairvoyance">
+                    <option value="Cut Loose">
+
+                    <option value="Dance With Me">
+                    <option value="Dead Hard">
+                    <option value="Deception">
+                    <option value="Decisive Strike">
+                    <option value="Deliverance">
+                    <option value="Desperate Measures">
+                    <option value="Detective's Hunch">
+                    <option value="Distortion">
+                    <option value="Diversion">
+                    <option value="Dramaturgy">
+
+                    <option value="Empathic Connection">
+                    <option value="Empathy">
+
+                    <option value="Fast Track">
+                    <option value="Flashbang">
+                    <option value="Flip-Flop">
+                    <option value="Fogwise">
+                    <option value="For the People">
+                    <option value="Friendly Competition">
+
+                    <option value="Head On">
+                    <option value="Hyperfocus">
+
+                    <option value="Inner Focus">
+                    <option value="Iron Will">
+
+                    <option value="Leader">
+                    <option value="Left Behind">
+                    <option value="Lithe">
+                    <option value="Low Profile">
+                    <option value="Lucky Break">
+
+                    <option value="Made for This">
+                    <option value="Mettle of Man">
+
+                    <option value="No Mither">
+
+                    <option value="Object of Obsession">
+                    <option value="Off the Record">
+                    <option value="Open-Handed">
+                    <option value="Overcome">
+                    <option value="Overzealous">
+
+                    <option value="Parental Guidance">
+                    <option value="Pharmacy">
+                    <option value="Plot Twist">
+                    <option value="Poised">
+                    <option value="Potential Energy">
+                    <option value="Power Struggle">
+                    <option value="Prove Thyself">
+
+                    <option value="Quick Gambit">
+                    <option value="Quick & Quiet">
+
+                    <option value="Reactive Healing">
+                    <option value="Reassurance">
+                    <option value="Red Herring">
+                    <option value="Repressed Alliance">
+                    <option value="Residual Manifest">
+                    <option value="Resurgence">
+                    <option value="Rookie Spirit">
+
+                    <option value="Saboteur">
+                    <option value="Scavenger">
+                    <option value="Scene Partner">
+                    <option value="Self-Care">
+                    <option value="Self-Preservation">
+                    <option value="Smash Hit">
+                    <option value="Sole Survivor">
+                    <option value="Solidarity">
+                    <option value="Soul Guard">
+                    <option value="Sprint Burst">
+                    <option value="Stake Out">
+                    <option value="Streetwise">
+
+                    <option value="Teamwork: Collective Stealth">
+                    <option value="Teamwork: Power of Two">
+                    <option value="Technician">
+                    <option value="Tenacity">
+                    <option value="Troubleshooter">
+                        
+                    <option value="Unbreakable">
+                    <option value="Up the Ante">
+                    <option value="Urban Evasion">
+
+                    <option value="Vigil">
+                    <option value="Visionary">
+
+                    <option value="Wake Up!">
+                    <option value="We're Gonna Live Forever">
+                    <option value="Windows of Opportunity">
+                    <option value="Wiretap">
+                    <!--
+                        Wyżej: perki surva
+                        Niżej: perki killera
+                    -->
+
+                    <option value="A Nurse's Calling">
+                    <option value="Agitation">
+                    <option value="Awakened Awareness">
+
+                    <option value="Bamboozle">
+                    <option value="Barbecue & Chilli">
+                    <option value="Beast of Prey">
+                    <option value="Blood Echo">
+                    <option value="Blood Warden">
+                    <option value="Bloodhound">
+                    <option value="Brutal Strength">
+
+                    <option value="Call of Brine">
+                    <option value="Corrupt Intervention">
+                    <option value="Coulrophobia">
+                    <option value="Coup de Grâce">
+
+                    <option value="Dark Devotion">
+                    <option value="Darkness Revealed">
+                    <option value="Dead Man's Switch">
+                    <option value="Deadlock">
+                    <option value="Deathbound">
+                    <option value="Dissolution">
+                    <option value="Discordance">
+                    <option value="Dragon's Grip">
+                    <option value="Dying Light">
+
+                    <option value="Enduring">
+                    <option value="Eruption">
+
+                    <option value="Fire Up">
+                    <option value="Forced Hesitation">
+                    <option value="Forced Penance">
+                    <option value="Franklin's Demise">
+                    <option value="Furtive Chase">
+
+                    <option value="Game Afoot">
+                    <option value="Gearhead">
+                    <option value="Genetic Limits">
+                    <option value="Grim Embrace">
+
+                    <option value="Hangman's Trick">
+                    <option value="Hex: Blood Favour">
+                    <option value="Hex: Crowd Control">
+                    <option value="Hex: Devour Hope">
+                    <option value="Hex: Face the Darkness">
+                    <option value="Hex: Haunted Ground">
+                    <option value="Hex: Huntress Lullaby">
+                    <option value="Hex: Pentimento">
+                    <option value="Hex: Plaything">
+                    <option value="Hex: Retribution">
+                    <option value="Hex: Ruin">
+                    <option value="Hex: The Third Seal">
+                    <option value="Hex: Undying">
+                    <option value="Hoarder">
+                    <option value="Hubris">
+                    <option value="Hysteria">
+
+                    <option value="I'm All Ears">
+                    <option value="Infectious Fright">
+                    <option value="Iron Maiden">
+
+                    <option value="Knock Out">
+
+                    <option value="Lethal Pursuer">
+                    <option value="Leverage">
+                    <option value="Lightborn">
+
+                    <option value="Machine Learning">
+                    <option value="Mad Grit">
+                    <option value="Make Your Choice">
+                    <option value="Merciless Storm">
+                    <option value="Monitor & Abuse">
+
+                    <option value="Nemesis">
+                    <option value="No Way Out">
+                    <option value="Nowhere to Hide">
+
+                    <option value="Oppression">
+                    <option value="Overcharge">
+                    <option value="Overwhelming Presence">
+
+                    <option value="Play with Your Food">
+                    <option value="Pop Goes the Weasel">
+                    <option value="Predator">
+
+                    <option value="Rancor">
+                    <option value="Remember Me">
+
+                    <option value="Save the Best for Last">
+                    <option value="Scourge Hook: Floods of Rage">
+                    <option value="Scourge Hook: Gift of Pain">
+                    <option value="Scourge Hook: Pain Resonance">
+                    <option value="Septic Touch">
+                    <option value="Shadowborn">
+                    <option value="Spirit Fury">
+                    <option value="Starstruck">
+                    <option value="Stridor">
+                    <option value="Superior Anatomy">
+                    <option value="Surveillance">
+
+                    <option value="Terminus">
+                    <option value="Territorial Imperative">
+                    <option value="Thanatophobia">
+                    <option value="Thrilling Tremors">
+                    <option value="THWACK!">
+                    <option value="Tinkerer">
+                    <option value="Trail of Torment">
+
+                    <option value="Unnerving Presence">
+
+                    <option value="Zanshin Tactics">
+
+                </datalist>
+            
+                <br>
+                <span id="ErrorSpace"></span>
+                <br>
+
+                <button class="mainbuttons" type="submit">ACCEPT</button>
+                <button class="mainbuttons" type="reset">RESET</button>
+                <br>
+
+                <input type="radio" id="classic" value="classic" name="version" checked> 
+                <label for="classic"><i>CLASSIC VERSION</i></label>
+
+                <input type="radio" id="admin" value="admin" class="checkboxR" name="version">
+                <label for="admin"><i>ADMIN VERSION</i></label>
+            </form>
+
+        </section>
+
+        <article>
+            <aside>
+                <div>
+                    <img src="grafiki/template.png" alt="ikona perka z gry" id="perkIMG1">
+                    <p id="perkDescription1"></p>
+                </div>
+
+                <button class="buttoncopy" onclick="copyText1()">COPY</button>
+            </aside>
+            
+            <aside>
+                <div>
+                    <img src="grafiki/template.png" alt="ikona perka z gry" id="perkIMG2">
+                    <p id="perkDescription2"></p>
+                </div>
+                
+                <button class="buttoncopy" onclick="copyText2()">COPY</button>
+            </aside>
+        
+            <aside>
+                <div>
+                    <img src="grafiki/template.png" alt="ikona perka z gry" id="perkIMG3">
+                    <p id="perkDescription3"></p>           
+                </div>
+                <button class="buttoncopy" onclick="copyText3()">COPY</button>
+            </aside>
+            
+            <aside>
+                <div>
+                    <img src="grafiki/template.png" alt="ikona perka z gry" id="perkIMG4">
+                    <p id="perkDescription4"></p>
+                </div>
+                <button class="buttoncopy" onclick="copyText4()">COPY</button>
+            </aside>
+        </article>
+
+        <footer>
+            <p>Zrobione przez <b>Discord Pr0tzyQ</b></p>
+            <p><i>kod: <b>bkcf</b> opis umiejętności: <b>gigachad, awicki, Tina, WcaleNieRafau, whiten</b></i></p>
+        </footer>
+
+        <script src="shrine_builder_skrypt.js"></script>
+    </body>
+</html>
