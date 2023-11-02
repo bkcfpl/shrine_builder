@@ -11,7 +11,6 @@ document.getElementById("perkDescription4").innerText = "Nazwa Umiejętnośći a
 
 
 select_perk.addEventListener('submit', (event) =>{
-    console.log(list)
     event.preventDefault();
     let input = event.target.elements[0];
 
