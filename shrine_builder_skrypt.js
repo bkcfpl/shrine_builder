@@ -1,5 +1,7 @@
 let repeats = 0;
 
+//Ostatnia aktualizacja: min. 7.1.0
+
 document.getElementById("perkIMG1").src = "template.png";
 document.getElementById("perkDescription1").innerText = "Nazwa Umiejętnośći ang (Nazwa Umiejętnośći pl) - Nazwa Postaci ang - opis umiejętności pl";
 document.getElementById("perkIMG2").src = "template.png";
@@ -374,6 +376,11 @@ function verify_name(input){
     {
         visual("LuckyBreak.png", "Lucky Break (Łut Szczęścia)", "Yui Kimura", "Umiejętność aktywuje się za każdym razem kiedy doznasz obrażeń i ukryje twoje czerwone zarysowania oraz plamy krwi na łącznie 40/50/60 sekund. Za każdą sekundę spędzoną na leczeniu innego ocalałego czas trwania umiejętności wydłuża się o sekundę. Czas trwania nie może być większy od wartości początkowej.");
     }
+    else if(input == "lucky star" || input == "szczęśliwa gwiazda"){
+        visual("LuckyStar.png", "Lucky Star (Szczęśliwa Gwiazda)", "Ellen Ripley", "Po schowaniu się w szafce umiejętność aktywuje się. Nie zostawiasz śladów krwi ani nie wydajesz żadnych odgłosów przez 10s. Po wyjściu z szafki widzisz aury innych ocalałych, najbliższego gena na 10s. Ta umiejętność wymaga 40/35/30s aby ją uruchomić ponownie.");
+
+        //to pisał bkcf (z newsów, nowa postać)
+    }
     else if (input == "made for this" || input == "stworzony do tego"){
         visual("MadeforThis.png", "Made for This (Stworzony do Tego)", "Gabriel Soma", "Umiejętność aktywuje się w momencie kiedy zostaniesz ranny. Podczas działania umiejętności biegasz o 1/2/3% szybciej, a kiedy wyleczysz innego ocalałego o jeden stan zdrowia, to otrzymasz efekt Wytrzymały na 6/8/10 sekund. Umiejętność nie może być używana, kiedy masz na sobie aktywny efekt Wyczerpania.");
     
@@ -574,6 +581,11 @@ function verify_name(input){
     }
     else if (input == "agitation" || input == "ekscytacja") {
         visual("Agitation.png", "Agitation (Ekscytacja)", "Traper", "Gdy nosisz ocalałego twoja prędkość chodzenia jest o 6/12/18% większa, oraz twój zasięg terroru wzrasta o 12 metrów.");
+    }
+    else if(input == "alien instinct" || input == "instynkt obcego"){
+        visual("AlienInstinct.png", "Alien Instinct (Instynkt Obcego)", "Xenomorph", "Po powieszeniu ocalałego widzisz aurę najdalszego rannego ocalałego na 5 sekund, a ten ocalały dostaje efekt nieświadomy na 16/18/20s");
+
+        //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "awakened awareness" || input == "przebudzona świadomość") {
         visual("AwakenedAwareness.png", "Awakened Awareness (Przebudzona Świadomośc)", "Mastermind", "Gdy niesiesz ocalałego widzisz aure innych ocalałych 16/18/20 metrów od ciebie.");
@@ -810,6 +822,11 @@ function verify_name(input){
 
         //awicki do tąd pisał, a dalej pisze tina
     }
+    else if(input == "rapid brutality" || input == "natychmiastowa brutalność"){
+        visual("RapidBrutality.png", "Rapid Brutality (Natychmiastowa Brutalność)", "Xenomorph", "Nie dostajesz żądzy krwi (bloodlust). Po uderzeniu ocalałego podstawowym atakiem dostajesz bonus do prędkości 5% na 8/9/10s.");
+    
+        //to pisał bkcf (z newsów, nowa postać)
+    }
     else if (input == "remember me" || input == "zapamiętaj mnie") {
         visual("RememberMe.png", "Remember Me (Zapamiętaj Mnie)", "Nightmare", "Gdy obsesja straci stan zdrowia dostajesz żeton do maksymalnie 2/3/4, za każdy żeton ocalali otwierają bramy wyjściowe dłużej o 6 sekund. Obsesja jest odporna na efekt umiejętności.");
     }
@@ -871,6 +888,11 @@ function verify_name(input){
     }
     else if (input == "trail of torment" || input == "szlak udręki") {
         visual("TrailofTorment.png", "Trail of Torment (Szlak Udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu kiedy generator przestanie się regresować. Aura generatora pod działaniem trail of torment jest ujawniana ocalałym na żółto.");
+    }
+    else if (input == "ultimate weapon" || input == "broń ostateczna"){
+        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Ostateczna)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 30 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg twojego terroru krzyknie, ujawni swoją lokalizację, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 40/35/30 sekund na odnowienie.")
+        
+        //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "unnerving presence" || input == "niepokojąca obecność") {
         visual("UnnervingPresence.png", "Unnerving Presence (Niepokojąca Obecność)", "Trapper", "Kiedy ocalały znajduje się w twoim terrorze jego skillchecki są zmiejszone o 40/50/60% oraz występują częściej o 10%.");
