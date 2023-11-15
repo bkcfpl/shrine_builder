@@ -909,6 +909,11 @@ function verify_name(input){
     else if (input == "superior anatomy" || input == "ponadprzeciętna anatomia") {
         visual("SuperiorAnatomy.png", "Superior Anatomy (Ponadprzeciętna Anatomia)", "Mastermind", "Kiedy ocalały wykonuje szybki przeskok w promieniu 8 metrów od ciebie superior anatomy się aktywuje. Kiedy perk jest aktywny twój następny przeskok będzie szybszy o 30/35/40%. Superior anatomy dezaktywuje się po przeskoku i odnawia się 30s.");
     }
+    else if (input == "surge" || input == "skok napiecia"){
+        visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "");
+
+        //to pisała whiten (powrót st)
+    }
     else if (input == "surveillance" || input == "inwigilacja") {
         visual("Surveillance.png", "Surveillance (Inwigilacja)", "Pig", "Aura generatorów poddanych regresowi jest ci ujawniona na biało. Kiedy ocalały przerywa regres aura generatora zmienia kolor na żółty na 8/12/16s.");
     }
