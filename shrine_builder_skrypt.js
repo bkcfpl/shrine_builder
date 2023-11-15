@@ -1,6 +1,6 @@
 let repeats = 0;
 
-//Ostatnia aktualizacja: min. 7.1.0
+//Ostatnia aktualizacja: 7.3.3
 
 document.getElementById("perkIMG1").src = "template.png";
 document.getElementById("perkDescription1").innerText = "Nazwa Umiejętnośći ang (Nazwa Umiejętnośći pl) - Nazwa Postaci ang - opis umiejętności pl";
@@ -159,9 +159,16 @@ function verify_name(input){
     {
         visual("Autodidact.png", "Autodidact (Samouk)", "Adam Francis", "Rozpoczynasz rozgrywkę z karą równą -25% za udane testy umiejętności podczas leczenia innych ocalałych. Za każdy następny udany test umiejętności podczas leczenia innego ocalałego otrzymujesz żeton, aż do maksymalnie 3/4/5 żetonów. Każdy żeton zapewnia bonus +15% do postępu leczenia za trafione testy umiejętności. Umiejętność nie działa, kiedy do leczenia używasz apteczki.");
     }
+    else if (input == "babysitter" || input == "niańka"){
+        visual("Babysitter.png", "Babysitter (Niańka)", "Steve Harrington", "");
+
+        //to pisał ? (powrót st)
+    }
     else if (input == "background player" || input == "gracz w tle")
     {
-        visual("BackgroundPlayer.png", "Background Player (Gracz w Tle)", "Renato Lyra", "W momencie, kiedy jakikolwiek ocalały zostanie podniesiony z ziemi, zyskujesz na 10 sekund możliwość biegnięcia ze 150% normalnej prędkości biegu przez 4 sekundy. Po użyciu umiejętności wywołuje ona wyczerpanie na 60/50/40 sekund.");
+        visual("BackgroundPlayer.png", "Background Player (Gracz w Tle)", "Renato Lyra", "Gdy zabójca podniesie powalonego ocalałego otrzymasz 200% bonusu do prędkości poruszania się na 5. Po użyciu umiejętności wywołuje ona wyczerpanie na 60/50/40 sekund.");
+
+        //to pisał wpserek (z newsów, zmiana perków)
     }
     else if (input == "balanced landing" || input == "miękkie lądowanie" || input == "balance")
     {
@@ -172,6 +179,11 @@ function verify_name(input){
         visual("BetterthanNew.png", "Better than New (Lepsze niż Nowe)", "Rebecca Chambers", "Po ukończeniu akcji leczenia na innym ocalałym, zyskuje on premię 12/14/16% szybszej prędkości do leczenia, otwierania skrzyń oraz oczyszczania i błogosławienia totemów.");
         
         //gigachad do tąd pisał, a dalej pisze awicki
+    }
+    else if (input == "better together" || input == "razem lepiej"){
+        visual("BetterTogether.png", "Better Together (Razem Lepiej)", "Nancy Wheeler", "");
+
+        //to pisał ? (powrót st)
     }
     else if (input == "bite the bullet" || input == "zaciśnięte zęby")
     {
@@ -244,6 +256,16 @@ function verify_name(input){
     else if (input == "calm spirit" || input == "spokojny duch")
     {
         visual("CalmSpirit.png", "Calm Spirit (Spokojny Duch)", "Jake Park", "Używając tej umiejętności nie będziesz odstraszał już kruków i krzyczał. Perk umożliwia też bezszelestne otwieranie skrzyń, niszczenie i błogosławienie totemów, ale o 40/35/30% wolniej.");
+    }
+    else if (input == "camaraderie" || input == ""){
+        visual("Camaraderie.png", "Camaraderie ()", "Steve Harrington", "");
+
+        //to pisał ? (powrót st)
+    }
+    else if (inpu == "chemical trap" || input == "chemiczna pułapka"){
+        visual("ChemicalTrap.png", "Chemical Trap (Chemiczna Pułapka)", "Ellen Ripley", "po skończeniu 70/60/50% generatora umiejętność aktywuje się. Jeśli stoisz obok zrzuconej palety naciśnij przycisk aktywnej umiejętności 2 aby zainstalował pułapkę na 100/110/120s. Aura palety z pułapką jest pokazana wszystkim ocalałym. Jeśli zabójca spróbuje zniszczyć paletę, pułapka wybuchnie , i spowolni zabójcę o 50% na 4s.")
+    
+        //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "corrective action" || input == "działanie korekcyjne")
     {
@@ -320,6 +342,11 @@ function verify_name(input){
     {
         visual("FastTrack.png", "Fast Track (Szybka Ucieczka)", "Yun-Jin Lee", "Kiedy inny ocalały zostaje powieszony na haku, otrzymujesz żetony (1/2/3). Wszystkie żetony zostają zużyte, jeśli trafisz świetny test umiejętności podczas naprawiania generatora. Każdy żeton to 1% dodatkowego bonusu za trafienie świetnego testu umiejętności przy naprawie generatora.");
     }
+    else if (input == "fixated" || input == ""){
+        visual("Fixated.png", "Fixated ()", "Nancy Wheeler", "");
+
+        //to pisał ? (powrót st)
+    }
     else if (input == "flashbang" || input == "granat błyskowy")
     {
         visual("Flashbang.png", "Flashbang (Granat Błyskowy)", "Leon S. Kennedy", "Po naprawieniu generatora lub generatorów o wartości łącznie 70/60/50% postępu naprawy, umiejętność aktywuje się. Wejdź do szafki i naciśnij przycisk aktywnej umiejętności 1, aby stworzyć granat błyskowy (umiejętność nie wymaga nie posiadania przedmiotu, kiedy chcemy stworzyć granat błyskowy).");
@@ -352,6 +379,11 @@ function verify_name(input){
     {
         visual("InnerFocus.png", "Inner Focus (Wewnętrzne Skupienie)", "Haddie Kaur", "Jesteś w stanie zobaczyć czerwone zarysowania innych ocalałych, a kiedy jakiś ocalały w promieniu 32 metrów od ciebie straci stan zdrowia, to ujrzysz aurę zabójcy na 3/4/5 sekund.");
     }
+    else if(input == "inner strength" || input == "wewnętrzna siła"){
+        visual("InnerStrength.png", "Inner Strength (Wewnętrzna Siła)", "Nancy Wheeler", "");
+
+        //to pisał ? (powrót st)
+    }
     else if (input == "iron will" || input == "żelazna wola")
     {
         visual("IronWill.png", "Iron Will (Żelazna Wola)", "Jake Park", "Jęki, które zostały spowodowane na skutek obrażeń są ograniczone o 25/50/75%. Umiejętność nie działa, jeśli ocalały ma na sobie efekt wyczerpania.");
@@ -363,6 +395,11 @@ function verify_name(input){
     else if (input == "left behind" || input == "porzucony")
     {
         visual("LeftBehind.png", "Left Behind (Porzucony)", "William 'Bill' Overbeck", "Jeśli zostaniesz ostatnim żywym ocalałym podczas meczu, będziesz w stanie ujrzeć aurę włazu, który znajduje się w zasięgu 24/28/32 metrów od ciebie.");
+    }
+    else if (input == "light footed" || input == "lekko stopy"){
+        visual("LightFooted.png", "Light Footed (lekko stopy)", "Ellen Ripley", " umiejętność aktywuje się gdy jesteś zdrowy. Twoje kroki są ciche, a umiejętność wyłącza się na 28/24/20s po zrobieniu szybkiej akcji.");
+
+        //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "lithe" || input == "gibkość")
     {
@@ -382,7 +419,7 @@ function verify_name(input){
         //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "made for this" || input == "stworzony do tego"){
-        visual("MadeforThis.png", "Made for This (Stworzony do Tego)", "Gabriel Soma", "Umiejętność aktywuje się w momencie kiedy zostaniesz ranny. Podczas działania umiejętności biegasz o 1/2/3% szybciej, a kiedy wyleczysz innego ocalałego o jeden stan zdrowia, to otrzymasz efekt Wytrzymały na 6/8/10 sekund. Umiejętność nie może być używana, kiedy masz na sobie aktywny efekt Wyczerpania.");
+        visual("MadeforThis.png", "Made for This (Stworzony do Tego)", "Gabriel Soma", "Umiejętność aktywuje się w momencie kiedy zostaniesz ranny. Po uleczeniu innego ocalałego dostajesz efekt wytrzymały na 6/8/10s. (nie zmienione). Podczas efektu głębokie rany biegasz szybciej o 3% (nawet podczas wyczerpania)");
     
         //to pisał gigachad (z newsów, nowa postać)
     }
@@ -500,6 +537,11 @@ function verify_name(input){
         visual("ScenePartner.png", "Scene Partner (Partner Sceniczny)", "Nicolas Cage", "Aktywuje się kiedy jesteś w terrorze killera. Kiedy spojrzysz w stronę killera krzyczysz oraz ujawniasz aurę zabójcy na 3/4/5s. Jest szansa, że możesz krzyknąć ponownie i zobaczyć przeciwnika na dodatkowe 2s. Cooldown: 60s.");
         
         //to pisała whiten (z newsów, nowa postać)
+    }
+    else if(input == "second wind" || input == "drugi wiatr"){
+        visual("SecondWind.png", "Second Wind (Drugi wiatr)", "Steve Harrington", "");
+
+        //to pisał ? (powrót st)
     }
     else if (input == "self care" || input == "samoopatrywanie" || input == "self-care") {
         visual("SelfCare.png", "Self-Care (Samoopatrywanie)", "Claudette Morel", "Zyskujesz możliwość samodzielnego leczenia się bez apteczki z prędkością 25/30/35% normalnego leczenia.");
@@ -677,7 +719,9 @@ function verify_name(input){
         visual("Franklin'sDemise.png", "Franklin's Demise (Zguba Franklina)", "Cannibal", "Twoje podstawowe ataki sprawiają, że ocalali upuszczają trzymane przedmioty. Przedmiot leżący na ziemi traci wszystkie ładunki po 150/120/90 s, jeśli nie zostanie podniesiony. Oznacz białą aurą przedmioty na ziemi w odległości 32 m. Aura powoli zmienia kolor na czerwony, dopóki przedmiot nie straci wszystkich ładunków.");
     }
     else if (input == "furtive chase" || input == "tajemny pościg") {
-        visual("FurtiveChase.png", "Furtive Chase (Tajemny Pościg)", "Ghost Face", "Gdy twoja obsesja wisi na haku, Tajemny Pościg otrzymuje żeton (maksymalnie 2/3/4). Każdy żeton zmniejsza twój zasięg terroru podczas pościgu o 4 m. Gdy ocalały ratuje obsesję z haka, sam staje się obsesją.");
+        visual("FurtiveChase.png", "Furtive Chase (Tajemny Pościg)", "Ghost Face", "Po powieszeniu obsesji zabójca porusza się 5% szybciej i otrzymuje efekt niewykrywalny na 14/16/18 sekund. Gdy ocalały ratuje obsesję z haka, sam staje się obsesją.");
+
+        //to pisał wpserek (z newsów, zmiana perków)
 
         //awicki do tąd pisał, a dalej pisze tina
     }
@@ -889,8 +933,8 @@ function verify_name(input){
     else if (input == "trail of torment" || input == "szlak udręki") {
         visual("TrailofTorment.png", "Trail of Torment (Szlak Udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu kiedy generator przestanie się regresować. Aura generatora pod działaniem trail of torment jest ujawniana ocalałym na żółto.");
     }
-    else if (input == "ultimate weapon" || input == "broń ostateczna"){
-        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Ostateczna)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 30 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg twojego terroru krzyknie, ujawni swoją lokalizację, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 40/35/30 sekund na odnowienie.")
+    else if (input == "ultimate weapon" || input == "broń doskonała"){
+        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 30 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg twojego terroru krzyknie, ujawni swoją lokalizację, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 40/35/30 sekund na odnowienie.")
         
         //to pisał bkcf (z newsów, nowa postać)
     }
