@@ -669,7 +669,7 @@ function verify_name(input){
     else if (input == "coup de grace" || input == "cios łaski" || input == "coup de grâce") {
         visual("CoupdeGrace.png", "Coup de Grâce (Cios Łaski)", "Twins", "Kiedy jakikolwiek generator zostanie naprawiony, otrzymujesz dwa żeton do maksymalnie 5. Następny podstawowy atak będzie mógł mieć zwiększony zasięg o 70/75/80% oraz zużyje się jeden żeton.");
     }
-    else if (input == "Cruel Limits" || input == "bezlitosne granice"){
+    else if (input == "cruel limits" || input == "bezlitosne granice"){
         visual("CruelLimits.png", "Cruel Limits (Bezlitosne Granice)", "Demogorgon", "");
 
         //to pisała whiten (powrót st)
