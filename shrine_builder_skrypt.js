@@ -866,8 +866,8 @@ function verify_name(input){
 
         //awicki do tąd pisał, a dalej pisze tina
     }
-    else if(input == "rapid brutality" || input == "natychmiastowa brutalność"){
-        visual("RapidBrutality.png", "Rapid Brutality (Natychmiastowa Brutalność)", "Xenomorph", "Nie dostajesz żądzy krwi (bloodlust). Po uderzeniu ocalałego podstawowym atakiem dostajesz bonus do prędkości 5% na 8/9/10s.");
+    else if(input == "rapid brutality" || input == "gwałtowna brutalność"){
+        visual("RapidBrutality.png", "Rapid Brutality (Gwałtowna Brutalność)", "Xenomorph", "Nie dostajesz żądzy krwi (bloodlust). Po uderzeniu ocalałego podstawowym atakiem dostajesz bonus do prędkości 5% na 8/9/10s.");
     
         //to pisał bkcf (z newsów, nowa postać)
     }
