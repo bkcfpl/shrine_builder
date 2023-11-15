@@ -624,8 +624,8 @@ function verify_name(input){
     else if (input == "agitation" || input == "ekscytacja") {
         visual("Agitation.png", "Agitation (Ekscytacja)", "Traper", "Gdy nosisz ocalałego twoja prędkość chodzenia jest o 6/12/18% większa, oraz twój zasięg terroru wzrasta o 12 metrów.");
     }
-    else if(input == "alien instinct" || input == "instynkt obcego"){
-        visual("AlienInstinct.png", "Alien Instinct (Instynkt Obcego)", "Xenomorph", "Po powieszeniu ocalałego widzisz aurę najdalszego rannego ocalałego na 5 sekund, a ten ocalały dostaje efekt nieświadomy na 16/18/20s");
+    else if(input == "alien instinct" || input == "obcy instynkt"){
+        visual("AlienInstinct.png", "Alien Instinct (Obcy Instynkt)", "Xenomorph", "Po powieszeniu ocalałego widzisz aurę najdalszego rannego ocalałego na 5 sekund, a ten ocalały dostaje efekt nieświadomy na 16/18/20s");
 
         //to pisał bkcf (z newsów, nowa postać)
     }
