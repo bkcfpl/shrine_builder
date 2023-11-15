@@ -262,7 +262,7 @@ function verify_name(input){
 
         //to pisał ? (powrót st)
     }
-    else if (inpu == "chemical trap" || input == "chemiczna pułapka"){
+    else if (input == "chemical trap" || input == "chemiczna pułapka"){
         visual("ChemicalTrap.png", "Chemical Trap (Chemiczna Pułapka)", "Ellen Ripley", "po skończeniu 70/60/50% generatora umiejętność aktywuje się. Jeśli stoisz obok zrzuconej palety naciśnij przycisk aktywnej umiejętności 2 aby zainstalował pułapkę na 100/110/120s. Aura palety z pułapką jest pokazana wszystkim ocalałym. Jeśli zabójca spróbuje zniszczyć paletę, pułapka wybuchnie , i spowolni zabójcę o 50% na 4s.")
     
         //to pisał bkcf (z newsów, nowa postać)
