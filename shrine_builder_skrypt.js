@@ -159,10 +159,10 @@ function verify_name(input){
     {
         visual("Autodidact.png", "Autodidact (Samouk)", "Adam Francis", "Rozpoczynasz rozgrywkę z karą równą -25% za udane testy umiejętności podczas leczenia innych ocalałych. Za każdy następny udany test umiejętności podczas leczenia innego ocalałego otrzymujesz żeton, aż do maksymalnie 3/4/5 żetonów. Każdy żeton zapewnia bonus +15% do postępu leczenia za trafione testy umiejętności. Umiejętność nie działa, kiedy do leczenia używasz apteczki.");
     }
-    else if (input == "babysitter" || input == "niańka"){
-        visual("Babysitter.png", "Babysitter (Niańka)", "Steve Harrington", "");
+    else if (input == "babysitter" || input == "niańka" || input == "strażnik" || input == "guardian"){
+        visual("Babysitter.png", "Babysitter (Niańka)", "Steve Harrington", "Kiedy ściągniesz ocalałego z haka, uratowana przez ciebie osoba otrzyma efekt na 4/6/8s.: Zniknięcia scratch marksów oraz śladów krwi, przyspieszenia o 7%.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "background player" || input == "gracz w tle")
     {
@@ -180,10 +180,10 @@ function verify_name(input){
         
         //gigachad do tąd pisał, a dalej pisze awicki
     }
-    else if (input == "better together" || input == "razem lepiej"){
-        visual("BetterTogether.png", "Better Together (Razem Lepiej)", "Nancy Wheeler", "");
+    else if (input == "better together" || input == "w kupie siła" || input == "situational awareness"){
+        visual("BetterTogether.png", "Better Together (W Kupie Siła)", "Nancy Wheeler", "Kiedy naprawiasz generator twoja aura jest podświetlna dla innych ocalałych na żółto w okręgu 32m. Jeśli killer powali ocalałego, kiedy naprawiasz generator zobaczysz aurę wszystkich innych na 8/9/10s.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "bite the bullet" || input == "zaciśnięte zęby")
     {
@@ -257,10 +257,10 @@ function verify_name(input){
     {
         visual("CalmSpirit.png", "Calm Spirit (Spokojny Duch)", "Jake Park", "Używając tej umiejętności nie będziesz odstraszał już kruków i krzyczał. Perk umożliwia też bezszelestne otwieranie skrzyń, niszczenie i błogosławienie totemów, ale o 40/35/30% wolniej.");
     }
-    else if (input == "camaraderie" || input == ""){
-        visual("Camaraderie.png", "Camaraderie ()", "Steve Harrington", "");
+    else if (input == "camaraderie" || input == "koleżeństwo" || input == "kinship" || input == "pokrewieństwo"){
+        visual("Camaraderie.png", "Camaraderie (Koleżeństwo)", "Steve Harrington", "Jeśli jesteś powieszony na haku na II stage'u perk aktywuje się. Perk stopuje czas do śmierci na 26/30/34s. jeśli jakikolwiek ocalały będzie w odległości 16m. od haka na którym wisisz.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "chemical trap" || input == "chemiczna pułapka"){
         visual("ChemicalTrap.png", "Chemical Trap (Chemiczna Pułapka)", "Ellen Ripley", "po skończeniu 70/60/50% generatora umiejętność aktywuje się. Jeśli stoisz obok zrzuconej palety naciśnij przycisk aktywnej umiejętności 2 aby zainstalował pułapkę na 100/110/120s. Aura palety z pułapką jest pokazana wszystkim ocalałym. Jeśli zabójca spróbuje zniszczyć paletę, pułapka wybuchnie , i spowolni zabójcę o 50% na 4s.")
@@ -342,10 +342,10 @@ function verify_name(input){
     {
         visual("FastTrack.png", "Fast Track (Szybka Ucieczka)", "Yun-Jin Lee", "Kiedy inny ocalały zostaje powieszony na haku, otrzymujesz żetony (1/2/3). Wszystkie żetony zostają zużyte, jeśli trafisz świetny test umiejętności podczas naprawiania generatora. Każdy żeton to 1% dodatkowego bonusu za trafienie świetnego testu umiejętności przy naprawie generatora.");
     }
-    else if (input == "fixated" || input == ""){
-        visual("Fixated.png", "Fixated ()", "Nancy Wheeler", "");
+    else if (input == "fixated" || input == "fiksacja" || input == "self-aware" || input == "self aware" || input == "samoświadomość"){
+        visual("Fixated.png", "Fixated (Fiksacja)", "Nancy Wheeler", "Zwiększa prędkość chodzenia o 10/15/20% oraz widzisz własne scratch marki.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "flashbang" || input == "granat błyskowy")
     {
@@ -379,10 +379,10 @@ function verify_name(input){
     {
         visual("InnerFocus.png", "Inner Focus (Wewnętrzne Skupienie)", "Haddie Kaur", "Jesteś w stanie zobaczyć czerwone zarysowania innych ocalałych, a kiedy jakiś ocalały w promieniu 32 metrów od ciebie straci stan zdrowia, to ujrzysz aurę zabójcy na 3/4/5 sekund.");
     }
-    else if(input == "inner strength" || input == "wewnętrzna siła"){
-        visual("InnerStrength.png", "Inner Strength (Wewnętrzna Siła)", "Nancy Wheeler", "");
+    else if(input == "inner strength" || input == "wewnętrzna siła" || input == "inner healing" || input == "wewnętrzne leczenie"){
+        visual("InnerStrength.png", "Inner Strength (Wewnętrzna Siła)", "Nancy Wheeler", "Za każdym razem kiedy zniszczysz totem perk aktywuje się. Wchodząc do szafki możesz wyleczyć się o jeden stan zdrowia przez 10/9/8s. Nie działa jeśli masz na sobie efekt Broken.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "iron will" || input == "żelazna wola")
     {
@@ -538,10 +538,10 @@ function verify_name(input){
         
         //to pisała whiten (z newsów, nowa postać)
     }
-    else if(input == "second wind" || input == "drugi wiatr"){
-        visual("SecondWind.png", "Second Wind (Drugi wiatr)", "Steve Harrington", "");
+    else if(input == "second wind" || input == "drugi oddech" || input == "renewal" || input == "odnowienie"){
+        visual("SecondWind.png", "Second Wind (Drugi Oddech)", "Steve Harrington", "Kiedy uleczysz innego ocalałego o jeden stan zdrowia perk aktywuje się. Następnym razem kiedy ktoś ściągnie cie z haka/lub sam się ściągniesz otrzymasz efekt Broken dopóki perk nie zdezaktywuje się. Zostaniesz automatycznie uleczony o jeden stan zdrowia po 28/24/30s. Jeśli w międzyczasie zostaniesz powalony, perk zostanie zdezaktywowany.");
 
-        //to pisał ? (powrót st)
+        //to pisała whiten (powrót st)
     }
     else if (input == "self care" || input == "samoopatrywanie" || input == "self-care") {
         visual("SelfCare.png", "Self-Care (Samoopatrywanie)", "Claudette Morel", "Zyskujesz możliwość samodzielnego leczenia się bez apteczki z prędkością 25/30/35% normalnego leczenia.");
@@ -669,8 +669,8 @@ function verify_name(input){
     else if (input == "coup de grace" || input == "cios łaski" || input == "coup de grâce") {
         visual("CoupdeGrace.png", "Coup de Grâce (Cios Łaski)", "Twins", "Kiedy jakikolwiek generator zostanie naprawiony, otrzymujesz dwa żeton do maksymalnie 5. Następny podstawowy atak będzie mógł mieć zwiększony zasięg o 70/75/80% oraz zużyje się jeden żeton.");
     }
-    else if (input == "cruel limits" || input == "bezlitosne granice"){
-        visual("CruelLimits.png", "Cruel Limits (Bezlitosne Granice)", "Demogorgon", "");
+    else if (input == "cruel limits" || input == "bezlitosne granice" || input == "claustrophobia" || input == "klaustrofobia"){
+        visual("CruelLimits.png", "Cruel Limits (Bezlitosne Granice)", "Demogorgon", "Kiedy jakikolwiek generator zostanie ukończony perk aktywuje się. Blokuje wszystkie okna na mapie na 20/25/30s. oraz podświetla dla killera na żółto zablokowane okna");
 
         //to pisała whiten (powrót st)
     }
@@ -834,6 +834,11 @@ function verify_name(input){
     else if (input == "merciless storm" || input == "bezlitosny sztorm") {
         visual("MercilessStorm.png", "Merciless Storm (Bezlitosny Sztorm)", "Onryo", "Kiedy generator osiągnie 90% postępu naprawy, pracujący przy nim ocalali będą musieli nieustannie wykonywać testy umiejętności. Jeśli nie trafią jakiegokolwiek testu lub przerwą naprawę, generator zostanie zablokowany na 16/18/20 sekund.");
     }
+    else if(inmput == "mindbreaker" || input == "osłabienie woli" || input == "Fearmonger" || input == "władca strachu"){
+        visual("Mindbreaker.png", "Mindbreaker (Osłabienie Woli)", "Demogorgon", "Wszyscy ocalali naprawiający generatory otrzymują efekty takie jak: blindness i exhausted na czas trwania naprawy. Jeśli ocalały posiadał już wcześniej efekt exhausted, czas odpowiadający za zniknięcie go zatrzyma się do czasu kiedy przestanie naprawiać. Po odejściu od generatora obydwa statusy utrzymają się przez 3/4/5s.");
+
+        //to pisała whiten (powrót st)
+    }
     else if (input == "monitor & abuse" || input == "monitor and abuse" || input == "bestialska obserwacja" || input == "monitor") {
         visual("Monitor&Abuse.png", "Monitor & Abuse (Bestialska Obserwacja)", "Doctor", "Kiedy jesteś w pościgu, twój zasięg terroru jest zwiększony o 8 metrów, a gdy nie jesteś w pościgu, twój zasięg terroru zmniejsza się o 8 metrów, a twoje pole widzenia zwiększa się o 3/5/10°.");
 
@@ -914,8 +919,8 @@ function verify_name(input){
     else if (input == "superior anatomy" || input == "ponadprzeciętna anatomia") {
         visual("SuperiorAnatomy.png", "Superior Anatomy (Ponadprzeciętna Anatomia)", "Mastermind", "Kiedy ocalały wykonuje szybki przeskok w promieniu 8 metrów od ciebie superior anatomy się aktywuje. Kiedy perk jest aktywny twój następny przeskok będzie szybszy o 30/35/40%. Superior anatomy dezaktywuje się po przeskoku i odnawia się 30s.");
     }
-    else if (input == "surge" || input == "skok napiecia"){
-        visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "");
+    else if (input == "surge" || input == "skok napiecia" || input == "jolt" || input == "wstrząs"){
+        visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "Za każdym razem kiedy powalisz ocalałego podstawowym atakiem wszystkie generatory w promieniu 32m. eksplodują i zaczną się odrazu regresować o 6/7/8%.");
 
         //to pisała whiten (powrót st)
     }
