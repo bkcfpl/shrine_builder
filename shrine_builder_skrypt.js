@@ -834,7 +834,7 @@ function verify_name(input){
     else if (input == "merciless storm" || input == "bezlitosny sztorm") {
         visual("MercilessStorm.png", "Merciless Storm (Bezlitosny Sztorm)", "Onryo", "Kiedy generator osiągnie 90% postępu naprawy, pracujący przy nim ocalali będą musieli nieustannie wykonywać testy umiejętności. Jeśli nie trafią jakiegokolwiek testu lub przerwą naprawę, generator zostanie zablokowany na 16/18/20 sekund.");
     }
-    else if(inmput == "mindbreaker" || input == "osłabienie woli" || input == "Fearmonger" || input == "władca strachu"){
+    else if(input == "mindbreaker" || input == "osłabienie woli" || input == "Fearmonger" || input == "władca strachu"){
         visual("Mindbreaker.png", "Mindbreaker (Osłabienie Woli)", "Demogorgon", "Wszyscy ocalali naprawiający generatory otrzymują efekty takie jak: blindness i exhausted na czas trwania naprawy. Jeśli ocalały posiadał już wcześniej efekt exhausted, czas odpowiadający za zniknięcie go zatrzyma się do czasu kiedy przestanie naprawiać. Po odejściu od generatora obydwa statusy utrzymają się przez 3/4/5s.");
 
         //to pisała whiten (powrót st)
