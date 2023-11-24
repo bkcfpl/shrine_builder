@@ -834,7 +834,7 @@ function verify_name(input){
     else if (input == "merciless storm" || input == "bezlitosny sztorm") {
         visual("MercilessStorm.png", "Merciless Storm (Bezlitosny Sztorm)", "Onryo", "Kiedy generator osiągnie 90% postępu naprawy, pracujący przy nim ocalali będą musieli nieustannie wykonywać testy umiejętności. Jeśli nie trafią jakiegokolwiek testu lub przerwą naprawę, generator zostanie zablokowany na 16/18/20 sekund.");
     }
-    else if(input == "mindbreaker" || input == "osłabienie woli" || input == "Fearmonger" || input == "władca strachu"){
+    else if(input == "mindbreaker" || input == "osłabienie woli" || input == "fearmonger" || input == "władca strachu"){
         visual("Mindbreaker.png", "Mindbreaker (Osłabienie Woli)", "Demogorgon", "Wszyscy ocalali naprawiający generatory otrzymują efekty takie jak: blindness i exhausted na czas trwania naprawy. Jeśli ocalały posiadał już wcześniej efekt exhausted, czas odpowiadający za zniknięcie go zatrzyma się do czasu kiedy przestanie naprawiać. Po odejściu od generatora obydwa statusy utrzymają się przez 3/4/5s.");
 
         //to pisała whiten (powrót st)
@@ -919,7 +919,7 @@ function verify_name(input){
     else if (input == "superior anatomy" || input == "ponadprzeciętna anatomia") {
         visual("SuperiorAnatomy.png", "Superior Anatomy (Ponadprzeciętna Anatomia)", "Mastermind", "Kiedy ocalały wykonuje szybki przeskok w promieniu 8 metrów od ciebie superior anatomy się aktywuje. Kiedy perk jest aktywny twój następny przeskok będzie szybszy o 30/35/40%. Superior anatomy dezaktywuje się po przeskoku i odnawia się 30s.");
     }
-    else if (input == "surge" || input == "skok napiecia" || input == "jolt" || input == "wstrząs"){
+    else if (input == "surge" || input == "skok napięcia" || input == "jolt" || input == "wstrząs"){
         visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "Za każdym razem kiedy powalisz ocalałego podstawowym atakiem wszystkie generatory w promieniu 32m. eksplodują i zaczną się odrazu regresować o 6/7/8%.");
 
         //to pisała whiten (powrót st)
