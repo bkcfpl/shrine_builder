@@ -638,6 +638,11 @@ function verify_name(input){
     else if (input == "barbecue & chilli" || input == "barbecue and chilli" || input == "barbecue i chilli" || input == "barba" || input == "bbq") {
         visual("Barbecue&Chilli.png", "Barbecue & Chilli (Barbecue i Chilli)", "Cannibal", "Po powieszeniu ocalałego aury ocalałych w odległości większej niż 60/50/40 metrów od ciebie są dla ciebie widoczne na 4 sekundy.");
     }
+    else if (input == "batteries included" || input == "baterie w zestawie"){
+        visual("BatteriesIncluded.png", "Batteries Included (Baterie w Zestawie)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu. Po zasileniu bram wyjściowych perk kompletnie się wyłacza.")
+
+        //to pisał bkcf (z newsów, nowa postać) + wpserek (z newsów, zzmiana perka)
+    }
     else if (input == "beast of prey" || input == "drapieżna bestia") {
         visual("BeastofPrey.png", "Beast of Prey (Drapieżna Bestia)", "Huntress", "Zyskujesz o 30/40/50% więcej punktów krwi za działania w kategorii łowca oraz dostajesz efekt niewykrywalny po osiągnięciu 1 poziomu żądzy krwi.");
     }
@@ -723,6 +728,11 @@ function verify_name(input){
     else if (input == "franklin's demise" || input == "zguba franklina" || input == "franklin") {
         visual("Franklin'sDemise.png", "Franklin's Demise (Zguba Franklina)", "Cannibal", "Twoje podstawowe ataki sprawiają, że ocalali upuszczają trzymane przedmioty. Przedmiot leżący na ziemi traci wszystkie ładunki po 150/120/90 s, jeśli nie zostanie podniesiony. Oznacz białą aurą przedmioty na ziemi w odległości 32 m. Aura powoli zmienia kolor na czerwony, dopóki przedmiot nie straci wszystkich ładunków.");
     }
+    else if (input == "friends 'til the end" || input == "przyjaciele do końca"){
+        visual("Friends'TiltheEnd.png", "Friends 'Til the End (przyjaciele do końca)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu.");
+
+        //to pisał bkcf (z newsów, nowa postać)
+    }
     else if (input == "furtive chase" || input == "tajemny pościg") {
         visual("FurtiveChase.png", "Furtive Chase (Tajemny Pościg)", "Ghost Face", "Po powieszeniu obsesji zabójca porusza się 5% szybciej i otrzymuje efekt niewykrywalny na 14/16/18 sekund. Gdy ocalały ratuje obsesję z haka, sam staje się obsesją.");
 
@@ -783,8 +793,15 @@ function verify_name(input){
     else if (input == "hex: the third seal" || input == "klątwa: trzecia pieczęć" || input == "third seal" || input == "trzecia pieczęć" || input == "the third seal") {
         visual("HexTheThirdSeal.png", "Hex: The Third Seal (Klątwa: Trzecia Pieczęć)", "Hag", "Ostatni 2/3/4 ocalali zaatakowani podstawowym atakiem otrzymuje efekt ślepoty.");
     }
+    else if(input == "hex: two can play" || input == "klątwa: gra dla dwojga"){
+        visual("HexTwoCanPlay.png", "Hex: Two Can Play (Klątwa: Gra Dla Dwojga)", "Good Guy", "Jeśli zostaniesz oślepiony lub ogłuszony 4/3/2 razy podczas rozgrywki, i na mapie nie ma przeklętego totemu tym perkiem, zwykły totem zamienia się w przeklęty. Jeśli na mapie jest totem powiązany z tą klątwą, i ocalały cię oślepi lub ogłuszy, ten ocalały także jest oślepiony na 1.5s.");
+    
+        //to pisał bkcf (z newsów, nowa postać)
+    }
     else if (input == "hex: undying" || input == "klątwa: nieumarły" || input == "undying" || input == "nieumarły") {
         visual("HexUndying.png", "Hex: Undying (Klątwa: Nieumarły)", "Blight", "Dostrzegasz aury ocalałych którzy zbliżają się do totemu na 2m przez 4/5/6s. Kiedy inna klątwa zostaje oczyszczona zastępuje ona nieumarłego.");
+    
+        //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "hoarder" || input == "zbieracz") {
         visual("Hoarder.png", "Hoarder (Zbieracz)", "Twins", "Dostajesz głośne powiadomienie na 4 sekundy gdy ocalały podnosi przedmiot lub otwiera skrzynie w promieniu 32/48/64m od ciebie.");
