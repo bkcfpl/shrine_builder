@@ -1,6 +1,6 @@
 let repeats = 0;
 
-//Ostatnia aktualizacja: 7.3.3
+//Ostatnia aktualizacja: 15.03.2024
 
 document.getElementById("perkIMG1").src = "template.png";
 document.getElementById("perkDescription1").innerText = "Nazwa Umiejętnośći ang (Nazwa Umiejętnośći pl) - Nazwa Postaci ang - opis umiejętności pl";
@@ -217,9 +217,13 @@ function verify_name(input){
     {
         visual("BoonExponential.png", "Boon: Exponential (Urok: Wykładniczość)", "Jonah Vasquez", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Każdy ocalały w zasięgu dobrego totemu zyskuje 90/95/100% premii do szybkości leczenia i może w pełni wyleczyć się ze stanu agonii.");
     }
+    else if (input == "boon: illumination" || input == "dar: iluminacja" || input == "illumination" || input == "iluminacja"){
+        visual("BoonIllumination.png", "Boon: Illumination (Dar: Iluminacja)", "Alan Wake", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Ocalali w zasięgu dobrego totemu widzą aury generatorów i skrzyń na niebiesko. Jeśli masz już poblogosławiony totem, niszczysz lub błogosławisz totemy 6/8/10% szybciej");
+        //to pisał bkcf (sam, nowa postać)
+    }
     else if (input == "boon: shadow step" || input == "urok: naprawiacz dusz" || input == "shadow step" || input == "naprawiacz dusz")
     {
-        visual("BoonShadowStep.png", "Boon: Shadow Step (Urok: Naprawiacz Dusz)", "Mikaela Reid", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m Czerwone zarysowania i aura każdego ocalałego w zasięgu dobrego totemu zostają ukryte przed zabójcą. Efekt utrzymuje się przez 2/3/4 s od opuszczenia obszaru działania dobrego totemu.");
+        visual("BoonShadowStep.png", "Boon: Shadow Step (Urok: Naprawiacz Dusz)", "Mikaela Reid", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Czerwone zarysowania i aura każdego ocalałego w zasięgu dobrego totemu zostają ukryte przed zabójcą. Efekt utrzymuje się przez 2/3/4 s od opuszczenia obszaru działania dobrego totemu.");
     }
     else if (input == "bond" || input == "wieź")
     {
@@ -262,6 +266,11 @@ function verify_name(input){
 
         //to pisała whiten (powrót st)
     }
+    else if (input == "champion of light" || input == "mistrz światła"){
+        visual("ChampionOfLight.png", "Champion of Light (Mistrz Światła)", "Alan Wake", "Kiedy świecisz latarką poruszasz się szybciej o 50%. Po oślepieniu zabójcy, killer porusza się wolniej o 20% na 6s, a perk zostaje wyłączony na 80/70/60s.");
+    
+        //to pisał bkcf (z newsów, nowa postać)
+    }
     else if (input == "chemical trap" || input == "chemiczna pułapka"){
         visual("ChemicalTrap.png", "Chemical Trap (Chemiczna Pułapka)", "Ellen Ripley", "po skończeniu 70/60/50% generatora umiejętność aktywuje się. Jeśli stoisz obok zrzuconej palety naciśnij przycisk aktywnej umiejętności 2 aby zainstalował pułapkę na 100/110/120s. Aura palety z pułapką jest pokazana wszystkim ocalałym. Jeśli zabójca spróbuje zniszczyć paletę, pułapka wybuchnie , i spowolni zabójcę o 50% na 4s.")
     
@@ -292,6 +301,9 @@ function verify_name(input){
     else if (input == "dead hard" ||input == "twarda sztuka" ||input == "dh")
     {
         visual("DeadHard.png", "Dead Hard (Twarda Sztuka)", "David King", "Twarda Sztuka aktywuje się, gdy zostaniesz ściągnięty z haka, lub sam się ściągniesz z haka. Gdy odniesiesz ranę, sięgnij do swoich zapasów adrenaliny, aby uniknąć obrażeń. Naciśnij przycisk aktywnej umiejętności podczas biegu, aby zyskać efekt Wytrzymałości na 0,5 s. Wywołuje Wyczerpanie na 60/50/40 s. Twarda Sztuka wyłącza się, do momentu ponownego bezpiecznego unhooku");
+    }
+    else if (input == "deadline" || input == "termin"){
+        visual("Deadline.png", "Deadline (Termin)", "Alan Wake", "Jeśli jesteś ranny, skillchecki pojawiają się częściej o 6/8/10% i w losowych miejscach podczas naprawy generatora, lub leczenia. Kara za nietrafienie skillchecka jest zmniejszona o 50%");
     }
     else if (input == "deception" ||input == "oszustwo")
     {
@@ -384,6 +396,11 @@ function verify_name(input){
 
         //to pisała whiten (powrót st)
     }
+    else if(input == "invocation: weaving spiders" || input == "inwokacja: tkające pająki" || input == "weaving spiders" || input == "tkające pająki"){
+        visual("InvocationWeavingSpiders.png", "Invocation: Weaving Spiders (Inwokacja: Tkające Pająki)", "Sable Ward", "Gdy znajdujesz sie w piwnicy, podejdź do stworzonego kręgu z soli i naciśnij przycisk umiejętności by rozpocząć Inwokacje. Trwa ona 120 sekund, jednakże pozostali Ocalali będą widzieć twoją aure oraz będą mogli dołączyć do Inwokacji co spowoduje jej przyspieszenie o 50% za każdego surva który dołączył. Jeżeli posiada on perk z typu Inwokacja, przyspiesza proces o 100%. Kiedy Inwokacja dobiegnie końca zostajesz Zraniony i otrzymujesz status Broken do końca gry. W zamian dostajesz 9/12/15 ładunków do wszystkich generatorów. Dodatkowo wyłącza on wszystkim ten perk.");
+    
+        //to pisał lividius (z newsów, nowa postać)
+    }
     else if (input == "iron will" || input == "żelazna wola")
     {
         visual("IronWill.png", "Iron Will (Żelazna Wola)", "Jake Park", "Jęki, które zostały spowodowane na skutek obrażeń są ograniczone o 25/50/75%. Umiejętność nie działa, jeśli ocalały ma na sobie efekt wyczerpania.");
@@ -419,7 +436,7 @@ function verify_name(input){
         //to pisał bkcf (z newsów, nowa postać)
     }
     else if (input == "made for this" || input == "stworzony do tego"){
-        visual("MadeforThis.png", "Made for This (Stworzony do Tego)", "Gabriel Soma", "Umiejętność aktywuje się w momencie kiedy zostaniesz ranny. Po uleczeniu innego ocalałego dostajesz efekt wytrzymały na 6/8/10s. (nie zmienione). Podczas efektu głębokie rany biegasz szybciej o 3% (nawet podczas wyczerpania)");
+        visual("MadeforThis.png", "Made for This (Stworzony do Tego)", "Gabriel Soma", "Umiejętność aktywuje się w momencie kiedy zostaniesz ranny. Po uleczeniu innego ocalałego dostajesz efekt wytrzymały na 6/8/10s. Podczas efektu głębokie rany biegasz szybciej o 3% (nawet podczas wyczerpania)");
     
         //to pisał gigachad (z newsów, nowa postać)
     }
@@ -486,7 +503,7 @@ function verify_name(input){
     }
     else if (input == "quick gambit" || input == "szybki gambit")
     {
-        visual("QuickGambit.png", "Quick Gambit (Szybki Gambit)", "Vittorio Toscano", "Kiedy zabójca goni cię 24 metry od generatora każdy ocalały naprawia ten generator szybciej o 6/7/8%.");
+        visual("QuickGambit.png", "Quick Gambit (Szybki Gambit)", "Vittorio Toscano", "Kiedy zabójca goni cię 36 metry od generatora każdy ocalały naprawia ten generator szybciej o 6/7/8%.");
     }
     else if (input == "quick & quiet" || input == "quick and quiet" || input == "szybko i cicho")
     {
@@ -570,6 +587,11 @@ function verify_name(input){
     else if (input == "streetwise" || input == "wiedza uliczna") {
         visual("Streetwise.png", "Streetwise (Wiedza Uliczna)", "Nea Karlsson", "Szybkość zużywania przedmiotów przez ciebie i innych ocalałych w zasięgu 8 metrów zmniejsza się o 15/20/25%. Po wyjściu z zasięgu działania umiejętności efekt utrzymuje się przez 15 sekund.");
     }
+    else if(input == "strength in shadows" || input == "siła w cieniu"){
+        visual("StrengthInShadows.png", "Strength in Shadows (Siła w Cieniu)", "Sable Ward", "Kiedy jesteś w piwnicy perk sie aktywuje. Pozwala on na leczenie bez apteczki ze stałymi 70% do szybkości. Kiedy skończysz leczenie w piwnicy, po wyjściu z niej widzisz aure killera przez 6/8/10 sekund.");
+    
+        //to pisał lividius (z newsów, nowa postać)
+    }
     else if (input == "teamwork: collective stealth" || input == "praca zespołowa: wspólne skradanie" || input == "collective stealth" || input == "wspólne skradanie") {
         visual("TeamworkCollectiveStealth.png", "Teamwork: Collective Stealth (Praca Zespołowa: Wspólne Skradanie)", "Renato Lyra", "Jeśli inny ocalały cię uleczy, to razem z tym ocalałem nie będziecie pozostawiali żadnych czerwonych zarysowań, dopóki pozostaniecie w odległości maksymalnie 12 metrów od siebie. Umiejętności można użyć raz na 180/160/140 sekund.");
     }
@@ -610,6 +632,9 @@ function verify_name(input){
     else if (input == "we're gonna live forever" || input == "będziemy żyć wiecznie") {
         visual("We'reGonnaLiveForever.png", "We're Gonna Live Forever (Będziemy Żyć Wiecznie)", "David King", "Gdy leczysz innego ocalałego w stanie agonii, prędkość twojego działania jest zwiększona o 100%. Oprócz tego wykonywanie dowolnej z następujących czynności aktywuje dodatkową funkcję tej umiejętności: Wykonaj bezpieczne zdjęcie z haka Przyjmij uderzenie, aby bronić ocalałego Uratuj ocalałego, ogłuszając zabójcę paletą Uratuj ocalałego, oślepiając zabójcę latarką Gdy dodatkowa funkcja tej umiejętności jest aktywna, leczenie innego ocalałego ze stanu agonii daje mu Wytrzymałość na 6/8/10 s i wyłącza dodatkową funkcję.");
     }
+    else if (input == "wicked" || input == "nikczemny"){
+        visual("Wicked.png", "Wicked (Nikczemny)", "Sable Ward", "Jeśli wisisz w piwnicy, twoje próby ściągnięcia się z haka są zawsze udane. Po zejściu z haka samemu, lub z czyjąś pomocą widzisz aurę killera na 16/18/20s.");
+    }
     else if (input == "windows of opportunity" || input == "ostatnia szansa" || input == "windows") {
         visual("WindowsofOpportunity.png", "Windows of Opportunity (Ostatnia Szansa)", "Kate Denson", "Dostrzegasz aury palet, ścian i miejsc przeskoków znajdujących się w zasięgu 24/28/32 m od ciebie.");
 
@@ -639,7 +664,7 @@ function verify_name(input){
         visual("Barbecue&Chilli.png", "Barbecue & Chilli (Barbecue i Chilli)", "Cannibal", "Po powieszeniu ocalałego aury ocalałych w odległości większej niż 60/50/40 metrów od ciebie są dla ciebie widoczne na 4 sekundy.");
     }
     else if (input == "batteries included" || input == "baterie w zestawie"){
-        visual("BatteriesIncluded.png", "Batteries Included (Baterie w Zestawie)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu. Po zasileniu bram wyjściowych perk kompletnie się wyłacza.")
+        visual("BatteriesIncluded.png", "Batteries Included (Baterie w Zestawie)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu.")
 
         //to pisał bkcf (z newsów, nowa postać) + wpserek (z newsów, zzmiana perka)
     }
@@ -752,7 +777,7 @@ function verify_name(input){
         //to pisał gigachad (z newsów, nowa postać)
     }
     else if (input == "grim embrace" || input == "ponure objęcia") {
-        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy dostajesz żeton, gdy uzbierasz ich 4, generatory zablokują się na 30/35/40 sekund oraz pokaże ci aurę obsesji na 5 sekund.");
+        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy dostajesz żeton, a także wszystkie generatory zostają zablokowane na 8/10/12s. gdy zabójca oddali się minimum 16 metrów od haka. Gdy uzbierasz 4 żetony i oddalisz się na minimum 16 metrów od haka, generatory zablokują się na 40 sekund oraz pokaże ci aurę obsesji na 6 sekund.");
     }
     else if (input == "hex: blood favour" || input== "klątwa: łaska krwi" || input == "blood favour" || input == "łaska krwi") {
         visual("HexBloodFavour.png", "Hex: Blood Favour (Klątwa: Łaska Krwi)", "Blight", "Gdy zranisz ocalałego wszystkie okna i palety zostaną zablokowane na 15 sekund w promieniu 24/28/32 metrów.");
@@ -788,7 +813,7 @@ function verify_name(input){
         visual("HexRetribution.png", "Hex: Retribution (Klątwa: Odwet)", "Deathslinger", "Osoba która oczyściła lub pobłogosławiła dowolny totem otrzymuje efekt nieświadomy na 35/40/45s. Gdy tym totemem będzie klątwa aura każdego ocalałego jest ukazana  na 15s.");
     }
     else if (input == "hex: ruin" || input == "klątwa: ruina" || input == "ruin" || input == "ruina") {
-        visual("HexRuin.png", "Hex: Ruin (Klątwa: Ruina)", "Hag", "Każdy nienaprawiany generator jest automatycznie poddany regresowi z prędkością 50/75/100%. Kiedy ocalały zgninie z dowolnych przyczyn przeklęty totem zmienia się w czysty");
+        visual("HexRuin.png", "Hex: Ruin (Klątwa: Ruina)", "Hag", "Każdy nienaprawiany generator jest automatycznie poddany regresowi z prędkością 50/75/100%");
     }
     else if (input == "hex: the third seal" || input == "klątwa: trzecia pieczęć" || input == "third seal" || input == "trzecia pieczęć" || input == "the third seal") {
         visual("HexTheThirdSeal.png", "Hex: The Third Seal (Klątwa: Trzecia Pieczęć)", "Hag", "Ostatni 2/3/4 ocalali zaatakowani podstawowym atakiem otrzymuje efekt ślepoty.");
@@ -857,7 +882,7 @@ function verify_name(input){
         //to pisała whiten (powrót st)
     }
     else if (input == "monitor & abuse" || input == "monitor and abuse" || input == "bestialska obserwacja" || input == "monitor") {
-        visual("Monitor&Abuse.png", "Monitor & Abuse (Bestialska Obserwacja)", "Doctor", "Kiedy jesteś w pościgu, twój zasięg terroru jest zwiększony o 8 metrów, a gdy nie jesteś w pościgu, twój zasięg terroru zmniejsza się o 8 metrów, a twoje pole widzenia zwiększa się o 3/5/10°.");
+        visual("Monitor&Abuse.png", "Monitor & Abuse (Bestialska Obserwacja)", "Doctor", "Kiedy jesteś w pościgu, twój zasięg terroru jest zwiększony o 8 metrów, a gdy nie jesteś w pościgu, twój zasięg terroru zmniejsza się o 8 metrów.");
 
         //gigachad do tąd pisał, a dalej pisze awicki
     }
@@ -902,7 +927,7 @@ function verify_name(input){
         visual("RememberMe.png", "Remember Me (Zapamiętaj Mnie)", "Nightmare", "Gdy obsesja straci stan zdrowia dostajesz żeton do maksymalnie 2/3/4, za każdy żeton ocalali otwierają bramy wyjściowe dłużej o 6 sekund. Obsesja jest odporna na efekt umiejętności.");
     }
     else if (input == "save the best for last" || input == "najlepsze zostaw na koniec" || input == "stbfl") {
-        visual("SavetheBestforLast.png", "Save the Best for Last (Najlepsze Zostaw na Koniec)", "Shape", "Gdy ocalały który nie jest obsesją straci stan zdrowia dostajesz żeton aż do maksymalnie 8. za każdy żeton odnawianie podstawowego ataku jest zmniejszone o 5%. Gdy obsesja straci stan zdrowia tracisz 4/3/2 żetony.");
+        visual("SavetheBestforLast.png", "Save the Best for Last (Najlepsze Zostaw na Koniec)", "Shape", "Gdy ocalały który nie jest obsesją straci stan zdrowia dostajesz żeton aż do maksymalnie 6/7/8. za każdy żeton odnawianie podstawowego ataku jest zmniejszone o 4%. Gdy obsesja straci stan zdrowia tracisz 2 żetony.");
     }
     else if (input == "scourge hook: floods of rage" || input == "hak plagi: przypływ gniewu" || input == "floods of rage" || input == "przypływ gniewu" || input == "flods") {
         visual("ScourgeHookFloodsofRage.png", "Scourge Hook: Floods of Rage (Hak Plagi: Przypływ Gniewu)", "Onryo", "4 Losowe haki zmieniają się w haki plagi. Gdy ocalały zostanie ściągnięty aury wszystkich innych ocalałych zostaną ci ujawnione na 5/6/7 sekund.");
@@ -920,7 +945,9 @@ function verify_name(input){
         visual("SepticTouch.png", "Septic Touch (zaraźliwy dotyk)", "Dredge", "Gdy ocalały wykona akcje leczenia w twoim zasięgu terroru dostanie efekt oślepienie i wyczerpanie na 6/8/10 sekund.");
     }
     else if (input == "shadowborn" || input == "zrodzony w cieniu") {
-        visual("Shadowborn.png", "Shadowborn (Zrodzony w Cieniu)", "Wraith", "Twoje pole widzenia jest zwiększone o 9/12/15 stopni.");
+        visual("Shadowborn.png", "Shadowborn (Zrodzony w Cieniu)", "Wraith", "Po oslepieniu w dowolny sposób dostajesz bonus do szybkości 6/8/10% na 10 sekund");
+
+        // to pisał wpserek (z newsów, zmiana perków)
     }
     else if (input == "spirit fury" || input == "duchowa furia") {
         visual("SpiritFury.png", "Spirit Fury (Duchowa Furia)", "Spirit", "Po zniszczeniu 4/3/2 palet kolejna, która cię ogłuszy automatycznie zostanie zniszczona.");
@@ -969,6 +996,21 @@ function verify_name(input){
         visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 30 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg twojego terroru krzyknie, ujawni swoją lokalizację, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 40/35/30 sekund na odnowienie.")
         
         //to pisał bkcf (z newsów, nowa postać)
+    }
+    else if(input == "undone" || input == "cofnięty"){
+        visual("Undone.png", "Undone (Cofnięty)", "Unknown", "Kiedy Ocalały nie trafi testu umiejętności (przy leczeniu bądź przy reperowaniu generatora) dostajesz 3 tokeny do maksymalnej ilości 18/24/30 Tokenów. Po skopaniu generatora traci on 1% progressu oraz blokuje sie na 1 sekunde za każdy token jednak dopiero po odblokowaniu zaczyna sie regressować. Perk ma cooldawn na 60 sekund");
+    
+        //to pisał lividius (z newsów, nowa postać)
+    }
+    else if (input == "unforeseen" || input == "nieprzewidziane"){
+        visual("Unforeseen.png", "Unforeseen (Nieprzewidziane)", "Unknown", "Po skopaniu generatora twój Terror Radius przenosi sie na ten generator na 22/26/30 sekund o stałym zasięgu 32 metrów. W tym samym czasie dostajesz efekt Niewykrywalny. Perk ma cooldawn 30 sekund");
+    
+        //to pisał lividius (z newsów, nowa postać)
+    }
+    else if (input == "unbound" || input == "uwolniony"){
+        visual("Unbound.png", "Unbound (Uwolniony)", "Unknown", "Ten perk aktywuje się po 24/27/30 sekundach od zranienia Ocalałego w dowolny sposób. Po przejściu przez okno otrzymujesz 5% Haste na 10 sekund.");
+    
+        //to pisał lividius (z newsów, nowa postać)
     }
     else if (input == "unnerving presence" || input == "niepokojąca obecność") {
         visual("UnnervingPresence.png", "Unnerving Presence (Niepokojąca Obecność)", "Trapper", "Kiedy ocalały znajduje się w twoim terrorze jego skillchecki są zmiejszone o 40/50/60% oraz występują częściej o 10%.");
