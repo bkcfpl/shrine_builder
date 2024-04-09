@@ -221,9 +221,9 @@ function verify_name(input){
         visual("BoonIllumination.png", "Boon: Illumination (Dar: Iluminacja)", "Alan Wake", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Ocalali w zasięgu dobrego totemu widzą aury generatorów i skrzyń na niebiesko. Jeśli masz już poblogosławiony totem, niszczysz lub błogosławisz totemy 6/8/10% szybciej");
         //to pisał bkcf (sam, nowa postać)
     }
-    else if (input == "boon: shadow step" || input == "urok: naprawiacz dusz" || input == "shadow step" || input == "naprawiacz dusz")
+    else if (input == "boon: shadow step" || input == "urok: cienisty krok" || input == "shadow step" || input == "naprawiacz dusz")
     {
-        visual("BoonShadowStep.png", "Boon: Shadow Step (Urok: Naprawiacz Dusz)", "Mikaela Reid", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Czerwone zarysowania i aura każdego ocalałego w zasięgu dobrego totemu zostają ukryte przed zabójcą. Efekt utrzymuje się przez 2/3/4 s od opuszczenia obszaru działania dobrego totemu.");
+        visual("BoonShadowStep.png", "Boon: Shadow Step (Urok: Cienisty Krok)", "Mikaela Reid", "Naciśnij i przytrzymaj przycisk umiejętności w pobliżu zwykłego lub przeklętego totemu, aby go pobłogosławić i stworzyć dobry totem. Delikatne dzwonki rozbrzmiewają w zasięgu 24 m. Czerwone zarysowania i aura każdego ocalałego w zasięgu dobrego totemu zostają ukryte przed zabójcą. Efekt utrzymuje się przez 2/3/4 s od opuszczenia obszaru działania dobrego totemu.");
     }
     else if (input == "bond" || input == "wieź")
     {
