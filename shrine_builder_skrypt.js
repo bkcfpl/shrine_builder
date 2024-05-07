@@ -311,7 +311,7 @@ function verify_name(input){
     }
     else if (input == "decisive strike" || input == "ostateczny cios" || input == "ds")
     {
-        visual("DecisiveStrike.png", "Decisive Strike (Ostateczny Cios)", "Laurie Strode", "Gdy ktoś zdejmie cię z haka lub gdy zejdziesz z niego samodzielnie, Ostateczny Cios stanie się aktywny na40/50/60 Gdy umiejętność jest aktywna i złapie cię zabójca, wykonaj test umiejętności, aby automatycznie mu się wyrwać i ogłuszyć go na 3 sekundy. Udany lub nieudany test umiejętności wyłącza Ostateczny Cios. Skuteczne ogłuszenie zabójcy zmieni cię w obsesję. Umiejętność i jej efekty są wyłączone, gdy zasilane są bramy wyjściowe.");
+        visual("DecisiveStrike.png", "Decisive Strike (Ostateczny Cios)", "Laurie Strode", "Gdy ktoś zdejmie cię z haka lub gdy zejdziesz z niego samodzielnie, Ostateczny Cios stanie się aktywny na 40/50/60 Gdy umiejętność jest aktywna i złapie cię zabójca, wykonaj test umiejętności, aby automatycznie mu się wyrwać i ogłuszyć go na 3 sekundy. Udany lub nieudany test umiejętności wyłącza Ostateczny Cios. Skuteczne ogłuszenie zabójcy zmieni cię w obsesję. Umiejętność i jej efekty są wyłączone, gdy zasilane są bramy wyjściowe.");
     }
     else if (input == "deliverance" || input == "wybawienie" || input == "deli")
     {
