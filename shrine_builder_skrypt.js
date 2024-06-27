@@ -137,7 +137,7 @@ function verify_name(input){
     }
     else if (input == "adrenaline" || input == "adrenalina")
     {
-        visual("Adrenaline.png", "Adrenaline (Adrenalina)", "Meg Thomas", "W momencie naprawienia wszystkich generatorów leczysz się o jeden stan zdrowia wyżej, a także przez 5 sekund możesz biec ze 150% normalnej prędkości biegu. Jeżeli w momencie aktywacji Adrenaliny wisisz na haku, to umiejętność aktywuje się odrazu, kiedy zostaniesz z niego zdjęty. Adrenalina ignoruje efekt wyczerpania oraz wywołuje go na 60/50/40 sekund.");
+        visual("Adrenaline.png", "Adrenaline (Adrenalina)", "Meg Thomas", "W momencie naprawienia wszystkich generatorów leczysz się o jeden stan zdrowia wyżej, a także przez 3 sekund możesz biec ze 150% normalnej prędkości biegu. Jeżeli w momencie aktywacji Adrenaliny wisisz na haku, to umiejętność nie aktywuje się. Adrenalina ignoruje efekt wyczerpania oraz wywołuje go na 60/50/40 sekund.");
     }
     else if (input == "aftercare" || input == "druga pomoc")
     {
@@ -157,16 +157,16 @@ function verify_name(input){
     }
     else if (input == "autodidact" || input == "samouk")
     {
-        visual("Autodidact.png", "Autodidact (Samouk)", "Adam Francis", "Rozpoczynasz rozgrywkę z karą równą -25% za udane testy umiejętności podczas leczenia innych ocalałych. Za każdy następny udany test umiejętności podczas leczenia innego ocalałego otrzymujesz żeton, aż do maksymalnie 3/4/5 żetonów. Każdy żeton zapewnia bonus +15% do postępu leczenia za trafione testy umiejętności. Umiejętność nie działa, kiedy do leczenia używasz apteczki.");
+        visual("Autodidact.png", "Autodidact (Samouk)", "Adam Francis", "Rozpoczynasz rozgrywkę z karą równą -15% za udane testy umiejętności podczas leczenia innych ocalałych. Za każdy następny udany test umiejętności podczas leczenia innego ocalałego otrzymujesz żeton, aż do maksymalnie 3/4/5 żetonów. Każdy żeton zapewnia bonus +15% do postępu leczenia za trafione testy umiejętności. Umiejętność nie działa, kiedy do leczenia używasz apteczki.");
     }
     else if (input == "babysitter" || input == "niańka" || input == "strażnik" || input == "guardian"){
-        visual("Babysitter.png", "Babysitter (Niańka)", "Steve Harrington", "Kiedy ściągniesz ocalałego z haka, uratowana przez ciebie osoba otrzyma efekt na 4/6/8s.: Zniknięcia scratch marksów oraz śladów krwi, przyspieszenia o 7%.");
+        visual("Babysitter.png", "Babysitter (Niańka)", "Steve Harrington", "Kiedy ściągniesz ocalałego z haka, uratowana przez ciebie osoba otrzyma efekt na 20/25/30s: Zniknięcia scratch marksów oraz śladów krwi, przyspieszenia o 10%.");
 
         //to pisała whiten (powrót st)
     }
     else if (input == "background player" || input == "gracz w tle")
     {
-        visual("BackgroundPlayer.png", "Background Player (Gracz w Tle)", "Renato Lyra", "Gdy zabójca podniesie powalonego ocalałego otrzymasz 200% bonusu do prędkości poruszania się na 5. Po użyciu umiejętności wywołuje ona wyczerpanie na 60/50/40 sekund.");
+        visual("BackgroundPlayer.png", "Background Player (Gracz w Tle)", "Renato Lyra", "Gdy zabójca podniesie powalonego ocalałego otrzymasz 150% bonusu do prędkości poruszania się na 5. Po użyciu umiejętności wywołuje ona wyczerpanie na 30/25/20 sekund.");
 
         //to pisał wpserek (z newsów, zmiana perków)
     }
@@ -251,7 +251,7 @@ function verify_name(input){
     }
     else if (input == "buckle up" || input == "zapnij pasy")
     {
-        visual("BuckleUp.png", "Buckle Up (Zapnij Pasy)", "Ashley 'Ash' Williams", "Podczas, gdy wyleczysz innego ocalałego ze stanu agonii, obaj zobaczycie aurę zabójcy przez 6/8/10 sekund. Leczony ocalały otrzyma także efekt pośpiechu o wartości 10% na ten sam czas.");
+        visual("BuckleUp.png", "Buckle Up (Zapnij Pasy)", "Ashley 'Ash' Williams", "Podczas, leczenia innego ocalałego ze stanu agonii, obaj widzicie aurę zabójcy. Po uleczeniu leczony ocalały otrzyma efekt pośpiechu o wartości 150% na 3/4/5s i niezostawia zarysowań.");
     }
     else if (input == "built to last" || input == "trwałosc przede wszystkim")
     {
@@ -311,7 +311,7 @@ function verify_name(input){
     }
     else if (input == "decisive strike" || input == "ostateczny cios" || input == "ds")
     {
-        visual("DecisiveStrike.png", "Decisive Strike (Ostateczny Cios)", "Laurie Strode", "Gdy ktoś zdejmie cię z haka lub gdy zejdziesz z niego samodzielnie, Ostateczny Cios stanie się aktywny na 40/50/60 Gdy umiejętność jest aktywna i złapie cię zabójca, wykonaj test umiejętności, aby automatycznie mu się wyrwać i ogłuszyć go na 3 sekundy. Udany lub nieudany test umiejętności wyłącza Ostateczny Cios. Skuteczne ogłuszenie zabójcy zmieni cię w obsesję. Umiejętność i jej efekty są wyłączone, gdy zasilane są bramy wyjściowe.");
+        visual("DecisiveStrike.png", "Decisive Strike (Ostateczny Cios)", "Laurie Strode", "Gdy ktoś zdejmie cię z haka lub gdy zejdziesz z niego samodzielnie, Ostateczny Cios stanie się aktywny na 40/50/60 Gdy umiejętność jest aktywna i złapie cię zabójca, wykonaj test umiejętności, aby automatycznie mu się wyrwać i ogłuszyć go na 4 sekundy. Udany lub nieudany test umiejętności wyłącza Ostateczny Cios. Skuteczne ogłuszenie zabójcy zmieni cię w obsesję. Umiejętność i jej efekty są wyłączone, gdy zasilane są bramy wyjściowe.");
     }
     else if (input == "deliverance" || input == "wybawienie" || input == "deli")
     {
@@ -344,7 +344,7 @@ function verify_name(input){
     }
     else if (input == "empathic connection" || input == "empatyczne połączenie")
     {
-        visual("EmpathicConnection.png", "Empathic Connection (Empatyczne Połączenie)", "Yoichi Asakawa", "Kiedy inny ocalały jest ranny, to widzi on twoją aurę w zasięgu 32/64/96 metrów. Leczysz innych ocalałych o 10% szybciej.");
+        visual("EmpathicConnection.png", "Empathic Connection (Empatyczne Połączenie)", "Yoichi Asakawa", "Kiedy inny ocalały jest ranny, to widzi on twoją aurę w zasięgu 32/64/96 metrów. Leczysz innych ocalałych o 30% szybciej.");
     }
     else if (input == "empathy" || input == "empatia")
     {
@@ -397,13 +397,13 @@ function verify_name(input){
         //to pisała whiten (powrót st)
     }
     else if(input == "invocation: weaving spiders" || input == "inwokacja: tkające pająki" || input == "weaving spiders" || input == "tkające pająki"){
-        visual("InvocationWeavingSpiders.png", "Invocation: Weaving Spiders (Inwokacja: Tkające Pająki)", "Sable Ward", "Gdy znajdujesz sie w piwnicy, podejdź do stworzonego kręgu z soli i naciśnij przycisk umiejętności by rozpocząć Inwokacje. Trwa ona 120 sekund, jednakże pozostali Ocalali będą widzieć twoją aure oraz będą mogli dołączyć do Inwokacji co spowoduje jej przyspieszenie o 50% za każdego surva który dołączył. Jeżeli posiada on perk z typu Inwokacja, przyspiesza proces o 100%. Kiedy Inwokacja dobiegnie końca zostajesz Zraniony i otrzymujesz status Broken do końca gry. W zamian dostajesz 9/12/15 ładunków do wszystkich generatorów. Dodatkowo wyłącza on wszystkim ten perk.");
+        visual("InvocationWeavingSpiders.png", "Invocation: Weaving Spiders (Inwokacja: Tkające Pająki)", "Sable Ward", "Gdy znajdujesz sie w piwnicy, podejdź do stworzonego kręgu z soli i naciśnij przycisk umiejętności by rozpocząć Inwokacje. Trwa ona 60 sekund, jednakże pozostali Ocalali będą widzieć twoją aure oraz będą mogli dołączyć do Inwokacji co spowoduje jej przyspieszenie o 50% za każdego surva który dołączył. Jeżeli posiada on perk z typu Inwokacja, przyspiesza proces o 100%. Kiedy Inwokacja dobiegnie końca zostajesz Zraniony i otrzymujesz status Broken do końca gry. W zamian dostajesz 9/12/15 ładunków do wszystkich generatorów. Perk wyłącza się wszystkim ocalałym.");
     
-        //to pisał lividius (z newsów, nowa postać)
+        //to pisał lividius (z newsów, nowa postać) + pozmieniałem odrobinę
     }
     else if (input == "iron will" || input == "żelazna wola")
     {
-        visual("IronWill.png", "Iron Will (Żelazna Wola)", "Jake Park", "Jęki, które zostały spowodowane na skutek obrażeń są ograniczone o 25/50/75%. Umiejętność nie działa, jeśli ocalały ma na sobie efekt wyczerpania.");
+        visual("IronWill.png", "Iron Will (Żelazna Wola)", "Jake Park", "Jęki, które zostały spowodowane na skutek obrażeń są ograniczone o 80/90/100%. Umiejętność nie działa, jeśli ocalały ma na sobie efekt wyczerpania.");
     }
     else if (input == "leader" || input == "lider")
     {
@@ -531,7 +531,7 @@ function verify_name(input){
     }
     else if (input == "resurgence" || input == "odrodzenie")
     {
-        visual("Resurgence.png", "Resurgence (Odrodzenie)", "Jill Valentine", "Otrzymujesz 40/45/50 % postępu leczenia po zdjęciu z haka.");
+        visual("Resurgence.png", "Resurgence (Odrodzenie)", "Jill Valentine", "Otrzymujesz 50/60/70% postępu leczenia po zdjęciu z haka.");
     }
     else if (input == "rookie spirit" || input == "zapał nowicjusza")
     {
@@ -573,7 +573,7 @@ function verify_name(input){
         visual("SoleSurvivor.png", "Sole Survivor (Ostatnia Ocalała)", "Laurie Strode", "Za każdym razem, kiedy inny ocalały zostanie zabity lub poświęcony, otrzymujesz żeton. Każdy żeton zapobiega odczytaniu twojej aury przez zabójcę, jeśli znajdujecie się w odległości maksymalnie 20/22/24 metrów od siebie. Jeżeli jesteś ostatnim żywym ocalałym, zyskujesz bonus w wysokości 75% do szybszego naprawiania generatorów oraz bonus w wysokości 50% do szybszego otwierania włazu lub bram wyjściowych.");
     }
     else if (input == "solidarity" || input == "solidarność") {
-        visual("Solidarity.png", "Solidarity (Solidarność)", "Jane Romero", "Jeśli jesteś ranny i leczysz innego ocalałego bez użycia apteczki, to leczenie to leczy również ciebie. Współczynnik własnego leczenia wynosi 40/45/50% leczenia innego ocalałego.");
+        visual("Solidarity.png", "Solidarity (Solidarność)", "Jane Romero", "Jeśli jesteś ranny i leczysz innego ocalałego bez użycia apteczki, to leczenie to leczy również ciebie. Współczynnik własnego leczenia wynosi 50/60/70% leczenia innego ocalałego.");
     }
     else if (input == "soul guard" || input == "strażnik duszy") {
         visual("SoulGuard.png", "Soul Guard (Strażnik Duszy)", "Cheryl Mason", "Zyskujesz efekt Wytrzymałość na 4/6/8 sekund po wyleczeniu lub wyjściu ze stanu agonii. Jeżeli nałożona jest na ciebie jakaś klątwa, to możesz w pełni wyleczyć się ze stanu agonii. Umiejętności można użyć raz na 30 sekund.");
@@ -708,13 +708,13 @@ function verify_name(input){
         visual("DarkDevotion.png", "Dark Devotion (Mroczne Oddanie)", "Plague", "eśli twoja obsesja zostanie zraniona, twój terror przenosi się na nią na 20/25/30 sekund, przez co słychać to będzie tak jakby to ona była zabójcą, zasięg jej terroru będzie wynosił wtedy 32 metry, a ty zyskasz status Niewykrywalny na ten sam okres czasu.");
     }
     else if (input == "darkness revealed" || input == "ujawnienie ciemności") {
-        visual("DarknessRevealed.png", "Darkness Revealed (Ujawnienie Ciemności)", "Dredge", "Kiedy otworzysz szafkę, aury wszystkich ocalałych w promieniu 8 metrów od jakiejkolwiek szafki na mapie zostaną ci ujawnione na 3/4/5 sekund. Umiejętności można użyć raz na 30 sekund.");
+        visual("DarknessRevealed.png", "Darkness Revealed (Ujawnienie Ciemności)", "Dredge", "Kiedy otworzysz szafkę, aury wszystkich ocalałych w promieniu 8 metrów od jakiejkolwiek szafki na mapie zostaną ci ujawnione na 6/7/8 sekund. Umiejętności można użyć raz na 30 sekund.");
     }
     else if (input == "dead man's switch" || input == "czuwak") {
         visual("DeadMan'sSwitch.png", "Dead Man's Switch (Czuwak)", "Deathslinger", "Po powieszeniu ocalałego umiejętność aktywuje się na 20/25/30 sekund. Jeśli podczas działania umiejętności jakikolwiek inny ocalały przestanie pracować nad generatorem, to generator ten zablokuje się do końca czasu działania umiejętności.");
     }
     else if (input == "deadlock" || input == "zakleszczenie") {
-        visual("Deadlock.png", "Deadlock (Zakleszczenie)", "Cenobite", "Gdy generator zostanie naprawiony, to inny generator z największa ilością postępu naprawy zostanie zablokowany na 20/25/30 sekund.");
+        visual("Deadlock.png", "Deadlock (Zakleszczenie)", "Cenobite", "Gdy generator zostanie naprawiony, to inny generator z największa ilością postępu naprawy zostanie zablokowany na 15/20/25 sekund.");
     }
     else if (input == "deathbound" || input == "skazany na śmierć") {
         visual("Deathbound.png", "Deathbound (Skazany na Śmierć)", "Executioner", "Jeżeli ocalały wyleczy innego ocalałego o jeden stan zdrowia w odległości większej niż 32 metry od ciebie, to ocalały ten krzyknie i stworzy głośne powiadomienie dźwiękowe. Na następne 60 sekund ocalały ten zyska także efekt Nieświadomy za każdym razem, kiedy będzie dalej niż 16/12/8 metrów od wyleczonego ocalałego.");
@@ -728,7 +728,7 @@ function verify_name(input){
         visual("Discordance.png", "Discordance (Dysonans)", "Legion", "Każdy generator w promieniu 64/96/128 m naprawiany przez dwóch lub więcej ocalałych zostaje oznaczony żółtą aurą. Gdy generator zostanie podświetlony po raz pierwszy, Dysonans uruchamia głośne powiadomienie przy generatorze. Gdy generator znajdzie się poza zasięgiem lub przestanie być naprawiany przez co najmniej dwóch ocalałych, aura pozostaje widoczna przez kolejne 4 sekundy.");
     }
     else if (input == "dragon's grip" || input == "uścisk smoka") {
-        visual("Dragon'sGrip.png", "Dragon's Grip (Uścisk Smoka)", "Blight", "Po uszkodzeniu generatora pierwszy ocalały, który wejdzie z nim w interakcję w trakcie kolejnych 30 s krzyknie, ujawni swoją lokalizację na 4 s i otrzyma efekt Narażony na 60 s. Uścisk Smoka odnawia się 120/100/80 s.");
+        visual("Dragon'sGrip.png", "Dragon's Grip (Uścisk Smoka)", "Blight", "Po uszkodzeniu generatora pierwszy ocalały, który wejdzie z nim w interakcję w trakcie kolejnych 30 s krzyknie, ujawni swoją lokalizację na 4 s i otrzyma efekt Narażony na 60 s. Uścisk Smoka odnawia się 60/50/40s.");
     }
     else if (input == "dying light" || input == "umierające światło") {
         visual("DyingLight.png", "Dying Light (Umierające Światło)", "Shape", "Twoja obsesja otrzymuje premię 33% do szybkości czynności przy zdejmowaniu z haka i leczeniu innych ocalałych. Za każdym razem, kiedy powiesisz ocalałego innego niż twoja obsesja, otrzymasz żeton. Jeśli obsesja żyje, każdy inny ocalały otrzymuje 2/2.5/3% kary do szybkości naprawy, leczenia i sabotażu za każdy żeton.");
@@ -777,7 +777,9 @@ function verify_name(input){
         //to pisał gigachad (z newsów, nowa postać)
     }
     else if (input == "grim embrace" || input == "ponure objęcia") {
-        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy dostajesz żeton, a także wszystkie generatory zostają zablokowane na 8/10/12s. gdy zabójca oddali się minimum 16 metrów od haka. Gdy uzbierasz 4 żetony i oddalisz się na minimum 16 metrów od haka, generatory zablokują się na 40 sekund oraz pokaże ci aurę obsesji na 6 sekund.");
+        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy wszystkie generatory zostają zablokowane na 6/8/10s, gdy zabójca oddali się minimum 16 metrów od haka, a także dostajesz 1 żeton. Gdy uzbierasz 4 żetony i oddalisz się na minimum 16 metrów od haka, generatory zablokują się na 40 sekund oraz zobaczysz aurę obsesji na 6 sekund.");
+
+        //zmieniłem to trochę, by miało większy sens
     }
     else if (input == "hex: blood favour" || input== "klątwa: łaska krwi" || input == "blood favour" || input == "łaska krwi") {
         visual("HexBloodFavour.png", "Hex: Blood Favour (Klątwa: Łaska Krwi)", "Blight", "Gdy zranisz ocalałego wszystkie okna i palety zostaną zablokowane na 15 sekund w promieniu 24/28/32 metrów.");
@@ -838,7 +840,7 @@ function verify_name(input){
         visual("Hysteria.png", "Hysteria (Histeria)", "Nemesis", "Ocalali, którzy zostali zranieni otrzymują efekt nieświadomy na 20/25/30s. Hysteria odnawia się 30s.");
     }
     else if (input == "i'm all ears" || input == "zamieniam się w słuch" || input == "im all ears") {
-        visual("I'mAllEars.png", "I'm All Ears (Zamieniam Się w Słuch)", "Ghost Face", "Ujawniona ci jest aura ocalałych wykonujących szybkie akcje w promieniu 48m na 6s. I'm all ears odnawia się 40/50/60s.");
+        visual("I'mAllEars.png", "I'm All Ears (Zamieniam Się w Słuch)", "Ghost Face", "Ujawniona ci jest aura ocalałych wykonujących szybkie akcje w promieniu 48m na 6s. I'm all ears odnawia się 60/45/30s.");
 
         //rafau do tąd pisał
         //to był 30.04.2023, poniżej jest 01.05.2023
@@ -863,7 +865,7 @@ function verify_name(input){
         visual("Lightborn.png", "Lightborn (Zrodzony w Świetle)", "Hillbilly", "Otrzymujesz odporność na oślepienie spowodowane latarkami, petardami, granatami błyskowymi i minami, a aury ocalałych, którzy próbują cię oślepić zostaną ci ujawnione na 6/8/10 sekund.");
     }
     else if (input == "machine learning" || input == "uczenie maszynowe"){
-        visual("MachineLearning.png", "Machine Learning (Uczenie Maszynowe)", "Singularity", "Kiedy uszkodzisz jakikolwiek generator, umiejętność ta aktywuje się. Następne uszkodzenia innego generatora spowoduje, że aura uszkadzanego generatora zostanie podświetlona na kolor żółty, dopóki nie zostanie on naprawiony. Kiedy podświetlony na żółto generator zostanie ukończony, otrzymasz status Niewykrywalny oraz efekt Pośpiechu o wartości 10% na 20/25/30 sekund. Po tym czasie umiejętność dezaktywuje się. Jeśli uszkodzisz inny generator niż ten, który jest aktualnie oznaczony na żółto, to umiejętność ta przeniesie się na ostatnio kopnięty generator.")
+        visual("MachineLearning.png", "Machine Learning (Uczenie Maszynowe)", "Singularity", "Kiedy uszkodzisz jakikolwiek generator, umiejętność ta aktywuje się. Następne uszkodzenia innego generatora spowoduje, że aura uszkadzanego generatora zostanie podświetlona na kolor żółty, dopóki nie zostanie on naprawiony. Kiedy podświetlony na żółto generator zostanie ukończony, otrzymasz status Niewykrywalny oraz efekt Pośpiechu o wartości 10% na 40/50/60 sekund. Po tym czasie umiejętność dezaktywuje się. Jeśli uszkodzisz inny generator niż ten, który jest aktualnie oznaczony na żółto, to umiejętność ta przeniesie się na ostatnio kopnięty generator.")
     
         //to pisał gigachad (z newsów, nowa postać)
     }
@@ -896,7 +898,7 @@ function verify_name(input){
         visual("NowheretoHide.png", "Nowhere to Hide (Nie Ma Gdzie Się Ukryć)", "Knight", "Kiedy uszkodzisz generator, ujawniasz aurę wszystkich ocalałych stojących w promieniu 24 m od twojej pozycji na 3/4/5 s.");
     }
     else if (input == "oppression" || input == "opresja") {
-        visual("Oppression.png", "Oppression (Opresja)", "Twins", "W momencie uszkodzenia generatora stan maksymalnie 3 innych losowych generatorów także spada. Jeśli generatory te są akurat naprawiane, ocalały będzie musiał wykonać trudny test umiejętności. Czas odnowienia Opresji wynosi 120/100/80 s.");
+        visual("Oppression.png", "Oppression (Opresja)", "Twins", "W momencie uszkodzenia generatora stan maksymalnie 3 innych losowych generatorów także spada. Jeśli generatory te są akurat naprawiane, ocalały będzie musiał wykonać trudny test umiejętności. Czas odnowienia Opresji wynosi 60/50/40s.");
     }
     else if (input == "overcharge" || input == "przeciążenie") {
         visual("Overcharge.png", "Overcharge (Przeciążenie)", "Doctor", "Przeciąż generator, wykonując na nim akcję Uszkodź Generator. Ocalały, który przystąpi ponownie do naprawy generatora, będzie musiał zmierzyć się z trudnym testem umiejętności. Niezaliczenie testu spowoduje dodatkową utratę 2/3/4% postępu. Zaliczenie testu umiejętności nie zapewni żadnego postępu, ale powstrzyma wybuch generatora. Po przeciążeniu generatora prędkość spadku postępu jego naprawy wzrasta z 75% do 200% na 30 s.");
@@ -908,7 +910,7 @@ function verify_name(input){
         visual("PlaywithYourFood.png", "Play with Your Food (Baw Się Swoim Jedzeniem)", "Shape", " Za każdym razem, kiedy pozwolisz obsesji przed sobą uciec, otrzymasz żeton, do maksymalnej liczby 3 żetonów. Każdy żeton zwiększa twoją szybkość ruchu o 3/4/5%. Wykonanie podstawowego lub specjalnego ataku zużywa jeden żeton.");
     }
     else if (input == "pop goes the weasel" || input == "entliczek pentliczek" || input == "entliczek-pentliczek" || input == "pop") {
-        visual("PopGoestheWeasel.png", "Pop Goes the Weasel (Entliczek-Pentliczek)", "Clown", "Po powieszeniu ocalałego, następny generator, który kopniemy natychmiastowo straci 30% aktualnego postępu naprawy. Umiejętność ta aktywuje się na 35/40/45 sekund po powieszniu ocalałego na haku.");
+        visual("PopGoestheWeasel.png", "Pop Goes the Weasel (Entliczek-Pentliczek)", "Clown", "Po powieszeniu ocalałego, następny generator, który kopniemy natychmiastowo straci 20% aktualnego postępu naprawy. Umiejętność ta aktywuje się na 35/40/45 sekund po powieszniu ocalałego na haku.");
     }
     else if (input == "predator" || input == "drapieżnik") {
         visual("Predator.png", "Predator (Drapieżnik)", "Wraith", "Czerwone zarysowania zostawiane przez ocalałych będą się pojawiać znacznie bliżej siebie.");
@@ -939,7 +941,7 @@ function verify_name(input){
         visual("Hangman'sTrick.png", "Hangman's Trick (Sztuczka Kata)", "Pig", "Na początku próby 4 losowe haki zamieniają się w haki plagi. WIdzisz ich aurę na biało, a kiedy niesiesz ocalałego widzisz aurę ocalałych w zasięgu 8/9/10 metrów od haków plagi. Dostajesz głośne powiadomienie kiedy ktoś zaczyna sabotażować hak.");
     }
     else if (input == "scourge hook: pain resonance" || input == "hak plagi: rezonans bólu" || input == "pain resonance" || input == "pain res" || input == "rezonans bólu") {
-        visual("ScourgeHookPainResonance.png", "Scourge Hook: Pain Resonance (Hak Plagi: Rezonans Bólu)", "Artist", "Na początku próby maksymalnie cztery losowe haki zostają zamienione w haki plagi. Otrzymujesz także cztery żetony umiejętności. Za każdym razem, kiedy powiesisz jakiegoś ocalałego pierwszy raz, stracisz jeden żeton, a generator z największą ilością postępu naprawy natychmiast straci 25% tego postępu. Jeśli stracisz wszystkie żetony, umiejętność wyłączy się do końca próby.");
+        visual("ScourgeHookPainResonance.png", "Scourge Hook: Pain Resonance (Hak Plagi: Rezonans Bólu)", "Artist", "Na początku próby maksymalnie cztery losowe haki zostają zamienione w haki plagi. Otrzymujesz także cztery żetony umiejętności. Za każdym razem, kiedy powiesisz jakiegoś ocalałego pierwszy raz, stracisz jeden żeton, a generator z największą ilością postępu naprawy natychmiast straci 10/15/20% tego postępu. Jeśli stracisz wszystkie żetony, umiejętność wyłączy się do końca próby.");
     }
     else if (input == "septic touch" || input == "zaraźliwy dotyk") {
         visual("SepticTouch.png", "Septic Touch (zaraźliwy dotyk)", "Dredge", "Gdy ocalały wykona akcje leczenia w twoim zasięgu terroru dostanie efekt oślepienie i wyczerpanie na 6/8/10 sekund.");
@@ -990,10 +992,10 @@ function verify_name(input){
         visual("Tinkerer.png", "Tinkerer (Majsterkowicz)", "Hillbilly", "Kiedy generator jest naprawiony w 70% Otrzymujesz status niewykrywalny na 12/14/16s oraz w miejscu naprawiania generatora. Tinkerer może być aktywowany tylko raz na danym generatorze.");
     }
     else if (input == "trail of torment" || input == "szlak udręki") {
-        visual("TrailofTorment.png", "Trail of Torment (Szlak Udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu kiedy generator przestanie się regresować. Aura generatora pod działaniem trail of torment jest ujawniana ocalałym na żółto.");
+        visual("TrailofTorment.png", "Trail of Torment (Szlak Udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu kiedy generator przestanie się regresować. Aura generatora pod działaniem trail of torment jest ujawniana ocalałym na żółto. Umiejętność odnawia się 60/45/30s");
     }
     else if (input == "ultimate weapon" || input == "broń doskonała"){
-        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 30 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg twojego terroru krzyknie, ujawni swoją lokalizację, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 40/35/30 sekund na odnowienie.")
+        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 15 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg 32m od ciebie to zobaczysz jego aurę, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 80/70/60 sekund na odnowienie.")
         
         //to pisał bkcf (z newsów, nowa postać)
     }
