@@ -1,6 +1,6 @@
 let repeats = 0;
 
-//Ostatnia aktualizacja: 15.03.2024
+//Ostatnia aktualizacja: 27.06.2024
 
 document.getElementById("perkIMG1").src = "template.png";
 document.getElementById("perkDescription1").innerText = "Nazwa Umiejętnośći ang (Nazwa Umiejętnośći pl) - Nazwa Postaci ang - opis umiejętności pl";
@@ -754,7 +754,7 @@ function verify_name(input){
         visual("Franklin'sDemise.png", "Franklin's Demise (Zguba Franklina)", "Cannibal", "Twoje podstawowe ataki sprawiają, że ocalali upuszczają trzymane przedmioty. Przedmiot leżący na ziemi traci wszystkie ładunki po 150/120/90 s, jeśli nie zostanie podniesiony. Oznacz białą aurą przedmioty na ziemi w odległości 32 m. Aura powoli zmienia kolor na czerwony, dopóki przedmiot nie straci wszystkich ładunków.");
     }
     else if (input == "friends 'til the end" || input == "przyjaciele do końca"){
-        visual("Friends'TiltheEnd.png", "Friends 'Til the End (przyjaciele do końca)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu.");
+        visual("Friends'TiltheEnd.png", "Friends 'Til the End (przyjaciele do końca)", "Good Guy", "Po powieszeniu dowolnego Ocalałego, który nie jest obsesją aura obsesji zostaje ujawniona na 6/8/10s i obsesja cierpi na efekt narażony przez 20s. Po powieszeniu obsesji, losowy ocalały krzyknie, ujawniając swoją lokalizację i zostanie na niego nałożony efekt obsesji.");
 
         //to pisał bkcf (z newsów, nowa postać)
     }

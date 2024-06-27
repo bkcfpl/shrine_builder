@@ -85,7 +85,7 @@ article{
 
 .fajne{
     font-size: 1vw;
-    margin-bottom: -1vw;
+    margin: 0;
 }
 
 footer{
@@ -126,4 +126,12 @@ i{
     img{
         height: 125px;
     }
+}
+
+h5{
+    margin: 0;
+}
+
+p{
+    margin: 0.7vh;
 }
