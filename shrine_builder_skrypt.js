@@ -444,6 +444,10 @@ function verify_name(input){
     {
         visual("MettleofMan.png", "Mettle of Man (Ludzki Zapał)", "Ashley 'Ash' Williams", "Umiejętność aktywuje się po przyjęciu 3 uderzeń ochronnych. W momencie kiedy twój stan w skutek obrażeń miałby zmienić się ze stanu rannego do stanu agonii, zostanie to zignorowane i dalej będziesz ranny. Jeśli zostaniesz później w pełni wyleczony, to twoja aura zostanie pokazana zabójcy, jeżeli znajdujesz się od niego dalej niż w zasięgu 12/14/16 metrów.");
     }
+    else if (input == "mirrored illusion" || input == "lustrzana iluzja")
+    {
+        visual("MirroredIllusion.png", "Mirrored Illusion (Lustrzana Iluzja)", "Aestri Yazar", "Umiejętność aktywuje się po ukończeniu 50% postępu naprawy generatora. Po wciśnięciu przycisku umiejętności w pobliżu totemu, skrzyni, generatora czy bramy pojawi się iluzja ocalałego wykonującego akcję, która trwa 100/110/120s.");
+    }
     else if (input == "no mither" || input == "bez biadolenia")
     {
         visual("NoMither.png", "No Mither (Bez Biadolenia)", "David King", "Umiejętność wywołuje efekt okaleczenia na cały okres trwania próby. Kiedy używasz tej umiejętności to nie zostawiasz za sobą śladów krwi, jęki w skutek obrażeń są redukowane 0 25/50/75%, a twoje tempo podnoszenia się z ziemi jest zwiększone o 15/20/25% i możesz sam się z niej podnieść.");
@@ -583,6 +587,9 @@ function verify_name(input){
     }
     else if (input == "stake out" || input == "nadzór") {
         visual("StakeOut.png", "Stake Out (Nadzór)", "David Tapp", "Za każde 15 sekund spędzone w zasięgu terroru zabójcy, nie będąc w pościgu, otrzymujesz jeden żeton, aż do maksymalnie 2/3/4 żetonów. Jeżeli masz przynajmniej jeden żeton, dobre testy umiejętności podczas naprawiania generatora są traktowane jako świetne, zabierają jeden żeton oraz dają dodatkowy 1% do postępu naprawy generatora.");
+    }
+    else if (input == "still sight" || input == "Nieruchomy Wzrok") {
+        visual("StillSight.png", "Still Sight (Nieruchomy Wzrok)", "Aestri Yazar", "Po wciśnięciu przycisku umiejętności, rozpoczyna się interakcja, która trwa 15s i obejmuje ocalałych w promieniu 16m. Po zakończeniu akcji otrzymujemy rezultat: 1 - ocalały krzyczy 2-10 - każdy test umiejętności daje 1% progresu więcej 11-19 - każdy test umiejętności daje 2% progresu więcej 20 - każdy test umiejętności daje 3% progresu więcej Efekty trwają przez 60s. Umiejętność odnawia się 90/75/60s");
     }
     else if (input == "streetwise" || input == "wiedza uliczna") {
         visual("Streetwise.png", "Streetwise (Wiedza Uliczna)", "Nea Karlsson", "Szybkość zużywania przedmiotów przez ciebie i innych ocalałych w zasięgu 8 metrów zmniejsza się o 15/20/25%. Po wyjściu z zasięgu działania umiejętności efekt utrzymuje się przez 15 sekund.");
