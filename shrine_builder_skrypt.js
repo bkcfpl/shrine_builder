@@ -588,7 +588,7 @@ function verify_name(input){
     else if (input == "stake out" || input == "nadzór") {
         visual("StakeOut.png", "Stake Out (Nadzór)", "David Tapp", "Za każde 15 sekund spędzone w zasięgu terroru zabójcy, nie będąc w pościgu, otrzymujesz jeden żeton, aż do maksymalnie 2/3/4 żetonów. Jeżeli masz przynajmniej jeden żeton, dobre testy umiejętności podczas naprawiania generatora są traktowane jako świetne, zabierają jeden żeton oraz dają dodatkowy 1% do postępu naprawy generatora.");
     }
-    else if (input == "still sight" || input == "Nieruchomy Wzrok") {
+    else if (input == "still sight" || input == "nieruchomy wzrok") {
         visual("StillSight.png", "Still Sight (Nieruchomy Wzrok)", "Aestri Yazar", "Po wciśnięciu przycisku umiejętności, rozpoczyna się interakcja, która trwa 15s i obejmuje ocalałych w promieniu 16m. Po zakończeniu akcji otrzymujemy rezultat: 1 - ocalały krzyczy 2-10 - każdy test umiejętności daje 1% progresu więcej 11-19 - każdy test umiejętności daje 2% progresu więcej 20 - każdy test umiejętności daje 3% progresu więcej Efekty trwają przez 60s. Umiejętność odnawia się 90/75/60s");
     }
     else if (input == "streetwise" || input == "wiedza uliczna") {
