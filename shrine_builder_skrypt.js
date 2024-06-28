@@ -170,6 +170,10 @@ function verify_name(input){
 
         //to pisał wpserek (z newsów, zmiana perków)
     }
+    else if (input == "bardic inspiration" || input == "inspiracja barda")
+    {
+        visual("BardicInspiration.png", "Bardic Inspiration (Inspiracja Barda)", "Aestri Yazar", "Po wciśnięciu przycisku umiejętności, rozpoczyna się interakcja, która trwa 15s i obejmuje ocalałych w promieniu 16m. Po zakończeniu akcji otrzymujemy rezultat: 1 - ocalały krzyczy 2-10 - każdy test umiejętności daje 1% progresu więcej 11-19 - każdy test umiejętności daje 2% progresu więcej 20 - każdy test umiejętności daje 3% progresu więcej Efekty trwają przez 60s. Umiejętność odnawia się 90/75/60s");
+    }
     else if (input == "balanced landing" || input == "miękkie lądowanie" || input == "balance")
     {
         visual("BalancedLanding.png", "Balanced Landing (Miękkie Lądowanie)", "Nea Karlsson", "Efekty zmniejszonej prędkości ruchu po wykonaniu skoku z dużej wysokości są krótsze o 75%, a głośność jęków po upadku jest cichsza o 100%. W momencie upadku zaczynasz biec ze 150% normalnej prędkości biegu przez maksymalnie 3 sekundy. Umiejętność wywołuje wyczerpanie na 60/50/40 sekund.");
@@ -354,6 +358,10 @@ function verify_name(input){
     {
         visual("FastTrack.png", "Fast Track (Szybka Ucieczka)", "Yun-Jin Lee", "Kiedy inny ocalały zostaje powieszony na haku, otrzymujesz żetony (1/2/3). Wszystkie żetony zostają zużyte, jeśli trafisz świetny test umiejętności podczas naprawiania generatora. Każdy żeton to 1% dodatkowego bonusu za trafienie świetnego testu umiejętności przy naprawie generatora.");
     }
+    else if (input == "finesse" || input == "finezja")
+    {
+        visual("Finesse.png", "Finesse (Finezja)", "Lara Croft", "Perk ten działa tylko gdy jesteś zdrowy i powoduje że twoje szybkie przeskoki są o 20% szybsze. Perk ma swój czas odnawiania który wynosi 40/35/30 sekund po wykonaniu szybkiego przeskoku przez okno bądź palete .");
+    }
     else if (input == "fixated" || input == "fiksacja" || input == "self-aware" || input == "self aware" || input == "samoświadomość"){
         visual("Fixated.png", "Fixated (Fiksacja)", "Nancy Wheeler", "Zwiększa prędkość chodzenia o 10/15/20% oraz widzisz własne scratch marki.");
 
@@ -378,6 +386,10 @@ function verify_name(input){
     else if (input == "friendly competition" || input == "przyjazna rywalizacja")
     {
         visual("FriendlyCompetition.png", "Friendly Competition (Przyjazna Rywalizacja)", "Thalita Lyra", "Umiejętność aktywuje się, kiedy ukończysz naprawę generatora z przynajmniej jednym innym ocalałym.  Wraz z ocalałymi, z którymi ukończyłeś dany generator, otrzymujesz bonus prędkości o wysokości 5% do naprawiania generatorów na następne 45/60/75 sekund.");
+    }
+    else if (input == "hardened" || input == "zaprawiona")
+    {
+        visual("Hardened.png", "Hardened (Zaprawiona)", "Lara Croft", "Perk aktywuje się za każdym razem gdy otworzysz skrzynię, oczyścisz totem lub pobłogosławisz totem. Przez 5 sekund kiedy masz krzyknąć to zobaczysz aure killera na 3/4/5 sekund. Odrazu po tym perk wyłącza się.");
     }
     else if (input == "head on" || input == "determinacja")
     {
@@ -582,6 +594,9 @@ function verify_name(input){
     else if (input == "soul guard" || input == "strażnik duszy") {
         visual("SoulGuard.png", "Soul Guard (Strażnik Duszy)", "Cheryl Mason", "Zyskujesz efekt Wytrzymałość na 4/6/8 sekund po wyleczeniu lub wyjściu ze stanu agonii. Jeżeli nałożona jest na ciebie jakaś klątwa, to możesz w pełni wyleczyć się ze stanu agonii. Umiejętności można użyć raz na 30 sekund.");
     }
+    else if (input == "specialist" || input == "specjalistka") {
+        visual("Specialist.png", "Specialist (Specjalistka)", "Lara Croft", "Perk zbiera żetony które pozyskujesz gdy otwierasz lub przeszukasz skrzynie zyskujesz 1 żeton, aż do 3 żetonów. Kiedy wykonasz świetny test umiejętności podczas naprawiania generatora używasz 1 żeton i skracasz maksymalny czas na naprawienie generatora 2%/3%/4%.");
+    }
     else if (input == "sprint burst" || input == "sprint" || input == "sb") {
         visual("SprintBurst.png", "Sprint Burst (Sprint)", "Meg Thomas", "Kiedy zaczynasz biec, przechodzisz w sprint, otrzymując 150% normalnej prędkości biegu na maksymalnie 3 sekundy. Umiejętność wywołuje wyczerpanie na 60/50/40 sekund.");
     }
@@ -589,7 +604,7 @@ function verify_name(input){
         visual("StakeOut.png", "Stake Out (Nadzór)", "David Tapp", "Za każde 15 sekund spędzone w zasięgu terroru zabójcy, nie będąc w pościgu, otrzymujesz jeden żeton, aż do maksymalnie 2/3/4 żetonów. Jeżeli masz przynajmniej jeden żeton, dobre testy umiejętności podczas naprawiania generatora są traktowane jako świetne, zabierają jeden żeton oraz dają dodatkowy 1% do postępu naprawy generatora.");
     }
     else if (input == "still sight" || input == "nieruchomy wzrok") {
-        visual("StillSight.png", "Still Sight (Nieruchomy Wzrok)", "Aestri Yazar", "Po wciśnięciu przycisku umiejętności, rozpoczyna się interakcja, która trwa 15s i obejmuje ocalałych w promieniu 16m. Po zakończeniu akcji otrzymujemy rezultat: 1 - ocalały krzyczy 2-10 - każdy test umiejętności daje 1% progresu więcej 11-19 - każdy test umiejętności daje 2% progresu więcej 20 - każdy test umiejętności daje 3% progresu więcej Efekty trwają przez 60s. Umiejętność odnawia się 90/75/60s");
+        visual("StillSight.png", "Still Sight (Nieruchomy Wzrok)", "Aestri Yazar", "Po bezruchu przez 6/5/4s, umiejętność aktywuje się. Dopóki nie zaczniesz się poruszać, widzisz aurę Zabójcy, a także wszystkie generatory i skrzynie w promieniu 18 metrów.");
     }
     else if (input == "streetwise" || input == "wiedza uliczna") {
         visual("Streetwise.png", "Streetwise (Wiedza Uliczna)", "Nea Karlsson", "Szybkość zużywania przedmiotów przez ciebie i innych ocalałych w zasięgu 8 metrów zmniejsza się o 15/20/25%. Po wyjściu z zasięgu działania umiejętności efekt utrzymuje się przez 15 sekund.");
@@ -711,8 +726,11 @@ function verify_name(input){
 
         //to pisała whiten (powrót st)
     }
+    else if (input == "dark arrogance" || input == "mroczna arogancja") {
+        visual("DarkArrogance.png", "Dark Arrogance (Mroczna Arogancja)", "Lich", "Zwiększa czas trwania oślepienia i czas trwania ogłuszenia paletą o 25%. Zwiększa zwykłą prędkość przeskoku przez okno o 16/18/20%");
+    }
     else if (input == "dark devotion" || input == "mroczne oddanie") {
-        visual("DarkDevotion.png", "Dark Devotion (Mroczne Oddanie)", "Plague", "eśli twoja obsesja zostanie zraniona, twój terror przenosi się na nią na 20/25/30 sekund, przez co słychać to będzie tak jakby to ona była zabójcą, zasięg jej terroru będzie wynosił wtedy 32 metry, a ty zyskasz status Niewykrywalny na ten sam okres czasu.");
+        visual("DarkDevotion.png", "Dark Devotion (Mroczne Oddanie)", "Plague", "Jeśli twoja obsesja zostanie zraniona, twój terror przenosi się na nią na 20/25/30 sekund, przez co słychać to będzie tak jakby to ona była zabójcą, zasięg jej terroru będzie wynosił wtedy 32 metry, a ty zyskasz status Niewykrywalny na ten sam okres czasu.");
     }
     else if (input == "darkness revealed" || input == "ujawnienie ciemności") {
         visual("DarknessRevealed.png", "Darkness Revealed (Ujawnienie Ciemności)", "Dredge", "Kiedy otworzysz szafkę, aury wszystkich ocalałych w promieniu 8 metrów od jakiejkolwiek szafki na mapie zostaną ci ujawnione na 6/7/8 sekund. Umiejętności można użyć raz na 30 sekund.");
@@ -861,6 +879,9 @@ function verify_name(input){
     }
     else if (input == "knock out" || input == "nokaut") {
         visual("KnockOut.png", "Knock Out (Nokaut)", "Cannibal", "Ocalali wprowadzeni w stan agonii twoimi podstawowymi atakami nie zostaną pokazani innym ocalałym, jeśli są oni w odległości większej niż 32/24/16 metrów. Na 15 sekund od momentu powalenia ocalali otrzymują efekt oślepienia, czołgają się o 50% wolniej, a ich prędkość podnoszenia się jest zmniejszona o 25%.");
+    }
+    else if (input == "languid touch" || input == "ospały dotyk") {
+        visual("LanguidTouch.png", "Languid Touch (Ospały Dotyk)", "Lich", "Kiedy Ocalały w promieniu 36m od ciebie wystraszy kruka, zyskuje efekt statusu Wyczerpany na 6/8/10s. Umiejętość odnawia się przez 20s.");
     }
     else if (input == "lethal pursuer" || input == "śmiertelny pościg" || input == "lethal") {
         visual("LethalPursuer.png", "Lethal Pursuer (Śmiertelny Pościg)", "Nemesis", "Na początku próby aury wszystkich ocalałych zostaną ci ujawnione na 7/8/9 sekund. Za każdym razem, gdy aura ocalałego jest dla ciebie widoczna, okres czasu jej pokazywania wydłuża się o 2 sekundy.");
@@ -1023,6 +1044,9 @@ function verify_name(input){
     }
     else if (input == "unnerving presence" || input == "niepokojąca obecność") {
         visual("UnnervingPresence.png", "Unnerving Presence (Niepokojąca Obecność)", "Trapper", "Kiedy ocalały znajduje się w twoim terrorze jego skillchecki są zmiejszone o 40/50/60% oraz występują częściej o 10%.");
+    }
+    else if (input == "weave attunement" || input == "Dostrojenie Splotu") {
+        visual("WeaveAttunement.png", "Weave Attunement (Dostrojenie Splotu)", "Lich", "Kiedy przedmiot zostanie wyczerpany po raz pierwszy, zostaje upuszczony. Widzisz aurę upuszczonych przedmiotów. Aury ocalałych w promieniu 8m od upuszczonych przedmiotów zostaną ujawnione. Kiedy Ocalały podnosi przedmiot Ocalałego, otrzymuje efekt statusu Nieświadomyna 20/25/30s.");
     }
     else if (input == "zanshin tactics" || input == "taktyka zanshin") {
         visual("ZanshinTactics.png", "Zanshin Tactics (Taktyka Zanshin)", "Oni", "Zabójca dostrzega aury okien, palet i zniszczalnych ścian w odległości 24/28/32m");
