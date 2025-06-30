@@ -643,37 +643,37 @@ function verify_name(input){
     // **********************************************
 
     else if (input == "a nurse's calling" || input == "wezwanie pielęgniarki") {
-        visual("ANurse'sCalling.png", "A Nurse's Calling (Wezwanie Pielęgniarki)", "Nurse", "Widzisz aury ocalałych, którzy się leczą 20/24/28 metrów od ciebie.");
+        visual("ANurse'sCalling.png", "A Nurse's Calling (Wezwanie Pielęgniarki)", "Nurse", "Widzisz aury ocalałych, którzy się leczą w odległości 20/24/28 metrów od ciebie.");
     }
     else if (input == "agitation" || input == "ekscytacja") {
-        visual("Agitation.png", "Agitation (Ekscytacja)", "Traper", "Gdy nosisz ocalałego twoja prędkość chodzenia jest o 6/12/18% większa, oraz twój zasięg terroru wzrasta o 12 metrów.");
+        visual("Agitation.png", "Agitation (Ekscytacja)", "Traper", "Gdy nosisz ocalałego, twoja prędkość poruszania się zwiększa się o 6/12/18%, a zasięg twojego terroru wzrasta o 12 metrów.");
     }
     else if(input == "alien instinct" || input == "obcy instynkt"){
-        visual("AlienInstinct.png", "Alien Instinct (Obcy Instynkt)", "Xenomorph", "Po powieszeniu ocalałego aura najdalszego rannego ocalałego zostaję ujawniona na 8 sekund a ocalały ten otrzymuję efekt nieświadomy na 40/50/60 sekund.");
+        visual("AlienInstinct.png", "Alien Instinct (Obcy Instynkt)", "Xenomorph", "Po powieszeniu ocalałego aura najdalszego rannego ocalałego zostaje ujawniona na 8 sekund, a ocalały ten otrzymuje efekt Nieświadomy na 40/50/60 sekund.");
     }
     else if (input == "all-shaking thunder" || input == "wstrząsający grzmot") {
         visual("All-ShakingThunder.png", "All-Shaking Thunder (Wstrząsający Grzmot)", "Houndmaster", "Po upadku z wysokości twój zasięg ataku zwiększa się o 75% na 16 sekund. Perk ten ma 5 sekund czasu odnowienia.");
     }
     else if (input == "awakened awareness" || input == "przebudzona świadomość") {
-        visual("AwakenedAwareness.png", "Awakened Awareness (Przebudzona Świadomośc)", "Mastermind", "Gdy niesiesz ocalałego widzisz aure innych ocalałych 16/18/20 metrów od ciebie.");
+        visual("AwakenedAwareness.png", "Awakened Awareness (Przebudzona Świadomość)", "Mastermind", "Gdy niesiesz ocalałego, widzisz aurę innych ocalałych w odległości 16/18/20 metrów od ciebie.");
     }
     else if (input == "bamboozle" || input == "kpina") {
         visual("Bamboozle.png", "Bamboozle (Kpina)", "Clown", "Przechodzisz przez okna o 5/10/15% szybciej, dodatkowo gdy przejdziesz przez okno blokuje się ono na 8/12/16 sekund.");
     }
     else if (input == "barbecue & chilli" || input == "barbecue and chilli" || input == "barbecue i chilli" || input == "barba" || input == "bbq") {
-        visual("Barbecue&Chilli.png", "Barbecue & Chilli (Barbecue i Chilli)", "Cannibal", "Po powieszeniu ocalałego na haku aura wszystkich ocalałych w odległości 60/50/40 metrów od haka zostaję ujawniona na 5 sekund");
+        visual("Barbecue&Chilli.png", "Barbecue & Chilli (Barbecue i Chilli)", "Cannibal", "Po powieszeniu ocalałego na haku aura wszystkich ocalałych w odległości 60/50/40 metrów od haka zostaje ujawniona na 5 sekund.");
     }
     else if (input == "batteries included" || input == "baterie w zestawie"){
-        visual("BatteriesIncluded.png", "Batteries Included (Baterie w Zestawie)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się 1/3/5s. po wyjściu z zasięgu.")
+        visual("BatteriesIncluded.png", "Batteries Included (Baterie w Zestawie)", "Good Guy", "Kiedy jesteś w pobliżu ukończonego generatora poruszasz się szybciej o 5%. Bonus utrzymuje się przez 1/3/5 sekund po wyjściu z zasięgu.")
     }
     else if (input == "beast of prey" || input == "drapieżna bestia") {
-        visual("BeastofPrey.png", "Beast of Prey (Drapieżna Bestia)", "Huntress", "Gdy osiągniesz pierwszy poziom rządzy krwi otrzymujesz efekt niewykrywalny na 30/35/40 sekund ");
+        visual("BeastofPrey.png", "Beast of Prey (Drapieżna Bestia)", "Huntress", "Gdy osiągniesz pierwszy poziom rządzy krwi, otrzymujesz efekt Niewykrywalny na 30/35/40 sekund.");
     }
     else if (input == "blood echo" || input == "krwawe echo") {
-        visual("BloodEcho.png", "Blood Echo (Krwawe Echo)", "Oni", "Po powieszeniu ocalałego wszyscy ranni ocalali otrzymuję efekt zmasakrowany i wyczerpanie na 20/25/30 sekund");
+        visual("BloodEcho.png", "Blood Echo (Krwawe Echo)", "Oni", "Po powieszeniu ocalałego wszyscy ranni ocalali otrzymują efekty: Zmasakrowany i Wyczerpanie na 20/25/30 sekund.");
     }
     else if (input == "blood warden" || input == "krwawy strażnik") {
-        visual("BloodWarden.png", "Blood Warden (Krwawy Strażnik)", "Nightmare", "Widzisz aury ocalałych w bramie. Gdy dowolna brama wyjściowa jest otwarta a ty powiesisz ocalałego umięjetnośc aktywuje się na 30/40/60 sekund a ocalali nie mogą ucieć bramami wyjściowymi.");
+        visual("BloodWarden.png", "Blood Warden (Krwawy Strażnik)", "Nightmare", "Widzisz aury ocalałych w bramie. Gdy dowolna brama wyjściowa jest otwarta, a ty powiesisz ocalałego, umiejętność aktywuje się na 30/40/60 sekund, a ocalali nie mogą uciec bramami wyjściowymi.");
     }
     else if (input == "bloodhound" || input == "pies gończy") {
         visual("Bloodhound.png", "Bloodhound (Pies Gończy)", "Wraith", "Ślady krwi stają się łatwiejsze do zauważenia oraz zostają na ziemi 2/3/4 sekundy dłużej.");
@@ -682,67 +682,67 @@ function verify_name(input){
         visual("BrutalStrength.png", "Brutal Strength (Brutalna Siła)", "Traper", "Niszczysz zrzucone palety, ściany oraz uszkadzasz generatory o 10/15/20% szybciej.");
     }
     else if (input == "call of brine" || input == "zew wody" || input == "cob") {
-        visual("CallofBrine.png", "Call of Brine (Zew Wody)", "Onryo", "Po kopnięciu generatora perk aktywuję się na 70 sekund. Podczas trwania efektu generator regresuje się z prędkością 130/140/150% standardowego regresu");
+        visual("CallofBrine.png", "Call of Brine (Zew Wody)", "Onryo", "Po kopnięciu generatora perk aktywuje się na 70 sekund. W tym czasie generator traci postęp z prędkością 130/140/150% standardowego tempa.");
     }
     else if (input == "corrupt intervention" || input == "skażona interwencja") {
-        visual("CorruptIntervention.png", "Corrupt Intervention (Skażona Interwencja)", "Plague", "Od początku próby, 3 generatory znajdujące się najdalej od ciebie zostają zablokowane na 80/100/120 sekund. Umiejętność wyłączy się przed czasem, jeżeli wprowadzimy jakiegokolwiek ocalałego w stan agonii.");
+        visual("CorruptIntervention.png", "Corrupt Intervention (Skażona Interwencja)", "Plague", "Od początku próby trzy generatory znajdujące się najdalej od ciebie zostają zablokowane na 80/100/120 sekund. Umiejętność wyłączy się wcześniej, jeśli wprowadzisz jakiegokolwiek ocalałego w stan agonii.");
     }
     else if (input == "coulrophobia" || input == "koulrofobia" || input == "klaunofobia") {
-        visual("Coulrophobia.png", "Coulrophobia (Koulrofobia)", "Clown", "Ocalali w zasięgu twojego terroru otrzymują karę o wysokości 30/40/50% do szybkości postępu leczenia, a testy umiejętności leczenia są o 50% szybsze.");
+        visual("Coulrophobia.png", "Coulrophobia (Koulrofobia)", "Clown", "Ocalali w zasięgu twojego terroru mają karę 30/40/50% do szybkości leczenia, a testy leczenia są o 50% szybsze.");
     }
     else if (input == "coup de grace" || input == "cios łaski" || input == "coup de grâce") {
-        visual("CoupdeGrace.png", "Coup de Grâce (Cios Łaski)", "Twins", "Kiedy jakikolwiek generator zostanie naprawiony, otrzymujesz dwa żeton do maksymalnie 5. Następny podstawowy atak będzie mógł mieć zwiększony zasięg o 70/75/80% oraz zużyje się jeden żeton.");
+        visual("CoupdeGrace.png", "Coup de Grâce (Cios Łaski)", "Twins", "Kiedy jakikolwiek generator zostanie naprawiony, otrzymujesz dwa żetony do maksymalnie pięciu. Następny podstawowy atak będzie miał zwiększony zasięg o 70/75/80% i zużyje jeden żeton.");
     }
     else if (input == "cruel limits" || input == "bezlitosne granice" || input == "claustrophobia" || input == "klaustrofobia"){
-        visual("CruelLimits.png", "Cruel Limits (Bezlitosne Granice)", "Demogorgon", "Kiedy jakikolwiek generator zostanie ukończony perk aktywuje się. Blokuje wszystkie okna na mapie na 20/25/30s. oraz podświetla dla killera na żółto zablokowane okna");
+        visual("CruelLimits.png", "Cruel Limits (Bezlitosne Granice)", "Demogorgon", "Kiedy jakikolwiek generator zostanie ukończony, perk aktywuje się. Blokuje wszystkie okna na mapie na 20/25/30 sekund oraz podświetla dla zabójcy na żółto zablokowane okna.");
     }
     else if (input == "dark arrogance" || input == "mroczna arogancja") {
-        visual("DarkArrogance.png", "Dark Arrogance (Mroczna Arogancja)", "Lich", "Wydłuża czas oślepienia i ogłuszenia paletą o 25% jednocześnie przyspieszenie przechodzenie przez okna o 25%");
+        visual("DarkArrogance.png", "Dark Arrogance (Mroczna Arogancja)", "Lich", "Wydłuża czas oślepienia i ogłuszenia paletą o 25% oraz jednocześnie przyspiesza przechodzenie przez okna o 15/20/25%.");
     }
     else if (input == "dark devotion" || input == "mroczne oddanie") {
-        visual("DarkDevotion.png", "Dark Devotion (Mroczne Oddanie)", "Plague", "Po zranieniu obsesji twój zasięg terroru zostaje na nią przenosiny a killer otrzymuje efekt niewykrywalny na 35/40/45. Zasięg terroru na ocalały wynosi 40 metrów");
+        visual("DarkDevotion.png", "Dark Devotion (Mroczne Oddanie)", "Plague", "Po zranieniu obsesji twój zasięg terroru przenosi się na nią, a zabójca otrzymuje efekt niewykrywalności na 35/40/45 sekund. Zasięg terroru ocalałego wynosi 40 metrów.");
     }
     else if (input == "darkness revealed" || input == "ujawnienie ciemności") {
-        visual("DarknessRevealed.png", "Darkness Revealed (Ujawnienie Ciemności)", "Dredge", "Kiedy otworzysz szafkę, aury wszystkich ocalałych w promieniu 8 metrów od jakiejkolwiek szafki na mapie zostaną ci ujawnione na 6/7/8 sekund. Umiejętności można użyć raz na 30 sekund.");
+        visual("DarknessRevealed.png", "Darkness Revealed (Ujawnienie Ciemności)", "Dredge", "Kiedy otworzysz szafkę, aury wszystkich ocalałych w promieniu 8 metrów od dowolnej szafki na mapie zostaną ujawnione na 6/7/8 sekund. Umiejętność można użyć raz na 30 sekund.");
     }
     else if (input == "dead man's switch" || input == "czuwak") {
-        visual("DeadMan'sSwitch.png", "Dead Man's Switch (Czuwak)", "Deathslinger", "Perk aktywuję się powieszeniu ocalałego, jeśli ocalały przerwie pracę nad generatorem podczas czasu trwania perka generator ten blokuje się na 40/45/50 sekund");
+        visual("DeadMan'sSwitch.png", "Dead Man's Switch (Czuwak)", "Deathslinger", "Perk aktywuje się po powieszeniu ocalałego. Pierwszy ocalały który przerwie pracę nad generatorem, podczas trwania perka generator blokuje się na 40/45/50 sekund.");
     }
     else if (input == "deadlock" || input == "zakleszczenie") {
-        visual("Deadlock.png", "Deadlock (Zakleszczenie)", "Cenobite", "Gdy generator zostanie naprawiony, to inny generator z największa ilością postępu naprawy zostanie zablokowany na 15/20/25 sekund.");
+        visual("Deadlock.png", "Deadlock (Zakleszczenie)", "Cenobite", "Gdy generator zostanie naprawiony, inny generator z największą ilością postępu naprawy zostanie zablokowany na 15/20/25 sekund.");
     }
     else if (input == "deathbound" || input == "skazany na śmierć") {
-        visual("Deathbound.png", "Deathbound (Skazany na Śmierć)", "Executioner", "Po ukończeniu leczenie ocalali krzyczą i aktywują umiejętność. Po tym jak leczący oddali się na 12/8/4 metry od leczonego otrzymuje efekt nieświadomy do momentu otrzymania obrażeń");
+        visual("Deathbound.png", "Deathbound (Skazany na Śmierć)", "Executioner", "Po ukończeniu leczenia ocalały krzyczy i aktywuje umiejętność. Gdy leczący oddali się na 12/8/4 metry od leczonego, otrzymuje efekt Nieświadomy do momentu otrzymania obrażeń.");
     }
     else if (input == "dissolution" || input == "rozpad") {
-        visual("Dissolution.png", "Dissolution (Rozpad)", "Dredge", "Gdy ranisz ocalałego w dowolny sposób, Rozpad aktywuje się na 12/16/20 s. Gdy Rozpad jest aktywny, a ocalały przeskoczy szybko przez paletę w twoim zasięgu terroru, Byt zniszczy tę paletę na koniec skoku");
+        visual("Dissolution.png", "Dissolution (Rozpad)", "Dredge", "Gdy zranisz ocalałego w dowolny sposób, Rozpad aktywuje się na 12/16/20 sekund. Gdy rozpad jest aktywny, a ocalały szybko przeskoczy przez paletę w twoim zasięgu terroru, Byt zniszczy tę paletę na koniec skoku.");
     }
     else if (input == "discordance" || input == "dysonans") {
         visual("Discordance.png", "Discordance (Dysonans)", "Legion", "Każdy generator w promieniu 64/96/128 m naprawiany przez dwóch lub więcej ocalałych zostaje oznaczony żółtą aurą. Gdy generator zostanie podświetlony po raz pierwszy, Dysonans uruchamia głośne powiadomienie przy generatorze. Gdy generator znajdzie się poza zasięgiem lub przestanie być naprawiany przez co najmniej dwóch ocalałych, aura pozostaje widoczna przez kolejne 4 sekundy.");
     }
     else if (input == "dominance" || input == "dominacja") {
-        visual("Dominance.png", "Dominance (Dominacja)", "Dark Lord", "Przy pierwszej interakcji ocalałego z każdą skrzynką i totemem, blokują się one na 16 sekund. Aura zablokowanego totemu lub skrzyni ujawnia ci się na czas działania umiejętności.");
+        visual("Dominance.png", "Dominance (Dominacja)", "Dark Lord", "Przy pierwszej interakcji ocalałego z każdą skrzynką i totemem, są one zablokowane na 16 sekund. Aura zablokowanego totemu lub skrzyni jest ujawniona dla ciebie na czas działania umiejętności.");
     }
     else if (input == "dragon's grip" || input == "uścisk smoka") {
-        visual("Dragon'sGrip.png", "Dragon's Grip (Uścisk Smoka)", "Blight", "Po uszkodzeniu generatora pierwszy ocalały, który wejdzie z nim w interakcję w trakcie kolejnych 30 s krzyknie, ujawni swoją lokalizację na 4 s i otrzyma efekt Narażony na 60 s. Uścisk Smoka odnawia się 60/50/40s.");
+        visual("Dragon'sGrip.png", "Dragon's Grip (Uścisk Smoka)", "Blight", "Po uszkodzeniu generatora pierwszy ocalały, który wejdzie z nim w interakcję w trakcie kolejnych 30 sekund, krzyknie, ujawni swoją lokalizację na 4 sekundy i otrzyma efekt narażony na 60 sekund. Uścisk Smoka odnawia się co 60/50/40 sekund.");
     }
     else if (input == "dying light" || input == "umierające światło") {
-        visual("DyingLight.png", "Dying Light (Umierające Światło)", "Shape", "Twoja obsesja otrzymuje premię 33% do szybkości czynności przy zdejmowaniu z haka i leczeniu innych ocalałych. Za każdym razem, kiedy powiesisz ocalałego innego niż twoja obsesja, otrzymasz żeton. Jeśli obsesja żyje, każdy inny ocalały otrzymuje 2/2.5/3% kary do szybkości naprawy, leczenia i sabotażu za każdy żeton.");
+        visual("DyingLight.png", "Dying Light (Umierające Światło)", "Shape", "Twoja obsesja otrzymuje premię w wysokości 33% do szybkości zdejmowania z haka i leczenia innych ocalałych. Za każdym razem, gdy powiesisz ocalałego innego niż obsesja, otrzymasz żeton. Jeśli obsesja żyje, każdy inny ocalały otrzymuje karę 2/2,5/3% do szybkości naprawy, leczenia i sabotażu za każdy żeton.");
     }
     else if (input == "enduring" || input == "wytrzymały") {
         visual("Enduring.png", "Enduring (Wytrzymały)", "Hillbilly", "Oszołomienie powodowane przez palety jest o 40/45/50% krótsze. Nie działa, gdy niesiesz ocalałego.");
     }
     else if (input == "eruption" || input == "erupcja") {
-        visual("Eruption.png", "Eruption (Erupcja)", "Nemesis", "Po uszkodzeniu generatora jego aura podświetla się na żółto. Zawsze gdy wprowadzisz ocalałego w stan agonii, każdy naruszony generator wybucha, a jego stan spada o 10% bieżącego postępu naprawy i zaczyna się cofać. Ocalały naprawiający generator w momencie wybuchu krzyknie i ujawni swoją aurę na 8/10/12 s.");
+        visual("Eruption.png", "Eruption (Erupcja)", "Nemesis", "Po uszkodzeniu generatora jego aura podświetla się na żółto. Zawsze, gdy wprowadzisz ocalałego w stan agonii, każdy naruszony generator wybucha, a jego stan spada o 10% bieżącego postępu naprawy i zaczyna się cofać. Ocalały naprawiający generator w momencie wybuchu krzyknie i ujawni swoją aurę na 8/10/12 sekund.");
     }
     else if (input == "fire up" || input == "paląca potrzeba") {
-        visual("FireUp.png", "Fire Up (Paląca Potrzeba)", "Nightmare", "Za każdy ukończony generator otrzymujesz token do maksymalnie 5. Za każdy token niszczysz palety, przechodzisz przez okna, upuszczasz ocalałego i kopiesz generatory o 4/5/6% szybciej");
+        visual("FireUp.png", "Fire Up (Paląca Potrzeba)", "Nightmare", "Za każdy ukończony generator otrzymujesz żeton, maksymalnie do 5. Za każdy żeton szybciej niszczysz palety, przechodzisz przez okna, upuszczasz ocalałego i kopiesz generatory o 4/5/6%.");
     }
     else if (input == "forced hesitation" || input == "wymuszone wahanie"){
         visual("ForcedHesitation.png", "Forced Hesitation (Wymuszone Wahanie)", "Singularity", "W momencie powalenia ocalałego w jakikolwiek sposób, wszyscy pozostali ocalali w zasięgu 16 metrów od powalonego otrzymają efekt Skrępowany na 10 sekund, który spowolni ich o 20%. Umiejętności można użyć tylko raz na 40/35/30 sekund.");
     }
     else if (input == "forced penance" || input == "wymuszona pokuta") {
-        visual("ForcedPenance.png", "Forced Penance (Wymuszona Pokuta)", "Executioner", "Ocalały otrzymuję efekt okaleczenie na 60/70/80 sekund po przyjęciu ochronnego uderzenia ");
+        visual("ForcedPenance.png", "Forced Penance (Wymuszona Pokuta)", "Executioner", "Ocalały otrzymuje efekt Okaleczenie na 60/70/80 sekund po przyjęciu ochronnego uderzenia.");
     }
     else if (input == "forever entwined" || input == "połączeni na zawsze") {
         visual("ForeverEntwined.png", "Forever Entwined (Połączeni na Zawsze)", "Ghoul", "Gdy ocalały odniesie rany, zyskujesz jeden żeton, maksymalnie do 8. Za każdy żeton podnosisz, upuszczasz i wieszasz ocalałych o 4% szybciej.");
@@ -751,188 +751,195 @@ function verify_name(input){
         visual("Franklin'sDemise.png", "Franklin's Demise (Zguba Franklina)", "Cannibal", "Twoje podstawowe ataki sprawiają, że ocalali upuszczają trzymane przedmioty. Przedmiot leżący na ziemi traci wszystkie ładunki po 150/120/90 s, jeśli nie zostanie podniesiony. Oznacz białą aurą przedmioty na ziemi w odległości 32 m. Aura powoli zmienia kolor na czerwony, dopóki przedmiot nie straci wszystkich ładunków.");
     }
     else if (input == "friends 'til the end" || input == "przyjaciele do końca"){
-        visual("Friends'TiltheEnd.png", "Friends 'Til the End (przyjaciele do końca)", "Good Guy", "Po powieszeniu dowolnego Ocalałego, który nie jest obsesją aura obsesji zostaje ujawniona na 6/8/10s i obsesja cierpi na efekt narażony przez 20s. Po powieszeniu obsesji, losowy ocalały krzyknie, ujawniając swoją lokalizację i zostanie na niego nałożony efekt obsesji.");
+        visual("Friends'TiltheEnd.png", "Friends 'Til the End (przyjaciele do końca)", "Good Guy", "Po powieszeniu dowolnego ocalałego, który nie jest obsesją, aura obsesji zostaje ujawniona na 6/8/10 s, a obsesja cierpi na efekt Narażony przez 20 s. Po powieszeniu obsesji, losowy ocalały krzyknie, ujawniając swoją lokalizację, i zostanie oznaczony jako nowa obsesja.");
     }
     else if (input == "furtive chase" || input == "tajemny pościg") {
-        visual("FurtiveChase.png", "Furtive Chase (Tajemny Pościg)", "Ghost Face", "Po powieszeniu obsesji utrzymujesz efekt niewykrywalny i 10% efekt pośpiechu na 14/16/18 sekund");
+        visual("FurtiveChase.png", "Furtive Chase (Tajemny Pościg)", "Ghost Face", "Po powieszeniu obsesji utrzymujesz efekt Niewykrywalny oraz efekt Pośpiechu o 10% na 14/16/18 sekund.");
     }
     else if (input == "game afoot" || input == "gra w toku") {
-        visual("GameAfoot.png", "Game Afoot (Gra w Toku)", "Skull Merchant", "Perk aktywuję się podczas gonienia obsesji, jeśli w trakcie pościgu kopiesz paletę lub generator otrzymujesz 7% efekt pośpiechu na 8/9/10 sekund");
+        visual("GameAfoot.png", "Game Afoot (Gra w Toku)", "Skull Merchant", "Perk aktywuje się podczas gonienia obsesji. Jeśli w trakcie pościgu kopiesz paletę lub generator, poruszasz się szybciej o 7% na 8/9/10 sekund.");
     }
     else if (input == "gearhead" || input == "maniak techniki") {
-        visual("Gearhead.png", "Gearhead (Maniak Techniki)", "Deathslinger", "Gdy ocalały straci stan zdrowia umiejętność się aktywuje na 30 sekund. Gdy umiejętność jest aktywna i dowolny ocalały wykona test umięjetności w trakcie naprawy generatora jego aura zostanie ci ujawniona na 6/7/8 sekund.");
+        visual("Gearhead.png", "Gearhead (Maniak Techniki)", "Deathslinger", "Gdy ocalały straci stan zdrowia, umiejętność się aktywuje na 30 sekund. Gdy umiejętność jest aktywna i dowolny ocalały wykona test umiejętności w trakcie naprawy generatora, jego aura zostanie ujawniona na 6/7/8 sekund.");
     }
     else if (input == "genetic limits" || input == "ograniczenia genetyczne"){
-        visual("GeneticLimits.png", "Genetic Limits (Ograniczenia Genetyczne)", "Singularity", "Gdy ocalały utraci stan zdrowia otrzymuję on status wyczerpanie na 6/7/8 sekund ")
+        visual("GeneticLimits.png", "Genetic Limits (Ograniczenia Genetyczne)", "Singularity", "Gdy ocalały utraci stan zdrowia, otrzymuje on status Wyczerpanie na 6/7/8 sekund.")
     }
     else if (input == "grim embrace" || input == "ponure objęcia") {
-        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy wszystkie generatory zostają zablokowane na 6/8/10s, gdy zabójca oddali się minimum 16 metrów od haka, a także dostajesz 1 żeton. Gdy uzbierasz 4 żetony i oddalisz się na minimum 16 metrów od haka, generatory zablokują się na 40 sekund oraz zobaczysz aurę obsesji na 6 sekund.");
+        visual("GrimEmbrace.png", "Grim Embrace (Ponure Objęcia)", "Artist", "Gdy powiesisz ocalałego na hak po raz pierwszy, wszystkie generatory zostają zablokowane na 6/8/10 sekund, pod warunkiem że zabójca oddali się minimum 16 metrów od haka. Dodatkowo otrzymujesz 1 żeton, a po uzbieraniu 4 żetonów, jeśli oddalisz się na minimum 16 metrów od haka, wszystkie generatory zablokują się na 40 sekund, a aura obsesji zostanie ujawniona na 6 sekund.");
     }
     else if (input == "haywire" || input == "awaria") {
         visual("Haywire.png", "Haywire (Awaria)", "Animatronic", "Jeśli brama ma co najmniej 50% postępu, jej wskaźnik zmniejsza się z prędkością 40/45/50% normalnego tempa otwierania. Podczas tego procesu światła bramy losowo błyskają.");
     }
     else if (input == "hex: blood favour" || input== "klątwa: łaska krwi" || input == "blood favour" || input == "łaska krwi") {
-        visual("HexBloodFavour.png", "Hex: Blood Favour (Klątwa: Łaska Krwi)", "Blight", "Po zranieniu ocalałego wszystkie palety w promieniu 24/28/32 metrów od ciebie zostają zablokowane na 15 sekund");
+        visual("HexBloodFavour.png", "Hex: Blood Favour (Klątwa: Łaska Krwi)", "Blight", "Po zranieniu ocalałego wszystkie palety w promieniu 24/28/32 metrów od ciebie zostają zablokowane na 15 sekund.");
     }
     else if (input == "hex: crowd control" || input == "klątwa: panowanie nad tłumem" || input == "crowd control" || input == "panowanie nad tłumem") {
         visual("HexCrowdControl.png", "Hex: Crowd Control (Klątwa: Panowanie nad Tłumem)", "Trickster", "Gdy ocalały wykona szybki przeskok przez okno zostaje ono zablokowane. Okna blokują się do maksymalnie 3/4/5 wstecz");
     }
     else if (input == "hex: devour hope" || input == "klątwa: pożeracz nadziei" || input == "devour hope" || input == "pożeracz nadziei" || input == "devour") {
-        visual("HexDevourHope.png", "Hex: Devour Hope (Klątwa: Pożeracz Nadziei)", "Hag", "Kiedy ocalały zostaje zdjęty z haka dalej od zabójcy jak 24 metry zabójca dostaje żeton. Przy 2 żetonach zabójca po 10 sekundach od zdjęcia z haka otrzymuje efekt 3/4/5% pośpiechu do prędkości ruchu Przy 3 żetonach każdy ocalały otrzymuje efekt narażony Przy 5 żetonach zabójca otrzymuje możliwość zabicia ocalałego nie ważne ile ten razy wisiał na haku");
+        visual("HexDevourHope.png", "Hex: Devour Hope (Klątwa: Pożeracz Nadziei)", "Hag", "Gdy ocalały zostanie zdjęty z haka w odległości co najmniej 24 metrów od ciebie, otrzymujesz żeton. Przy 2 żetonach, po 10 sekundach od zdjęcia z haka, otrzymujesz efekt Pośpiechu do prędkości ruchu o 3/4/5%. Przy 3 żetonach, wszyscy ocalali otrzymują efekt Narażenia. Przy 5 żetonach, możesz zabić ocalałego własnoręcznie, niezależnie od tego, ile razy wisiał na haku.");
     }
     else if (input == "hex: face the darkness" || input == "klątwa: staw czoła ciemnosci" || input == "face the darkness" || input == "staw czoła ciemnosci") {
-        visual("HexFacetheDarkness.png", "Hex: Face the Darkness (Klątwa: Staw Czoła Ciemności)", "Knight", "Gdy ocalały straci stan zdrowia klątwa aktywuje się. Gdy klątwa jest aktywna wszyscy ocalali poza twoim zasięgiem terroru zaczną krzyczeć co 35/30/25 sekund oraz ujawnią swoją aure na 2 sekundy.");
+        visual("HexFacetheDarkness.png", "Hex: Face the Darkness (Klątwa: Staw Czoła Ciemności)", "Knight", "Gdy ocalały straci stan zdrowia, Klątwa aktywuje się. Gdy Klątwa jest aktywna, wszyscy ocalali poza twoim zasięgiem terroru zaczną krzyczeć co 35/30/25 sekund oraz ujawnią swoją aurę na 2 sekundy.");
     }
     else if (input == "hex: haunted ground" || input == "klątwa: nawiedzona ziemia" || input == "haunted ground" || input == "nawiedzona ziemia" || input == "haunted") {
-        visual("HexHauntedGround.png", "Hex: Haunted Ground (Klątwa: Nawiedzona Ziemia)", "Spirit", "Na mapie pojawiają się 2 przeklęte totemy, gdy ocalały zniszczy jeden z totemów każdy z ocalałych dostanie efekt narażenia na 40/50/60 sekund.");
+        visual("HexHauntedGround.png", "Hex: Haunted Ground (Klątwa: Nawiedzona Ziemia)", "Spirit", "Na mapie pojawiają się dwa przeklęte totemy. Gdy ocalały zniszczy jeden z nich, wszyscy ocalali otrzymują efekt Narażenia na 40/50/60 sekund.");
     }
     else if (input == "hex: huntress lullaby" || input == "klątwa: kołysanka łowczyni" || input == "huntress lullaby" || input == "kołysanka łowczyni" || input == "lullaby" || input == "kołysanka") {
-        visual("HexHuntressLullaby.png", "Hex: Huntress Lullaby (Klątwa: Kołysanka Łowczyni)", "Huntress", "Za każdym razem gdy dowolny ocalały nie trafi testu umiejętności traci dodatkowe 2/4/6% naprawy lub postępu leczenia. Gdy powiesisz ocalałego na haku dostajesz żeton. od 1 do 4 żetonów czas pomiędzy pojawieniem się ostrzeżenia a testem umiejętności jest skrócony. 5 żetonów nie ma w ogóle ostrzeżenia.");
+        visual("HexHuntressLullaby.png", "Hex: Huntress Lullaby (Klątwa: Kołysanka Łowczyni)", "Huntress", "Za każdym razem, gdy dowolny ocalały nie trafi testu umiejętności, traci dodatkowe 2/4/6% postępu naprawy lub leczenia. Gdy powiesisz ocalałego na haku, otrzymujesz żeton: Przy 1-4 żetonach czas pomiędzy pojawieniem się ostrzeżenia a testem umiejętności jest skrócony. Przy 5 żetonach testy umiejętności nie mają żadnego ostrzeżenia.");
     }
-    else if (input == "hex: nothing but misery" || input == "klątwa: nic poza cierpieniem" || input == "nothink but misery" || input == "nic poza cierpieniem") {
-        visual("HexNothingButMisery.png", "Hex: Nothing but Misery (Klątwa: Nic poza Cierpieniem)", "Ghoul", "Po zranieniu ocalałych 8 razy podstawowym atakiem na mapie pojawia się klątwa. Gdy następnym razem zranisz ocalałego podstawowym atakiem, dostanie on status skrępowania na 15 sekund i porusza się 5% wolniej.");
+    else if (input == "hex: nothing but misery" || input == "klątwa: nic poza cierpieniem" || input == "nothing but misery" || input == "nic poza cierpieniem") {
+        visual("HexNothingButMisery.png", "Hex: Nothing but Misery (Klątwa: Nic poza Cierpieniem)", "Ghoul", "Po zadaniu 8 podstawowych ataków, Klątwa aktywuje się. Gdy następnym razem zranisz ocalałego podstawowym atakiem, otrzyma on efekt Skrępowania na 15 sekund, co spowalnia jego poruszanie się o 5%.");
     }
-    else if (input == "hex: pentimento" || input == "klatwa: pentimento" || input == "pentimento") {
-        visual("HexPentimento.png", "Hex: Pentimento (Klątwa: Pentimento)", "Artist", "gdy ocalały zniszczy totem aura tego totemu zostaję ujawniona na biało, po podejściu do niego możesz postawić na jego miejscu Pentimento. Za pierwszy postawiony totem ocalali otrzymują karę w wysokości 20% do kręcenia generatorów i leczenie, za każdy kolejny totem kara zwiększa się o 1/2/3%");
+    else if (input == "hex: pentimento" || input == "klątwa: pentimento" || input == "pentimento") {
+        visual("HexPentimento.png", "Hex: Pentimento (Klątwa: Pentimento)", "Artist", "Gdy ocalały zniszczy totem, jego aura zostaje ujawniona na biało. Możesz odbudować zniszczony totem jako przeklęty Totem Pentimento. Za pierwszy postawiony totem ocalali otrzymują karę w wysokości 20% do kręcenia generatorów i leczenia. Za każdy kolejny totem kara zwiększa się o 1%, 2% lub 3%");
     }
     else if (input == "hex: plaything" || input == "klątwa: igraszka" || input == "plaything" || input == "igraszka") {
         visual("HexPlaything.png", "Hex: Plaything (Klątwa: Igraszka)", "Cenobite", "Gdy ocalały jest wieszany na haku poraz pierwszy dowolny czysty totem staje się przeklęty i jest możliwy do zniszczenia przez pierwsze 90s tylko dla osoby powieszonej. Do czasu zniszczenia totemu osoba nim dotknięta dostaje efekt nieświadomy. Aura totemu jest widziana przez osobe przeklętą z  24/20/16m.");
     }
     else if (input == "hex: retribution" || input == "klątwa: odwet" || input == "retribution" || input == "odwet") {
-        visual("HexRetribution.png", "Hex: Retribution (Klątwa: Odwet)", "Deathslinger", "Osoba która oczyściła lub pobłogosławiła dowolny totem otrzymuje efekt nieświadomy na 35/40/45s. Gdy tym totemem będzie klątwa aura każdego ocalałego jest ukazana  na 15s.");
+        visual("HexRetribution.png", "Hex: Retribution (Klątwa: Odwet)", "Deathslinger", "Osoba, która oczyściła lub pobłogosławiła dowolny totem, otrzymuje efekt nieświadomy na 35/40/45 sekund. Gdy ten totem jest klątwą, aura każdego ocalałego jest widoczna przez 15 sekund.");
     }
     else if (input == "hex: ruin" || input == "klątwa: ruina" || input == "ruin" || input == "ruina") {
-        visual("HexRuin.png", "Hex: Ruin (Klątwa: Ruina)", "Hag", "Każdy nienaprawiany generator jest automatycznie poddany regresowi z prędkością 50/75/100%");
+        visual("HexRuin.png", "Hex: Ruin (Klątwa: Ruina)", "Hag", "Każdy nienaprawiany generator jest automatycznie poddany regresowi z prędkością 50%, 75% lub 100%.");
     }
     else if (input == "hex: the third seal" || input == "klątwa: trzecia pieczęć" || input == "third seal" || input == "trzecia pieczęć" || input == "the third seal") {
         visual("HexTheThirdSeal.png", "Hex: The Third Seal (Klątwa: Trzecia Pieczęć)", "Hag", "Ostatni 2/3/4 ocalali zaatakowani podstawowym atakiem otrzymuje efekt ślepoty.");
     }
     else if(input == "hex: two can play" || input == "klątwa: gra dla dwojga"){
-        visual("HexTwoCanPlay.png", "Hex: Two Can Play (Klątwa: Gra Dla Dwojga)", "Good Guy", "Jeśli zostaniesz oślepiony lub ogłuszony 4/3/2 razy podczas rozgrywki, i na mapie nie ma przeklętego totemu tym perkiem, zwykły totem zamienia się w przeklęty. Jeśli na mapie jest totem powiązany z tą klątwą, i ocalały cię oślepi lub ogłuszy, ten ocalały także jest oślepiony na 1.5s.");
+        visual("HexTwoCanPlay.png", "Hex: Two Can Play (Klątwa: Gra Dla Dwojga)", "Good Guy", "Jeśli zostaniesz oślepiony lub ogłuszony 4/3/2 razy podczas rozgrywki i na mapie nie ma przeklętego totemu z tym perkiem, zwykły totem zamienia się w przeklęty. Jeśli na mapie jest totem powiązany z tą klątwą i ocalały cię oślepi lub ogłuszy, ten ocalały także jest oślepiony na 1,5 sekundy.");
     }
     else if (input == "hex: undying" || input == "klątwa: nieumarły" || input == "undying" || input == "nieumarły") {
-        visual("HexUndying.png", "Hex: Undying (Klątwa: Nieumarły)", "Blight", "Na początku próby losowy totem na mapie staję się hex totemem. Gdy ocalały znajduję się w odległości 2/3/4 metrów od zwykłego totemu jego aura zostaje ujawniona. Jeśli posiadasz drugiego hexa w buildzie to po jego zniszczeniu Undying przejmuję jego właściwości");
+        visual("HexUndying.png", "Hex: Undying (Klątwa: Nieumarły)", "Blight", "Na początku próby losowy totem na mapie staje się hex totemem. Gdy ocalały znajduje się w odległości 2/3/4 metrów od zwykłego totemu, jego aura zostaje ujawniona. Jeśli masz drugą klątwę w buildzie, to po jej zniszczeniu Undying przejmuje jej właściwości.");
     }
     else if (input == "hex: wretched fate" || input == "klątwa: nędzny los") {
-        visual("HexWretchedFate.png", "Hex: Wretched Fate (Klątwa: Nędzny Los)", "Dark Lord", "Gdy jeden generator na mapie zostanie ukończony, losowy zwykły totem na mapie zmienia się w klątwę. Obsesja naprawia generatory 33% wolniej, a aura totemu jest widoczna z odległości 12 metrów.");
+        visual("HexWretchedFate.png", "Hex: Wretched Fate (Klątwa: Nędzny Los)", "Dark Lord", "Gdy jeden generator na mapie zostanie ukończony, losowy zwykły totem na mapie zmienia się w klątwę. Obsesja naprawia generatory o 33% wolniej, a aura totemu jest widoczna z odległości 12 metrów.");
     }
     else if (input == "help wanted" || input == "potrzebna pomoc") {
         visual("HelpWanted.png", "Help Wanted (Potrzebna Pomoc)", "Animatronic", "Po skopaniu generatora zostaje on skompromitowany. Możesz mieć tylko jeden skompromitowany generator naraz. Jeśli taki generator zostanie ukończony, twoje ataki podstawowe są szybsze o 25% przez 40/50/60 sekund.");
     }
     else if (input == "hoarder" || input == "zbieracz") {
-        visual("Hoarder.png", "Hoarder (Zbieracz)", "Twins", "ocalali w promieniu 32/48/64 metrów od ciebie ujawniają swoją lokalizację gdy wejdą w interakcję ze skrzyniami lub podniosą przedmiot");
+        visual("Hoarder.png", "Hoarder (Zbieracz)", "Twins", "Ocalali w promieniu 32/48/64 metrów od ciebie ujawniają swoją lokalizację, gdy wejdą w interakcję ze skrzyniami lub podniosą przedmiot.");
     }
     else if (input == "hubris" || input == "pycha") {
-        visual("Hubris.png", "Hubris (Pycha)", "Knight", "Ocalały, który cię ogłusza otrzymuje efekt narażony na 10/15/20s. Hubris odnawia się przez 20s.");
+        visual("Hubris.png", "Hubris (Pycha)", "Knight", "Ocalały, który cię ogłusza, otrzymuje efekt narażony na 10/15/20 sekund. Hubris odnawia się przez 20 sekund.");
     }
     else if (input == "human greed" || input == "ludzka chciwość") {
         visual("HumanGreed.png", "Human Greed (Ludzka Chciwość)", "Dark Lord", "Widzisz aurę nieotwartych skrzynek i ocalałych na 5 sekund, gdy znajdują się oni w odległości 8 metrów od skrzynki. Otrzymujesz również opcję kopania skrzynek, by je zamknąć. Umiejętność ta ma 10 sekund czasu odnowienia.");
     }
     else if (input == "hysteria" || input == "histeria") {
-        visual("Hysteria.png", "Hysteria (Histeria)", "Nemesis", "Gdy zdrowy ocalały zostanie zraniony w dowolny sposób wszyscy ranni ocalali otrzymuję efekt nieświadomy na 30/35/40 sekund. Czas odnowienia wynosi 20 sekund");
+        visual("Hysteria.png", "Hysteria (Histeria)", "Nemesis", "Gdy zdrowy ocalały zostanie zraniony w dowolny sposób, wszyscy ranni ocalali otrzymują efekt Nieświadomy na 30/35/40 sekund. Czas odnowienia wynosi 20 sekund.");
     }
     else if (input == "i'm all ears" || input == "zamieniam się w słuch" || input == "im all ears") {
-        visual("I'mAllEars.png", "I'm All Ears (Zamieniam Się w Słuch)", "Ghost Face", "Ujawniona ci jest aura ocalałych wykonujących szybkie akcje w promieniu 48m na 6s. I'm all ears odnawia się 60/45/30s.");
+        visual("I'mAllEars.png", "I'm All Ears (Zamieniam Się w Słuch)", "Ghost Face", "Ujawniona ci jest aura ocalałych wykonujących szybkie akcje w promieniu 48 metrów na 6 sekund. I'm All Ears odnawia się 60/45/30 sekund.");
     }
     else if (input == "infectious fright" || input == "zaraźliwy strach") {
-        visual("InfectiousFright.png", "Infectious Fright (Zaraźliwy Strach)", "Plague", "W momencie wprowadzenia ocalałego w stan agonii, wszyscy inni ocalali, którzy znajdują się w zasięgu twojego terroru krzykną i ujawnią swoją lokalizacje na 4/5/6 sekund.");
+        visual("InfectiousFright.png", "Infectious Fright (Zaraźliwy Strach)", "Plague", "W momencie wprowadzenia ocalałego w stan agonii, wszyscy inni ocalali, którzy znajdują się w zasięgu twojego terroru, krzykną i ujawnią swoją lokalizację na 4/5/6 sekund.");
     }
     else if (input == "iron maiden" || input == "żelazna dziewica") {
-        visual("IronMaiden.png", "Iron Maiden (Żelazna Dziewica)", "Legion", "Otwierasz szafki szybciej o 30/40/50%. Każdy ocalały, który wyjdzie z jakiejkolwiek szafki na mapie krzyknie ujawniając swoją lokalizacje na 4 sekundy i otrzyma efekt narażony na 30 sekund.");
+        visual("IronMaiden.png", "Iron Maiden (Żelazna Dziewica)", "Legion", "Otwierasz szafki szybciej o 30/40/50%. Każdy ocalały, który wyjdzie z jakiejkolwiek szafki na mapie, krzyknie, ujawniając swoją lokalizację na 4 sekundy, i otrzyma efekt Narażony na 30 sekund.");
     }
     else if (input == "knock out" || input == "nokaut") {
-        visual("KnockOut.png", "Knock Out (Nokaut)", "Cannibal", "Gdy ocalały zrzuci paletę i odsunię się od niej na odległość 6 metrów otrzymuje efekt spowolnienia w wysokości 5% na 3/4/5 sekund");
+        visual("KnockOut.png", "Knock Out (Nokaut)", "Cannibal", "Gdy ocalały zrzuci paletę i odsunię się od niej na odległość 6 metrów, otrzymuje efekt Spowolnienia w wysokości 5% na 3/4/5 sekund.");
     }
     else if (input == "languid touch" || input == "ospały dotyk") {
-        visual("LanguidTouch.png", "Languid Touch (Ospały Dotyk)", "Lich", "Jeśli ocalały spłoszy kruka w promieniu 36 metrów od ciebie otrzymuję on status wyczerpanie na 6/8/10 sekund. Czas odnowienia wynosi 5 sekund");
+        visual("LanguidTouch.png", "Languid Touch (Ospały Dotyk)", "Lich", "Jeśli ocalały spłoszy kruka w promieniu 36 metrów od ciebie, otrzymuje on status Wyczerpania na 6/8/10 sekund. Czas odnowienia wynosi 5 sekund.");
     }
     else if (input == "lethal pursuer" || input == "śmiertelny pościg" || input == "lethal") {
-        visual("LethalPursuer.png", "Lethal Pursuer (Śmiertelny Pościg)", "Nemesis", "Na początku próby aury wszystkich ocalałych zostaną ci ujawnione na 7/8/9 sekund. Za każdym razem, gdy aura ocalałego jest dla ciebie widoczna, okres czasu jej pokazywania wydłuża się o 2 sekundy.");
+        visual("LethalPursuer.png", "Lethal Pursuer (Śmiertelny Pościg)", "Nemesis", "Na początku próby, aury wszystkich ocalałych zostaną ci ujawnione na 7/8/9 sekund. Za każdym razem, gdy aura ocalałego jest dla ciebie widoczna, czas jej pokazywania wydłuża się o 2 sekundy.");
     }
     else if (input == "leverage" || input == "przewaga") {
-        visual("Leverage.png", "Leverage (Przewaga)", "Skull Merchant", "Gdy ocalały zdejmie z haka otrzymuje on 50% karę na szybkość leczenie na 30 sekund");
+        visual("Leverage.png", "Leverage (Przewaga)", "Skull Merchant", "Gdy ocalały zdejmie innego ocalałego z haka, otrzymuje on 50% karę na szybkość leczenia na 30 sekund.");
     }
     else if (input == "lightborn" || input == "zrodzony w świetle") {
-        visual("Lightborn.png", "Lightborn (Zrodzony w Świetle)", "Hillbilly", "Otrzymujesz odporność na oślepienie spowodowane latarkami, petardami, granatami błyskowymi i minami, a aury ocalałych, którzy próbują cię oślepić zostaną ci ujawnione na 6/8/10 sekund.");
+        visual("Lightborn.png", "Lightborn (Zrodzony w Świetle)", "Hillbilly", "Otrzymujesz odporność na oślepienie spowodowane latarkami, petardami, granatami błyskowymi i minami, a aury ocalałych, którzy próbują cię oślepić, zostaną ci ujawnione na 6/8/10 sekund.");
     }
     else if (input == "machine learning" || input == "uczenie maszynowe"){
-        visual("MachineLearning.png", "Machine Learning (Uczenie Maszynowe)", "Singularity", "Po kopnięciu generatora jego aura zostaję ujawniona na żółto. Gdy ocalali ukończą naprawdę tego generatora otrzebujesz status niewykrywalny i 8% pośpiechu na 60 sekund")
+        visual("MachineLearning.png", "Machine Learning (Uczenie Maszynowe)", "Singularity", "Po kopnięciu generatora jego aura zostaje ujawniona na żółto. Gdy ocalali ukończą tego generatora, otrzymujesz status niewykrywalny i 8% pośpiechu na 60 sekund.")
     }
     else if (input == "mad grit" || input == "twardy charakter") {
         visual("MadGrit.png", "Mad Grit (Twardy Charakter)", "Legion", "Niosąc ocalałego, nie otrzymujesz kary w postaci czasu odnawiania po niecelnym podstawowym ataku. Jeżeli trafisz kogoś niosąc ocalałego na plecach, to pasek szamotania ocalałego zatrzyma się na 2/3/4 sekundy.");
     }
     else if (input == "make your choice" || input == "dokonaj wyboru") {
-        visual("MakeYourChoice.png", "Make Your Choice (Dokonaj Wyboru)", "Pig", " Kiedy ocalały uratuje innego ocalałego z haka w odległości co najmniej 32 metrów od ciebie, umiejętność zmusi ratującego do krzyku i nałoży na niego efekt narażony. Efekt trwa przez 40/50/60 sekund, a sama umiejętność odnawia się przez 40/50/60 sekund.");
+        visual("MakeYourChoice.png", "Make Your Choice (Dokonaj Wyboru)", "Pig", "Kiedy ocalały uratuje innego ocalałego z haka w odległości co najmniej 32 metrów od ciebie, umiejętność zmusi ratującego do krzyku i nałoży na niego efekt Narażony. Efekt trwa przez 40/50/60 sekund, a sama umiejętność odnawia się co 40/50/60 sekund.");
     }
     else if (input == "merciless storm" || input == "bezlitosny sztorm") {
         visual("MercilessStorm.png", "Merciless Storm (Bezlitosny Sztorm)", "Onryo", "Kiedy generator osiągnie 90% postępu naprawy, pracujący przy nim ocalali będą musieli nieustannie wykonywać testy umiejętności. Jeśli nie trafią jakiegokolwiek testu lub przerwą naprawę, generator zostanie zablokowany na 16/18/20 sekund.");
     }
     else if(input == "mindbreaker" || input == "osłabienie woli" || input == "fearmonger" || input == "władca strachu"){
-        visual("Mindbreaker.png", "Mindbreaker (Osłabienie Woli)", "Demogorgon", "Wszyscy ocalali naprawiający generatory otrzymują efekty takie jak: blindness i exhausted na czas trwania naprawy. Jeśli ocalały posiadał już wcześniej efekt exhausted, czas odpowiadający za zniknięcie go zatrzyma się do czasu kiedy przestanie naprawiać. Po odejściu od generatora obydwa statusy utrzymają się przez 3/4/5s.");
+        visual("Mindbreaker.png", "Mindbreaker (Osłabienie Woli)", "Demogorgon", "Wszyscy ocalali naprawiający generatory otrzymują efekty Oślepienie i Wyczerpanie na czas trwania naprawy. Jeśli ocalały posiadał już wcześniej efekt Wyczerpanie, czas trwania tego efektu zostanie zatrzymany, dopóki naprawia generator. Po odejściu od generatora obydwa statusy utrzymają się przez 3/4/5 sekund.");
     }
     else if (input == "monitor & abuse" || input == "monitor and abuse" || input == "bestialska obserwacja" || input == "monitor") {
         visual("Monitor&Abuse.png", "Monitor & Abuse (Bestialska Obserwacja)", "Doctor", "Kiedy jesteś w pościgu, twój zasięg terroru jest zwiększony o 8 metrów, a gdy nie jesteś w pościgu, twój zasięg terroru zmniejsza się o 8 metrów.");
     }
     else if (input == "nemesis" || input == "nemezis") {
-        visual("Nemesis.png", "Nemesis (Nemezis)", "Oni", "Za każdym razem gdy ocalały cię oślepi lub ogłuszy paletą staję się on twoją obsesją i otrzymuję efekt nieświadomy na 40/50/60 sekund i jego aura zostaję ujawniona na 8 sekund");
+        visual("Nemesis.png", "Nemesis (Nemezis)", "Oni", "Za każdym razem, gdy ocalały cię oślepi lub ogłuszy paletą, staje się on twoją obsesją, otrzymuje efekt nieświadomości na 40/50/60 sekund, a jego aura zostaje ujawniona na 8 sekund.");
     }
     else if (input == "no way out" || input == "bez wyjścia") {
-        visual("NoWayOut.png", "No Way Out (Bez Wyjścia)", "Trickster", "Po pierwszym powieszeniu ocalałego na haku umiejętność Bez Wyjścia otrzymuje żeton. Po zasileniu bram wyjściowych Bez Wyjścia aktywuje się. Gdy ocalały używa przełącznika bramy wyjściowej, otrzymujesz głośne powiadomienie dźwiękowe. Byt blokuje oba przełączniki bramy wyjściowej na 12 s oraz dodatkowe 6/9/12 s za każdy posiadany przez ciebie żeton.");
+        visual("NoWayOut.png", "No Way Out (Bez Wyjścia)", "Trickster", "Po pierwszym powieszeniu ocalałego na haku, umiejętność Bez Wyjścia otrzymuje żeton. Po zasileniu bram wyjściowych, umiejętność Bez Wyjścia aktywuje się. Gdy ocalały używa przełącznika bramy wyjściowej, otrzymujesz głośne powiadomienie dźwiękowe. Byt blokuje oba przełączniki bramy wyjściowej na 12 sekund oraz dodatkowe 6/9/12 sekund za każdy posiadany przez ciebie żeton.");
     }
     else if (input == "no quarter" || input == "ani kroku wstecz") {
         visual("NoQuarter.png", "No Quarter (Ani Kroku Wstecz)", "Houndmaster", "Gdy progres samodzielnego leczenia u ocalałego osiągnie 75%, ten ocalały dostaje nieskończone testy umiejętności aż do zakończenia leczenia. Jeśli ocalały nie zda testu umiejętności lub leczenie zostanie przerwane, ocalały otrzymuje status Okaleczony na 30 sekund.");
     }
     else if (input == "none are free" || input == "nikt nie jest wolny") {
-        visual("NoneAreFree.png", "None are Free (Nikt Nie Jest Wolny)", "Ghoul", "Gdy powiesisz ocalałego po raz pierwszy, uzyskujesz jeden token do maksymalnie 4. Gdy ostatni generator na mapie zostanie ukończony, wszystkie palety i okna zostaną zablokowane na 16 sekund za każdy token.");
+        visual("NoneAreFree.png", "None are Free (Nikt Nie Jest Wolny)", "Ghoul", "Gdy powiesisz ocalałego po raz pierwszy, uzyskujesz jeden żeton, do maksymalnie 4. Gdy ostatni generator na mapie zostanie ukończony, wszystkie palety i okna zostaną zablokowane na 16 sekund za każdy żeton.");
     }
     else if (input == "nowhere to hide" || input == "nie ma gdzie się ukryć") {
-        visual("NowheretoHide.png", "Nowhere to Hide (Nie Ma Gdzie Się Ukryć)", "Knight", "Kiedy uszkodzisz generator, ujawniasz aurę wszystkich ocalałych stojących w promieniu 24 m od twojej pozycji na 3/4/5 s.");
+        visual("NowheretoHide.png", "Nowhere to Hide (Nie Ma Gdzie Się Ukryć)", "Knight", "Kiedy uszkodzisz generator, ujawniasz aurę wszystkich ocalałych stojących w promieniu 24 metrów od twojej pozycji na 3/4/5 sekund.");
     }
     else if (input == "oppression" || input == "opresja") {
-        visual("Oppression.png", "Oppression (Opresja)", "Twins", "W momencie uszkodzenia generatora stan maksymalnie 3 innych losowych generatorów także spada. Jeśli generatory te są akurat naprawiane, ocalały będzie musiał wykonać trudny test umiejętności. Czas odnowienia Opresji wynosi 60/50/40s.");
+        visual("Oppression.png", "Oppression (Opresja)", "Twins", "W momencie uszkodzenia generatora, postęp maksymalnie trzech innych losowych generatorów także spada. Jeśli generatory te są akurat naprawiane, ocalały będzie musiał wykonać trudny test umiejętności. Umiejętność odnawia się 60/50/40 sekund.");
     }
     else if (input == "overcharge" || input == "przeciążenie") {
-        visual("Overcharge.png", "Overcharge (Przeciążenie)", "Doctor", "Perk aktywuję się po kopnięciu generatora, następnym razem gdy ocalały zacznie pracę nad tym generatorem otrzyma on trudny test umiejętności. Nieudany test umiejętności powoduję utratę progresu o 2/3/4%. Po uszkodzenia generatora zaczyna się od regresować od 85% standardowej prędkość i stopniowo wzrasta do 130%");
+        visual("Overcharge.png", "Overcharge (Przeciążenie)", "Doctor", "Perk aktywuje się po kopnięciu generatora. Następnym razem, gdy ocalały zacznie pracę nad tym generatorem, otrzyma on trudny test umiejętności. Nieudany test umiejętności powoduje utratę progresu o 2/3/4%. Po uszkodzeniu generatora zaczyna on się regresować z prędkością 85% standardowej wartości i stopniowo wzrasta do 130%.");
     }
     else if (input == "overwhelming presence" || input == "przytłaczająca obecność") {
-        visual("OverwhelmingPresence.png", "Overwhelming Presence (Przytłaczająca Obecność)", "Doctor", "Ocalali znajdujący się w zasięgu terroru cierpią z powodu niewydajności. Ocalali objęci działaniem umiejętności zużywają ładunki swoich przedmiotów 80/90/100% szybciej.");
+        visual("OverwhelmingPresence.png", "Overwhelming Presence (Przytłaczająca Obecność)", "Doctor", "Ocalali objęci działaniem umiejętności zużywają ładunki swoich przedmiotów 80/90/100% szybciej.");
     }
     else if (input == "play with your food" || input == "baw się swoim jedzeniem") {
-        visual("PlaywithYourFood.png", "Play with Your Food (Baw Się Swoim Jedzeniem)", "Shape", " Za każdym razem, kiedy pozwolisz obsesji przed sobą uciec, otrzymasz żeton, do maksymalnej liczby 3 żetonów. Każdy żeton zwiększa twoją szybkość ruchu o 3/4/5%. Wykonanie podstawowego lub specjalnego ataku zużywa jeden żeton.");
+        visual("PlaywithYourFood.png", "Play with Your Food (Baw Się Swoim Jedzeniem)", "Shape", "Za każdym razem, kiedy pozwolisz obsesji przed sobą uciec, otrzymasz żeton, do maksymalnej liczby 3 żetonów. Każdy żeton zwiększa twoją szybkość ruchu o 3/4/5%. Wykonanie podstawowego lub specjalnego ataku zużywa jeden żeton.");
     }
     else if (input == "pop goes the weasel" || input == "entliczek pentliczek" || input == "entliczek-pentliczek" || input == "pop") {
-        visual("PopGoestheWeasel.png", "Pop Goes the Weasel (Entliczek-Pentliczek)", "Clown", "Po powieszeniu ocalałego, następny generator, który kopniemy natychmiastowo straci 20% aktualnego postępu naprawy. Umiejętność ta aktywuje się na 35/40/45 sekund po powieszniu ocalałego na haku.");
+        visual("PopGoestheWeasel.png", "Pop Goes the Weasel (Entliczek-Pentliczek)", "Clown", "Po powieszeniu ocalałego, następny generator, który kopniesz, natychmiast straci 20% aktualnego postępu naprawy. Umiejętność ta aktywuje się na 35/40/45 sekund po powieszeniu ocalałego na haku.");
     }
     else if (input == "predator" || input == "drapieżnik") {
         visual("Predator.png", "Predator (Drapieżnik)", "Wraith", "Gdy ocalały ucieknie z pościgu jego aura zostaję ujawniona na 4 sekundy. Perk odnawia się 60/50/40 sekund");
     }
     else if (input == "rancor" || input == "uraza") {
-        visual("Rancor.png", "Rancor (Uraza)", "Spirit", "Za każdym razem, gdy ocalali ukończą naprawę generatora, obsesja dostrzega twoją aurę na okres 5/4/3 sekund. Za każdym razem, gdy ocalali ukończą naprawę generatora, dostrzegasz położenie wszystkich ocalałych na okres 3 sekund. Gdy ocalali zasilą wszystkie bramy wyjściowe, na obsesję zostaje nałożony efekt Narażony i możesz ją zabić.");
+        visual("Rancor.png", "Rancor (Uraza)", "Spirit", "Za każdym razem, gdy ocalali ukończą naprawę generatora, obsesja dostrzega twoją aurę na 5/4/3 sekundy, a ty widzisz położenie wszystkich ocalałych na 3 sekundy. Gdy ocalali zasilą wszystkie bramy wyjściowe, obsesja otrzymuje efekt Narażony i możesz ją zabić.");
     }
     else if(input == "rapid brutality" || input == "gwałtowna brutalność"){
-        visual("RapidBrutality.png", "Rapid Brutality (Gwałtowna Brutalność)", "Xenomorph", "Nie dostajesz żądzy krwi (bloodlust). Po uderzeniu ocalałego podstawowym atakiem dostajesz bonus do prędkości 5% na 8/9/10s.");
+        visual("RapidBrutality.png", "Rapid Brutality (Gwałtowna Brutalność)", "Xenomorph", "Nie otrzymujesz żądzy krwi. Po uderzeniu ocalałego podstawowym atakiem zyskujesz bonus do prędkości o 5% na 8/9/10 sekund.");
     }
     else if (input == "remember me" || input == "zapamiętaj mnie") {
-        visual("RememberMe.png", "Remember Me (Zapamiętaj Mnie)", "Nightmare", "Za każdym razem gdy zranisz obsesję otrzymujesz jeden token do maksymalnie 3/4/5. Za każdy token pozostali ocalali otwierają bramę o 30% wolniej");
+        visual("RememberMe.png", "Remember Me (Zapamiętaj Mnie)", "Nightmare", "Za każdym razem, gdy zranisz obsesję, otrzymujesz jeden token, do maksymalnie 3/4/5. Za każdy token pozostali ocalali otwierają bramę o 30% wolniej.");
     }
     else if (input == "save the best for last" || input == "najlepsze zostaw na koniec" || input == "stbfl") {
-        visual("SavetheBestforLast.png", "Save the Best for Last (Najlepsze Zostaw na Koniec)", "Shape", "Gdy ocalały który nie jest obsesją straci stan zdrowia dostajesz żeton aż do maksymalnie 6/7/8. za każdy żeton odnawianie podstawowego ataku jest zmniejszone o 4%. Gdy obsesja straci stan zdrowia tracisz 2 żetony.");
+        visual("SavetheBestforLast.png", "Save the Best for Last (Najlepsze Zostaw na Koniec)", "Shape", "Gdy ocalały, który nie jest obsesją, straci stan zdrowia, otrzymujesz żeton, do maksymalnie 6/7/8. Za każdy żeton odnawianie podstawowego ataku jest zmniejszone o 4%. Gdy obsesja straci stan zdrowia, tracisz 2 żetony.");
     }
     else if (input == "scourge hook: floods of rage" || input == "hak plagi: przypływ gniewu" || input == "floods of rage" || input == "przypływ gniewu" || input == "flods") {
-        visual("ScourgeHookFloodsofRage.png", "Scourge Hook: Floods of Rage (Hak Plagi: Przypływ Gniewu)", "Onryo", "4 Losowe haki zmieniają się w haki plagi. Gdy ocalały zostanie ściągnięty aury wszystkich innych ocalałych zostaną ci ujawnione na 5/6/7 sekund.");
+        visual("ScourgeHookFloodsofRage.png", "Scourge Hook: Floods of Rage (Hak Plagi: Przypływ Gniewu)", "Onryo", "4 losowe haki zmieniają się w haki plagi. Gdy ocalały zostanie z nich ściągnięty, aury wszystkich innych ocalałych zostają ci ujawnione na 5/6/7 sekund.");
     }
     else if (input == "scourge hook: gift of pain" || input == "hak plagi: ofiarowany ból" || input == "gift of pain" || input == "ofiarowany ból") {
-        visual("ScourgeHookGiftofPain.png", "Scourge Hook: Gift of Pain (Hak Plagi: Ofiarowany Ból)", "Cenobite", "na początku próby cztery losowe haki stają się hakami plagi. Gdy ocalały zostanie zdjęty z haka plagi otrzymuję efekt zmasakrowany i krwotok na 90 sekund. Po tym gdy zostanie on wyleczony otrzymuję 10/13/16% kary do prędkości kręcenie generatorów i leczenia do następnego zranienia");
+        visual("ScourgeHookGiftofPain.png", "Scourge Hook: Gift of Pain (Hak Plagi: Ofiarowany Ból)", "Cenobite", "Na początku próby cztery losowe haki stają się hakami plagi. Gdy ocalały zostanie zdjęty z haka plagi, otrzymuje efekty Zmasakrowany i Krwotok na 90 sekund. Po wyleczeniu otrzymuje 10/13/16% kary do prędkości naprawy generatorów i leczenia, aż do następnego zranienia.");
     }
     else if (input == "scourge hook: hangman's trick" || input == "hak plagi: sztuczka kata" || input == "hangman's trick" || input == "sztuczka kata") {
-        visual("Hangman'sTrick.png", "Hangman's Trick (Sztuczka Kata)", "Pig", "Na początku próby cztery losowe haki na mapie stają się hakami plagi. Gdy niesiesz ocalałego na ramieniu aura wszystkich ocalałych w zasięgu 8/10/12 metrów od haków plagi jest dla ciebie ujawniona");
+        visual("Hangman'sTrick.png", "Hangman's Trick (Sztuczka Kata)", "Pig", "Na początku próby cztery losowe haki na mapie stają się hakami plagi. Gdy niesiesz ocalałego na ramieniu, aura wszystkich ocalałych w zasięgu 8/10/12 metrów od haków plagi zostaje ci ujawniona.");
     }
     else if (input == "scourge hook: jagged compass" || input == "hak plagi: uszkodzony kompas" || input == "jagged compass" || input == "uszkodzony kompas") {
-        visual("ScourgeHookJaggedCompass.png", "Scourge Hook: Jagged Compass (Hak Plagi: Uszkodzony Kompas)", "Houndmaster", "Na początku próby 4 losowe haki stają się hakami plagi. Gdy ocalały zostanie zdjęty z haka, hak ten zmienia się w hak plagi, zastępując jeden z poprzednich. Po powieszeniu ocalałego na haku plagi aura generatora z największym progresem zostaje ujawniona na 10 sekund.");
+        visual("ScourgeHookJaggedCompass.png", "Scourge Hook: Jagged Compass (Hak Plagi: Uszkodzony Kompas)", "Houndmaster", "Na początku próby cztery losowe haki stają się hakami plagi. Gdy ocalały zostanie zdjęty z haka, ten hak zmienia się w hak plagi, zastępując jeden z poprzednich. Po powieszeniu ocalałego na haku plagi aura generatora z największym postępem zostaje ujawniona na 10 sekund.");
     }
     else if (input == "scourge hook: pain resonance" || input == "hak plagi: rezonans bólu" || input == "pain resonance" || input == "pain res" || input == "rezonans bólu") {
-        visual("ScourgeHookPainResonance.png", "Scourge Hook: Pain Resonance (Hak Plagi: Rezonans Bólu)", "Artist", "Na początku próby maksymalnie cztery losowe haki zostają zamienione w haki plagi. Otrzymujesz także cztery żetony umiejętności. Za każdym razem, kiedy powiesisz jakiegoś ocalałego pierwszy raz, stracisz jeden żeton, a generator z największą ilością postępu naprawy natychmiast straci 10/15/20% tego postępu. Jeśli stracisz wszystkie żetony, umiejętność wyłączy się do końca próby.");
+        visual("ScourgeHookPainResonance.png", "Scourge Hook: Pain Resonance (Hak Plagi: Rezonans Bólu)", "Artist", "Na początku próby maksymalnie cztery losowe haki zostają zamienione w haki plagi. Otrzymujesz także cztery żetony umiejętności. Za każdym razem, gdy powiesisz jakiegoś ocalałego po raz pierwszy na haku plagi, tracisz jeden żeton, a generator z największym postępem naprawy natychmiast traci 10/15/20% tego postępu. Jeśli stracisz wszystkie żetony, umiejętność wyłącza się do końca próby.");
     }
+    
+//******************************************************************************************
+//******************************************************************************************
+//**************************************** PRZERWA *****************************************
+//******************************************************************************************
+//******************************************************************************************
+
     else if (input == "septic touch" || input == "zaraźliwy dotyk") {
         visual("SepticTouch.png", "Septic Touch (zaraźliwy dotyk)", "Dredge", "Ocacli podejmujący akcję leczenia w twoim zasięgu terroru otrzymują efekt oślepienie i wyczerpanie. Efekt trwa 6/8/10 po zakończeniu akcji leczenia");
     }
