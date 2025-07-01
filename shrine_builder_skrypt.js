@@ -1,6 +1,6 @@
 let repeats = 0;
 
-//Ostatnia aktualizacja: 26.06.2025
+//Ostatnia aktualizacja: 01.07.2025
 
 document.getElementById("perkIMG1").src = "template.png";
 document.getElementById("perkDescription1").innerText = "Nazwa Umiejętnośći ang (Nazwa Umiejętnośći pl) - Nazwa Postaci ang - opis umiejętności pl";
@@ -789,7 +789,7 @@ function verify_name(input){
     else if (input == "hex: huntress lullaby" || input == "klątwa: kołysanka łowczyni" || input == "huntress lullaby" || input == "kołysanka łowczyni" || input == "lullaby" || input == "kołysanka") {
         visual("HexHuntressLullaby.png", "Hex: Huntress Lullaby (Klątwa: Kołysanka Łowczyni)", "Huntress", "Za każdym razem, gdy dowolny ocalały nie trafi testu umiejętności, traci dodatkowe 2/4/6% postępu naprawy lub leczenia. Gdy powiesisz ocalałego na haku, otrzymujesz żeton: Przy 1-4 żetonach czas pomiędzy pojawieniem się ostrzeżenia a testem umiejętności jest skrócony. Przy 5 żetonach testy umiejętności nie mają żadnego ostrzeżenia.");
     }
-    else if (input == "hex: nothing but misery" || input == "klątwa: nic poza cierpieniem" || input == "nothing but misery" || input == "nic poza cierpieniem") {
+    else if (input == "hex: nothing but missery" || input == "klątwa: nic poza cierpieniem" || input == "nothing but misery" || input == "nic poza cierpieniem") {
         visual("HexNothingButMisery.png", "Hex: Nothing but Misery (Klątwa: Nic poza Cierpieniem)", "Ghoul", "Po zadaniu 8 podstawowych ataków, Klątwa aktywuje się. Gdy następnym razem zranisz ocalałego podstawowym atakiem, otrzyma on efekt Skrępowania na 15 sekund, co spowalnia jego poruszanie się o 5%.");
     }
     else if (input == "hex: pentimento" || input == "klątwa: pentimento" || input == "pentimento") {
@@ -933,78 +933,71 @@ function verify_name(input){
     else if (input == "scourge hook: pain resonance" || input == "hak plagi: rezonans bólu" || input == "pain resonance" || input == "pain res" || input == "rezonans bólu") {
         visual("ScourgeHookPainResonance.png", "Scourge Hook: Pain Resonance (Hak Plagi: Rezonans Bólu)", "Artist", "Na początku próby maksymalnie cztery losowe haki zostają zamienione w haki plagi. Otrzymujesz także cztery żetony umiejętności. Za każdym razem, gdy powiesisz jakiegoś ocalałego po raz pierwszy na haku plagi, tracisz jeden żeton, a generator z największym postępem naprawy natychmiast traci 10/15/20% tego postępu. Jeśli stracisz wszystkie żetony, umiejętność wyłącza się do końca próby.");
     }
-    
-//******************************************************************************************
-//******************************************************************************************
-//**************************************** PRZERWA *****************************************
-//******************************************************************************************
-//******************************************************************************************
-
     else if (input == "septic touch" || input == "zaraźliwy dotyk") {
-        visual("SepticTouch.png", "Septic Touch (zaraźliwy dotyk)", "Dredge", "Ocacli podejmujący akcję leczenia w twoim zasięgu terroru otrzymują efekt oślepienie i wyczerpanie. Efekt trwa 6/8/10 po zakończeniu akcji leczenia");
+        visual("SepticTouch.png", "Septic Touch (zaraźliwy dotyk)", "Dredge", "Ocalali podejmujący akcję leczenia w twoim zasięgu terroru otrzymują efekty Oślepienie i Wyczerpanie. Efekty utrzymują się przez 6/8/10 sekund po zakończeniu akcji leczenia.");
     }
     else if (input == "shadowborn" || input == "zrodzony w cieniu") {
-        visual("Shadowborn.png", "Shadowborn (Zrodzony w Cieniu)", "Wraith", "Po oslepieniu w dowolny sposób dostajesz bonus do szybkości 6/8/10% na 10 sekund");
+        visual("Shadowborn.png", "Shadowborn (Zrodzony w Cieniu)", "Wraith", "Po oślepieniu w dowolny sposób otrzymujesz bonus do szybkości ruchu o 6/8/10% na 10 sekund.");
     }
     else if (input == "spirit fury" || input == "duchowa furia") {
-        visual("SpiritFury.png", "Spirit Fury (Duchowa Furia)", "Spirit", "Po zniszczeniu 4/3/2 palet kolejna, która cię ogłuszy automatycznie zostanie zniszczona.");
+        visual("SpiritFury.png", "Spirit Fury (Duchowa Furia)", "Spirit", "Po zniszczeniu 4/3/2 palet, kolejna, która cię ogłuszy, zostanie automatycznie zniszczona.");
     }
     else if (input == "starstruck" || input == "oczarowanie") {
-        visual("Starstruck.png", "Starstruck (Oczarowanie)", "Trickster", "Gdy podczas niesienia ocalałego wszyscy inni ocalali w twoim zasięgu terroru dostają efekt narażony. Efekt utrzymuje się 26/28/30 sekund po wyjściu z zasięgu terroru. Umiejętność odnawia się w 60 sekund.");
+        visual("Starstruck.png", "Starstruck (Oczarowanie)", "Trickster", "Gdy niesiesz ocalałego, wszyscy inni ocalali znajdujący się w twoim zasięgu terroru otrzymują efekt Narażony. Efekt utrzymuje się przez 26/28/30 sekund po wyjściu z zasięgu terroru lub powieszeniu ocalałego. Czas odnowienia umiejętności wynosi 60 sekund.");
     }
     else if (input == "stridor" || input == "jęki") {
-        visual("Stridor.png", "Stridor (Jęki)", "Nurse", "Jęczenie ocalałego jest głośniejsze o 25/50/50% a zwykły oddech o 0/0/25%.");
+        visual("Stridor.png", "Stridor (Jęki)", "Nurse", "Jęki ocalałego są głośniejsze o 25/50/50%, a zwykły oddech o 0/0/25%.");
     }
     else if (input == "superior anatomy" || input == "ponadprzeciętna anatomia") {
-        visual("SuperiorAnatomy.png", "Superior Anatomy (Ponadprzeciętna Anatomia)", "Mastermind", "Kiedy ocalały wykonuje szybki przeskok w promieniu 8 metrów od ciebie superior anatomy się aktywuje. Kiedy perk jest aktywny twój następny przeskok będzie szybszy o 30/35/40%. Superior anatomy dezaktywuje się po przeskoku i odnawia się 30s.");
+        visual("SuperiorAnatomy.png", "Superior Anatomy (Ponadprzeciętna Anatomia)", "Mastermind", "Kiedy ocalały wykonuje szybki przeskok w promieniu 8 metrów od ciebie, umiejętność się aktywuje. Gdy perk jest aktywny, twój następny przeskok będzie szybszy o 30/35/40%. Umiejętność dezaktywuje się po przeskoku i odnawia po 30 sekundach.");
     }
     else if (input == "surge" || input == "skok napięcia" || input == "jolt" || input == "wstrząs"){
-        visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "Za każdym razem kiedy powalisz ocalałego podstawowym atakiem wszystkie generatory w promieniu 32m. eksplodują i zaczną się odrazu regresować o 6/7/8%.");
+        visual("Surge.png", "Surge (Skok Napięcia)", "Demogorgon", "Za każdym razem, gdy powalisz ocalałego podstawowym atakiem, wszystkie generatory w promieniu 32 metrów eksplodują, natychmiast tracąc 6/7/8% postępu, a następnie zaczynają regresować.");
     }
     else if (input == "surveillance" || input == "inwigilacja") {
-        visual("Surveillance.png", "Surveillance (Inwigilacja)", "Pig", "Aura generatorów poddanych regresowi jest ci ujawniona na biało. Kiedy ocalały przerywa regres aura generatora zmienia kolor na żółty na 8/12/16s.");
+        visual("Surveillance.png", "Surveillance (Inwigilacja)", "Pig", "Aury generatorów, które ulegają uszkodzeniu, są ci ujawnione na biało. Gdy ocalały spróbuje je naprawić, aura generatora zmienia kolor na żółty na 8/12/16 sekund.");
     }
     else if (input == "terminus" || input == "końcowy przystanek") {
-        visual("Terminus.png", "Terminus (Końcowy Przystanek)", "Mastermind", "Kiedy bramy są zasilote terminus się aktywuje. Kiedy perk jest aktywny Wszyscy ocalali którzy wiszą na haku, są ranni lub są w stanie agonii otrzymują efekt okaleczony. Efekt utrzymuje się 20/25/30s po otworzeniu bram.");
+        visual("Terminus.png", "Terminus (Końcowy Przystanek)", "Mastermind", "Gdy bramy zostaną zasilone, Terminus się aktywuje. Kiedy perk jest aktywny, wszyscy ocalali, którzy wiszą na haku, są ranni lub znajdują się w stanie agonii, otrzymują efekt Okaleczony. Efekt utrzymuje się przez 20/25/30 sekund po otwarciu bram.");
     }
     else if (input == "territorial imperative" || input == "zwierzę terytorialne") {
-        visual("TerritorialImperative.png", "Territorial Imperative (Zwierzę Terytorialne)", "Huntress", "Aury ocalałych znajdujących się w piwnicy, dalej niż 32 metry od ciebie, są ci ukazane na 4/5/6s. Territorial imperatiwe odnawia się 45s.");
+        visual("TerritorialImperative.png", "Territorial Imperative (Zwierzę Terytorialne)", "Huntress", "Aury ocalałych znajdujących się w piwnicy, dalej niż 32 metry od ciebie, zostają ci ujawnione na 4/5/6 sekund. Umiejętność odnawia się 45 sekund.");
     }
     else if (input == "thanatophobia" || input == "tanatofobia") {
-        visual("Thanatophobia.png", "Thanatophobia (Tanatofobia)", "Nurse", "Za każdego ocalałego, który wisi, jest ranny lub jest w stanie agonii jest nakładana kara  1/1.5/2% do akcji takich jak naprawianie, oczyszczanie totemów i sabotowanie. Jeśli 4 ocalałych spełnia powyższy warunek nakładana kara jest większa o 12%.");
+        visual("Thanatophobia.png", "Thanatophobia (Tanatofobia)", "Nurse", "Za każdego ocalałego, który wisi na haku, jest ranny lub znajduje się w stanie agonii, nakładana jest kara w wysokości 1%/1,5%/2% do szybkości akcji takich jak naprawianie, oczyszczanie totemów i sabotowanie. Jeśli powyższy warunek spełnia czterech ocalałych, kara zwiększa się o dodatkowe 12%.");
     }
     else if (input == "thrilling tremors" || input == "dreszczyk emocji") {
-        visual("ThrillingTremors.png", "Thrilling Tremors (Dreszczyk Emocji)", "Ghost Face", "Kiedy podnosisz ocalałego wszystkie nienaprawiane generatory są blokowane przez byt na 16s. Aura zablokowanych generatorów jest ci ujawniana kolorem białym. Thrilling tremors odnawia się 100/80/60s.");
+        visual("ThrillingTremors.png", "Thrilling Tremors (Dreszczyk Emocji)", "Ghost Face", "Kiedy podnosisz ocalałego, wszystkie nienaprawiane generatory są blokowane przez byt na 16 sekund. Aura zablokowanych generatorów jest ci ujawniana na biało. Thrilling Tremors odnawia się co 100/80/60 sekund.");
     }
     else if (input == "thwack!" || input == "trach!") {
-        visual("THWACK.png", "THWACK! (Trach!)", "Skull Merchant", "Po powieszeniu ocalałego THWACK! się aktywuje. Przy następnym zniszczeniu palety lub zniszczalnej ściany wszyscy ocalali w promieniu 28/30/32m krzyczą i ujawniają swoją aure na 4s.");
+        visual("THWACK.png", "THWACK! (TRACH!)", "Skull Merchant", "Po powieszeniu ocalałego, perk się aktywuje. Przy następnym zniszczeniu palety lub zniszczalnej ściany wszyscy ocalali w promieniu 28/30/32 metrów krzyczą i ujawniają swoją aurę na 4 sekundy.");
     }
     else if (input == "tinkerer" || input == "majsterkowicz") {
-        visual("Tinkerer.png", "Tinkerer (Majsterkowicz)", "Hillbilly", "Kiedy generator jest naprawiony w 70% Otrzymujesz status niewykrywalny na 12/14/16s oraz w miejscu naprawiania generatora. Tinkerer może być aktywowany tylko raz na danym generatorze.");
+        visual("Tinkerer.png", "Tinkerer (Majsterkowicz)", "Hillbilly", "Kiedy generator zostanie naprawiony w 70%, otrzymujesz status niewykrywalny na 12/14/16 sekund oraz głośne powiadomienie w miejscu, w którym był naprawiany generator. Tinkerer może zostać aktywowany tylko raz na danym generatorze.");
     }
     else if (input == "trail of torment" || input == "ścieżka udręki") {
-        visual("TrailofTorment.png", "Trail of Torment (Ścieżka udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu kiedy generator przestanie się regresować. Aura generatora pod działaniem trail of torment jest ujawniana ocalałym na żółto. Umiejętność odnawia się 60/45/30s");
+        visual("TrailofTorment.png", "Trail of Torment (Ścieżka udręki)", "Executioner", "Po uszkodzeniu generatora otrzymujesz status niewykrywalny do momentu, gdy generator przestanie się regresować. Aura generatora pod wpływem jest ujawniana ocalałym na żółto. Umiejętność odnawia się co 60/45/30 sekund.");
     }
     else if (input == "ultimate weapon" || input == "broń doskonała"){
-        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 15 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg 32m od ciebie to zobaczysz jego aurę, a także dostanie efekt ślepoty na 30s. umiejętność potrzebuje 80/70/60 sekund na odnowienie.")
+        visual("UltimateWeapon.png", "Ultimate Weapon (Broń Doskonała)", "Xenomorph", "Po otwarciu szafki umiejętność aktywuje się na 15 sekund. Jeśli w tym czasie ocalały wejdzie w zasięg 32 metrów od ciebie, zobaczysz jego aurę, a dodatkowo otrzyma efekt Oślepienie na 30 sekund. Umiejętność potrzebuje 80/70/60 sekund na odnowienie.")
     }
     else if(input == "undone" || input == "cofnięty"){
-        visual("Undone.png", "Undone (Cofnięty)", "Unknown", "Kiedy Ocalały nie trafi testu umiejętności (przy leczeniu bądź przy reperowaniu generatora) dostajesz 3 tokeny do maksymalnej ilości 18/24/30 Tokenów. Po skopaniu generatora traci on 1% progressu oraz blokuje sie na 1 sekunde za każdy token jednak dopiero po odblokowaniu zaczyna sie regressować. Perk ma cooldawn na 60 sekund");
+        visual("Undone.png", "Undone (Cofnięty)", "Unknown", "Kiedy Ocalały nie trafi testu umiejętności (przy leczeniu lub naprawianiu generatora), otrzymujesz 3 żetony, do maksymalnej liczby 18/24/30 żetonów. Po skopaniu generatora traci on 1% postępu i blokuje się na 1 sekundę za każdy żeton, jednak dopiero po odblokowaniu zaczyna się regresować. Perk ma cooldown 60 sekund.");
     }
     else if (input == "unforeseen" || input == "nieprzewidziane"){
-        visual("Unforeseen.png", "Unforeseen (Nieprzewidziane)", "Unknown", "Po skopaniu generatora twój Terror Radius przenosi sie na ten generator na 22/26/30 sekund o stałym zasięgu 32 metrów. W tym samym czasie dostajesz efekt Niewykrywalny. Perk ma cooldawn 30 sekund");
+        visual("Unforeseen.png", "Unforeseen (Nieprzewidziane)", "Unknown", "Po skopaniu generatora twój Terror Radius przenosi się na ten generator na 22/26/30 sekund, o stałym zasięgu 32 metrów. W tym samym czasie otrzymujesz efekt Niewykrywalny. Perk ma cooldown 30 sekund.");
     }
     else if (input == "unbound" || input == "uwolniony"){
-        visual("Unbound.png", "Unbound (Uwolniony)", "Unknown", "Ten perk aktywuje się po 24/27/30 sekundach od zranienia Ocalałego w dowolny sposób. Po przejściu przez okno otrzymujesz 5% Haste na 10 sekund.");
+        visual("Unbound.png", "Unbound (Uwolniony)", "Unknown", "Perk aktywuje się po 24/27/30 sekundach od zranienia Ocalałego w dowolny sposób. Po przejściu przez okno otrzymujesz 5% bonusu do prędkości ruchu na 10 sekund.");
     }
     else if (input == "unnerving presence" || input == "niepokojąca obecność") {
-        visual("UnnervingPresence.png", "Unnerving Presence (Niepokojąca Obecność)", "Trapper", "Kiedy ocalały znajduje się w twoim terrorze jego skillchecki są zmiejszone o 40/50/60% oraz występują częściej o 10%.");
+        visual("UnnervingPresence.png", "Unnerving Presence (Niepokojąca Obecność)", "Trapper", "Kiedy ocalały znajduje się w twoim terrorze, jego testy umiejętności są zmniejszone o 40/50/60%, a także występują częściej o 10%.");
     }
     else if (input == "weave attunement" || input == "Dostrojenie Splotu") {
-        visual("WeaveAttunement.png", "Weave Attunement (Dostrojenie Splotu)", "Lich", "Kiedy przedmiot zostanie wyczerpany po raz pierwszy, zostaje upuszczony. Widzisz aurę upuszczonych przedmiotów. Aury ocalałych w promieniu 8m od upuszczonych przedmiotów zostaną ujawnione. Kiedy Ocalały podnosi przedmiot Ocalałego, otrzymuje efekt statusu Nieświadomyna 20/25/30s.");
+        visual("WeaveAttunement.png", "Weave Attunement (Dostrojenie Splotu)", "Lich", "Kiedy przedmiot zostanie wyczerpany po raz pierwszy, zostaje upuszczony. Widzisz aurę upuszczonych przedmiotów, i aury ocalałych w promieniu 8 metrów od upuszczonych przedmiotów. Kiedy ocalały podnosi przedmiot innego ocalałego, otrzymuje efekt statusu Nieświadomy na 20/25/30 sekund.");
     }
     else if (input == "zanshin tactics" || input == "taktyka zanshin") {
-        visual("ZanshinTactics.png", "Zanshin Tactics (Taktyka Zanshin)", "Oni", "Zabójca dostrzega aury okien, palet i zniszczalnych ścian w odległości 24/28/32m");
+        visual("ZanshinTactics.png", "Zanshin Tactics (Taktyka Zanshin)", "Oni", "Zabójca dostrzega aury okien, palet i zniszczalnych ścian w odległości 24/28/32 metrów.");
     }
     else
     {
