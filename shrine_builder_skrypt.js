@@ -958,7 +958,7 @@ function verify_name(input){
         visual("Surveillance.png", "Surveillance (Inwigilacja)", "Pig", "Aury generatorów, które ulegają uszkodzeniu, są ci ujawnione na biało. Gdy ocalały spróbuje je naprawić, aura generatora zmienia kolor na żółty na 8/12/16 sekund.");
     }
     else if (input == "terminus" || input == "końcowy przystanek") {
-        visual("Terminus.png", "Terminus (Końcowy Przystanek)", "Mastermind", "Gdy bramy zostaną zasilone, Terminus się aktywuje. Kiedy perk jest aktywny, wszyscy ocalali, którzy wiszą na haku, są ranni lub znajdują się w stanie agonii, otrzymują efekt Okaleczony. Efekt utrzymuje się przez 20/25/30 sekund po otwarciu bram.");
+        visual("Terminus.png", "Terminus (Końcowy Przystanek)", "Mastermind", "Gdy bramy zostaną zasilone, Terminus się aktywuje. Kiedy perk jest aktywny, wszyscy ocalali, którzy wiszą na haku, są ranni lub znajdują się w stanie agonii, otrzymują efekt Okaleczony. Efekt utrzymuje się przez 35/40/45 sekund po otwarciu bram.");
     }
     else if (input == "territorial imperative" || input == "zwierzę terytorialne") {
         visual("TerritorialImperative.png", "Territorial Imperative (Zwierzę Terytorialne)", "Huntress", "Aury ocalałych znajdujących się w piwnicy, dalej niż 32 metry od ciebie, zostają ci ujawnione na 4/5/6 sekund. Umiejętność odnawia się 45 sekund.");
