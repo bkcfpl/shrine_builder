@@ -230,7 +230,7 @@ function verify_name(input){
     }
     else if (input == "botany knowledge" || input == "wiedza botaniczna")
     {
-        visual("BotanyKnowledge.png", "Botany Knowledge (Wiedza Botaniczna)", "Claudette Morel", "Twoja prędkość leczenia wzrasta o 30/40/50%, ale efektywność przedmiotów do leczenia, czyli apteczek, spada o 20%.");
+        visual("BotanyKnowledge.png", "Botany Knowledge (Wiedza Botaniczna)", "Claudette Morel", "Twoja prędkość leczenia wzrasta o 30/40/50%.");
     }
     else if (input == "breakdown" || input == "przełamanie")
     {
