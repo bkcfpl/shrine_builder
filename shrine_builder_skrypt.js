@@ -897,6 +897,9 @@ function verify_name(input){
     else if (input == "overwhelming presence" || input == "przytłaczająca obecność") {
         visual("OverwhelmingPresence.png", "Overwhelming Presence (Przytłaczająca Obecność)", "Doctor", "Ocalali objęci działaniem umiejętności zużywają ładunki swoich przedmiotów 80/90/100% szybciej.");
     }
+    else if (input == "phantom fear" || input == "fantomowy strach") {
+        visual("PhantomFear.png", "Phantom Fear (Fantomowy Strac)", "Animatronic", "Gdy ocalały znajdujący się w zasięgu twojego terroru spojrzy na ciebie, krzyknie i ujawni swoją aurę na 2s. Umiejętność odnawia się 80/70/60s");
+    }
     else if (input == "play with your food" || input == "baw się swoim jedzeniem") {
         visual("PlaywithYourFood.png", "Play with Your Food (Baw Się Swoim Jedzeniem)", "Shape", "Za każdym razem, kiedy pozwolisz obsesji przed sobą uciec, otrzymasz żeton, do maksymalnej liczby 3 żetonów. Każdy żeton zwiększa twoją szybkość ruchu o 3/4/5%. Wykonanie podstawowego lub specjalnego ataku zużywa jeden żeton.");
     }
