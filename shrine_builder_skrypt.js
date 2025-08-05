@@ -550,7 +550,7 @@ function verify_name(input){
         visual("ScenePartner.png", "Scene Partner (Partner Sceniczny)", "Nicolas Cage", "Umiejętność aktywuje się, gdy jesteś w zasięgu terroru zabójcy. Kiedy spojrzysz w jego stronę, krzyczysz i ujawniasz jego aurę na 4/5/6 sekund. Po każdym krzyknięciu spowodowanym przez tę umiejętność istnieje szansa, że krzykniesz ponownie i zobaczysz przeciwnika na dodatkowe 2 sekundy. Umiejętność odnawia się co 40 sekund.");
     }
     else if(input == "second wind" || input == "drugi oddech" || input == "renewal" || input == "odnowienie"){
-        visual("SecondWind.png", "Second Wind (Drugi Oddech)", "Steve Harrington", "Umiejętność aktywuje się, gdy jesteś w zasięgu terroru zabójcy. Kiedy spojrzysz w jego stronę, krzyczysz i ujawniasz jego aurę na 4/5/6 sekund. Po każdym krzyknięciu spowodowanym przez tę umiejętność istnieje szansa, że krzykniesz ponownie i zobaczysz przeciwnika na dodatkowe 2 sekundy. Umiejętność odnawia się co 40 sekund.");
+        visual("SecondWind.png", "Second Wind (Drugi Oddech)", "Steve Harrington", "Umiejętność aktywuje się po wyleczeniu 1 stanu zdrowia innego ocalałego. Po zdjęciu Cię z haka zyskujesz efekt Okaleczony na 28/24/20 sekund, po czym zostaniesz wyleczony. Umiejętność dezaktywuje się po wyleczeniu twojego stanu zdrowia, bądź powaleniu cię przed wyleczeniem.");
     }
     else if (input == "self care" || input == "self-care" || input == "samoopatrywanie") {
         visual("SelfCare.png", "Self-Care (Samoopatrywanie)", "Claudette Morel", "Zyskujesz możliwość samodzielnego leczenia się bez apteczki z prędkością 25/30/35% normalnego leczenia.");
@@ -1010,3 +1010,4 @@ function verify_name(input){
     repeats += 1;
     return 1;
 }
+
