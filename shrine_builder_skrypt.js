@@ -789,7 +789,7 @@ function verify_name(input){
     else if (input == "hex: huntress lullaby" || input == "klątwa: kołysanka łowczyni" || input == "huntress lullaby" || input == "kołysanka łowczyni" || input == "lullaby" || input == "kołysanka") {
         visual("HexHuntressLullaby.png", "Hex: Huntress Lullaby (Klątwa: Kołysanka Łowczyni)", "Huntress", "Za każdym razem, gdy dowolny ocalały nie trafi testu umiejętności, traci dodatkowe 2/4/6% postępu naprawy lub leczenia. Gdy powiesisz ocalałego na haku, otrzymujesz żeton: Przy 1-4 żetonach czas pomiędzy pojawieniem się ostrzeżenia a testem umiejętności jest skrócony. Przy 5 żetonach testy umiejętności nie mają żadnego ostrzeżenia.");
     }
-    else if (input == "hex: nothing but missery" || input == "klątwa: nic poza cierpieniem" || input == "nothing but misery" || input == "nic poza cierpieniem") {
+    else if (input == "hex: nothing but misery" || input == "klątwa: nic poza cierpieniem" || input == "nothing but misery" || input == "nic poza cierpieniem") {
         visual("HexNothingButMisery.png", "Hex: Nothing but Misery (Klątwa: Nic poza Cierpieniem)", "Ghoul", "Po zadaniu 8 podstawowych ataków, Klątwa aktywuje się. Gdy następnym razem zranisz ocalałego podstawowym atakiem, otrzyma on efekt Skrępowania na 15 sekund, co spowalnia jego poruszanie się o 5%.");
     }
     else if (input == "hex: pentimento" || input == "klątwa: pentimento" || input == "pentimento") {
@@ -1010,4 +1010,5 @@ function verify_name(input){
     repeats += 1;
     return 1;
 }
+
 
